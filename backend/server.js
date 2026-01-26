@@ -1,12 +1,20 @@
 // backend/server.js
+require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const http = require('http');
 const { Server } = require('socket.io');
 const wafMiddleware = require('./middleware/waf');
+const mongoose = require('mongoose');
+const AttackLog = require('./models/AttackLog');
 
 const app = express();
 const server = http.createServer(app);
+
+// Connect to MongoDB Atlas
+mongoose.connect(process.env.MONGO_URI)
+.then(() => console.log('✅ Connected to MongoDB Atlas (AWS Cloud)'))
+.catch(err => console.error('❌ Cloud DB Connection Error:', err));
 
 // Initialize Socket.io (for real-time dashboard updates later)
 const io = new Server(server, {
@@ -25,7 +33,7 @@ app.use(express.json()); // To parse JSON bodies
 app.use(wafMiddleware(io));
 
 app.use((req, res, next) => {
-    console.log(`[Incoming Request]: ${req.method} ${req.url} from ${req.ip}`);
+    // console.log(`[Incoming Request]: ${req.method} ${req.url} from ${req.ip}`);
     
     // Simulating a simple security check
     if (req.headers['x-malicious-header']) {
@@ -33,7 +41,7 @@ app.use((req, res, next) => {
         // Notify frontend via socket (we'll implement the listener later)
         io.emit('attack-alert', { 
             type: 'Malicious Header', 
-            ip: req.ip, 
+            ip: req.ip,
             time: new Date() 
         });
         return res.status(403).json({ error: 'Request Blocked by Sentinel WAF' });
@@ -55,8 +63,19 @@ app.post('/login', (req, res) => {
     res.json({ message: `Login attempt for user: ${username}` });
 });
 
+// --- NEW ROUTE: Get Attack History ---
+app.get('/api/logs', async (req, res) => {
+    try {
+        // Fetch last 50 attacks, newest first
+        const logs = await AttackLog.find().sort({ timestamp: -1 }).limit(50);
+        res.json(logs);
+    } catch (err) {
+        console.error("Error fetching logs:", err);
+        res.status(500).json({ error: 'Failed to fetch logs' });
+    }
+});
 // Start Server
 const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => {
-    console.log(`🛡️ Sentinel WAF running on http://localhost:${PORT}`);
+    console.log(`Sentinel WAF running on http://localhost:${PORT}`);
 });
