@@ -1,4 +1,4 @@
-// backend/server.js
+const path = require('path');
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
@@ -50,7 +50,7 @@ app.use((req, res, next) => {
     next(); // If safe, pass to the "target" application
 });
 
-// --- 🎯 VULNERABLE TARGET APPLICATION ---
+
 // This represents the "User API" we are protecting.
 
 app.get('/', (req, res) => {
@@ -73,6 +73,15 @@ app.get('/api/logs', async (req, res) => {
         console.error("Error fetching logs:", err);
         res.status(500).json({ error: 'Failed to fetch logs' });
     }
+});
+
+// --- 🏠 SERVE FRONTEND (Dashboard) ---
+// 1. Serve static files from the 'dist' folder
+app.use(express.static(path.join(__dirname, 'dist')));
+
+// 2. Handle React routing (send all other requests to index.html)
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'dist', 'index.html'));
 });
 
 // Start Server

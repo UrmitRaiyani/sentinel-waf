@@ -19,7 +19,7 @@ const isMalicious = (payload) => {
 
 // 3. The Middleware Function
 const wafMiddleware = (io) => {
-   return async (req, res, next) => { 
+   return (req, res, next) => { 
         const dataToScan = {
             body: req.body,
             query: req.query,
@@ -39,36 +39,20 @@ const wafMiddleware = (io) => {
             };
 
             // --- SAVE TO MONGODB ---
-            try {
-                const newLog = new AttackLog(attackData);
-                await newLog.save(); 
-                console.log("✅ Attack saved to MongoDB Atlas");
-
-                // CHECK & CLEANUP (The Logic You Requested) 
-                const logCount = await AttackLog.countDocuments();
-                
-                if (logCount > 200) {
-                    console.log(`Log limit reached (${logCount}). Deleting old logs...`);
+            newLog.save()
+                .then(async () => {
+                    console.log("✅ Attack saved to DB");
                     
-                    // Logic: Find the IDs of the oldest 100 logs
-                    // sort({ timestamp: 1 }) means "Oldest First"
-                    const logsToDelete = await AttackLog.find()
-                        .sort({ timestamp: 1 }) 
-                        .limit(100)
-                        .select('_id'); // We only need the IDs
-                    
-                    const idsToDelete = logsToDelete.map(doc => doc._id);
-                    // console.log( idsToDelete);
-
-                    // Delete them in one batch
-                    await AttackLog.deleteMany({ _id: { $in: idsToDelete } });
-                    
-                    console.log(`Cleanup Complete: Removed ${idsToDelete.length} old logs.`);
-                }
-
-            } catch (err) {
-                console.error("❌ Database Save Failed:", err);
-            }
+                    // Run Cleanup
+                    const logCount = await AttackLog.countDocuments();
+                    if (logCount > 200) {
+                        const logsToDelete = await AttackLog.find().sort({ timestamp: 1 }).limit(100).select('_id');
+                        const idsToDelete = logsToDelete.map(doc => doc._id);
+                        await AttackLog.deleteMany({ _id: { $in: idsToDelete } });
+                        console.log("♻️ Cleanup Complete");
+                    }
+                })
+                .catch(err => console.error("❌ DB Error:", err));
             // ---------------------------
 
             // Alert Frontend

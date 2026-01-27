@@ -1,56 +1,59 @@
-// frontend/src/App.jsx
+
 import { useState, useEffect } from 'react';
 import io from 'socket.io-client';
+import axios from 'axios'; 
 import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
-// Connect to backend
-const socket = io('http://localhost:5000');
+
+// If running locally, look at localhost:5000.
+// If on AWS, look at the current URL.
+const isLocal = window.location.hostname === 'localhost';
+const API_URL = isLocal ? 'http://localhost:5000' : ''; 
+
+// Initialize Socket
+const socket = io(isLocal ? 'http://localhost:5000' : window.location.origin);
 
 function App() {
   const [logs, setLogs] = useState([]);
   const [stats, setStats] = useState({ SQL: 0, XSS: 0 });
 
   useEffect(() => {
+    // 1. FETCH HISTORY FROM DB (The Fix)
+    const fetchHistory = async () => {
+      try {
+        const res = await axios.get(`${API_URL}/api/logs`);
+        console.log("History Loaded:", res.data);
+        setLogs(res.data);
+        
+        // Calculate stats from history
+        const sqlCount = res.data.filter(l => l.type.includes('SQL')).length;
+        const xssCount = res.data.filter(l => l.type.includes('XSS')).length;
+        setStats({ SQL: sqlCount, XSS: xssCount });
+      } catch (err) {
+        console.error("Failed to load history:", err);
+      }
+    };
 
-  // debug connection
-    socket.on('connect', () => {
-      console.log("✅ Connected to Backend via WebSocket!");
-    });
-    
-    socket.on('connect_error', (err) => {
-      console.error("❌ Connection failed:", err);
-    });
+    fetchHistory();
 
-
-    // Listen for incoming attack alerts
+    // 2. LISTEN FOR LIVE ATTACKS
     socket.on('attack-alert', (alert) => {
-      console.log("Attack received:", alert);
-      
-      // Update logs (add new one to the top)
-      setLogs((prevLogs) => [alert, ...prevLogs]);
-
-      // Update stats for the chart
-      setStats((prevStats) => {
+      setLogs((prev) => [alert, ...prev]);
+      setStats((prev) => {
         const type = alert.type.includes('SQL') ? 'SQL' : 'XSS';
-        return { ...prevStats, [type]: prevStats[type] + 1 };
+        return { ...prev, [type]: prev[type] + 1 };
       });
     });
 
-    // Cleanup on unmount
-    return () => {socket.off('attack-alert');
-      socket.off('attack-alert');
-      socket.off('connect');
-      socket.off('connect_error');
-    };
+    return () => socket.off('attack-alert');
   }, []);
 
-  // Data for the Chart
+  // Charts Config
   const chartData = [
     { name: 'SQL Injection', value: stats.SQL },
     { name: 'XSS Scripting', value: stats.XSS },
   ];
-
-  const COLORS = ['#ef4444', '#f59e0b']; // Red and Orange
+  const COLORS = ['#ef4444', '#f59e0b'];
 
   return (
     <div className="container">
@@ -59,10 +62,8 @@ function App() {
         <p>Status: <span style={{color: '#22c55e'}}>● Online</span></p>
       </div>
 
-      {/* Top Section: Chart and Stats */}
       <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '20px' }}>
-        
-        {/* Card 1: Visual Chart */}
+        {/* Chart Section */}
         <div className="card">
           <h3>Threat Distribution</h3>
           <div style={{ width: '100%', height: 300 }}>
@@ -80,23 +81,25 @@ function App() {
           </div>
         </div>
 
-        {/* Card 2: Summary Stats */}
+        {/* Stats Section */}
         <div className="card">
-          <h3>Total Blocks</h3>
+          <h3>Total Events</h3>
           <h1 style={{ fontSize: '4rem', margin: '20px 0' }}>{logs.length}</h1>
-          <p>Recent threat detected from IP: {logs.length > 0 ? logs[0].ip : 'None'}</p>
+          <p>Database: <span style={{color: '#38bdf8'}}>Connected (Atlas)</span></p>
         </div>
       </div>
 
-      {/* Bottom Section: Live Logs */}
+      {/* Logs Section */}
       <div className="card">
-        <h3>🚨 Live Attack Feed</h3>
-        {logs.length === 0 ? <p>No threats detected. Waiting for traffic...</p> : null}
+        <h3>🚨 Attack History (Live + DB)</h3>
+        {logs.length === 0 ? <p>No attacks recorded yet.</p> : null}
         
         {logs.map((log, index) => (
           <div key={index} className={`log-item ${log.type.includes('SQL') ? 'critical' : 'warning'}`}>
             <span><strong>{log.type}</strong> from {log.ip}</span>
-            <span style={{fontSize: '0.8rem', opacity: 0.7}}>{new Date(log.timestamp).toLocaleTimeString()}</span>
+            <span style={{fontSize: '0.8rem', opacity: 0.7}}>
+              {new Date(log.timestamp).toLocaleTimeString()}
+            </span>
           </div>
         ))}
       </div>
