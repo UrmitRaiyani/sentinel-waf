@@ -39,6 +39,7 @@ const wafMiddleware = (io) => {
             };
 
             // --- SAVE TO MONGODB ---
+            const newLog = new AttackLog(attackData);
             newLog.save()
                 .then(async () => {
                     console.log("✅ Attack saved to DB");

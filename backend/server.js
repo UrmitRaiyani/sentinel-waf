@@ -53,9 +53,9 @@ app.use((req, res, next) => {
 
 // This represents the "User API" we are protecting.
 
-app.get('/', (req, res) => {
-    res.json({ message: 'Welcome to the Secure API. Sentinel is watching.' });
-});
+// app.get('/', (req, res) => {
+//     res.json({ message: 'Welcome to the Secure API. Sentinel is watching.' });
+// });
 
 app.post('/login', (req, res) => {
     // A standard login route
