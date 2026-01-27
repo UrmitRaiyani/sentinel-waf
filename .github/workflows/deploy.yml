@@ -1,0 +1,33 @@
+name: Deploy to AWS EC2
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Deploy to EC2
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.HOST_DNS }}
+        username: ubuntu
+        key: ${{ secrets.EC2_SSH_KEY }}
+        script: |
+          # Go to the backend folder
+          cd sentinel-waf/backend
+          
+          # Pull the latest code from GitHub
+          git pull origin main
+          
+          # Install any new libraries
+          npm install
+          
+          # Restart the server so changes take effect
+          pm2 restart sentinel-waf

@@ -74,6 +74,7 @@ app.get('/api/logs', async (req, res) => {
         res.status(500).json({ error: 'Failed to fetch logs' });
     }
 });
+console.log("🚀 Sentinel WAF updated via GitHub Actions!");
 // Start Server
 const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => {
