@@ -54,7 +54,7 @@ app.use((req, res, next) => {
 // This represents the "User API" we are protecting.
 
 app.get('/', (req, res) => {
-    res.json({ message: 'Welcome to the Secure API. Sentinel is watching.' });
+    res.json({ message: 'Welcome to the Secure API. Sentinel is watching.🚀 Sentinel WAF updated via GitHub Actions!' });
 });
 
 app.post('/login', (req, res) => {
@@ -74,7 +74,7 @@ app.get('/api/logs', async (req, res) => {
         res.status(500).json({ error: 'Failed to fetch logs' });
     }
 });
-console.log("🚀 Sentinel WAF updated via GitHub Actions!");
+
 // Start Server
 const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => {
