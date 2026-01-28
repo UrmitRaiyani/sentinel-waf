@@ -7,6 +7,7 @@ const { Server } = require('socket.io');
 const wafMiddleware = require('./middleware/waf');
 const mongoose = require('mongoose');
 const AttackLog = require('./models/AttackLog');
+const rateLimit = require('express-rate-limit');
 
 const app = express();
 const server = http.createServer(app);
@@ -23,6 +24,52 @@ const io = new Server(server, {
     methods: ["GET", "POST"]
   }
 });
+
+// --- 🛡️ DoS PROTECTION (Rate Limiter with Live Alert) ---
+
+const dosCache = {};
+const limiter = rateLimit({
+    windowMs: 10 * 60 * 1000, // 10 minutes
+    max: 100, // Limit each IP to 100 requests per windowMs
+    message: { error: "Too many requests, please try again later." },
+    standardHeaders: true,
+    legacyHeaders: false,
+    
+    // 🚨 CUSTOM HANDLER: This runs when someone gets blocked
+    handler: (req, res, next, options) => {
+        const ip = req.ip;
+        const now = Date.now();
+        const lastLogged = dosCache[ip];
+        if (lastLogged && (now - lastLogged) < 10 * 60 * 1000) {
+            // YES -> We already know them. Just block. DO NOT SAVE TO DB.
+            return res.status(options.statusCode).send(options.message);
+        }
+        console.log(`🛑 DoS/Spam detected from IP: ${req.ip}`);
+
+        dosCache[ip] = now;
+        const attackData = {
+            type: 'DoS Flood', // New Attack Type
+            ip: req.ip,
+            payload: 'High Volume Traffic',
+            userAgent: req.headers['user-agent'],
+            timestamp: new Date()
+        };
+
+        // 1. Alert the Dashboard
+        io.emit('attack-alert', attackData);
+
+        // 2. Save to DB
+       const newLog = new AttackLog(attackData);
+        newLog.save()
+            .then(() => console.log("✅ DoS Attack Logged to DB"))
+            .catch(err => console.error("❌ DoS Log Error:", err));
+
+        // 3. Send the Error to the Attacker
+        res.status(options.statusCode).send(options.message);
+    }
+});
+
+app.use(limiter);
 
 // Middleware
 app.use(cors());
@@ -89,3 +136,13 @@ const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => {
     console.log(`Sentinel WAF running on http://localhost:${PORT}`);
 });
+
+// Clear cache every hour to prevent memory leaks
+setInterval(() => {
+    const now = Date.now();
+    for (const ip in dosCache) {
+        if (now - dosCache[ip] > 60 * 60 * 1000) {
+            delete dosCache[ip];
+        }
+    }
+}, 60 * 60 * 1000);

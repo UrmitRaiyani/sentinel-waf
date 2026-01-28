@@ -15,7 +15,7 @@ const socket = io(isLocal ? 'http://localhost:5000' : window.location.origin);
 
 function App() {
   const [logs, setLogs] = useState([]);
-  const [stats, setStats] = useState({ SQL: 0, XSS: 0 });
+  const [stats, setStats] = useState({ SQL: 0, XSS: 0, DOS: 0 });
 
   useEffect(() => {
     // 1. FETCH HISTORY FROM DB (The Fix)
@@ -28,7 +28,8 @@ function App() {
         // Calculate stats from history
         const sqlCount = res.data.filter(l => l.type.includes('SQL')).length;
         const xssCount = res.data.filter(l => l.type.includes('XSS')).length;
-        setStats({ SQL: sqlCount, XSS: xssCount });
+        const dosCount = res.data.filter(l => l.type.includes('DoS')).length;
+        setStats({ SQL: sqlCount, XSS: xssCount, DOS: dosCount });
       } catch (err) {
         console.error("Failed to load history:", err);
       }
@@ -40,8 +41,10 @@ function App() {
     socket.on('attack-alert', (alert) => {
       setLogs((prev) => [alert, ...prev]);
       setStats((prev) => {
-        const type = alert.type.includes('SQL') ? 'SQL' : 'XSS';
-        return { ...prev, [type]: prev[type] + 1 };
+        if (alert.type.includes('SQL')) return { ...prev, SQL: prev.SQL + 1 };
+        if (alert.type.includes('XSS')) return { ...prev, XSS: prev.XSS + 1 };
+        if (alert.type.includes('DoS')) return { ...prev, DOS: prev.DOS + 1 };
+        return prev;
       });
     });
 
@@ -52,8 +55,9 @@ function App() {
   const chartData = [
     { name: 'SQL Injection', value: stats.SQL },
     { name: 'XSS Scripting', value: stats.XSS },
+    { name: 'DoS Flood', value: stats.DOS },
   ];
-  const COLORS = ['#ef4444', '#f59e0b'];
+  const COLORS = ['#ef4444', '#f59e0b', '#8b5cf6'];
 
   return (
     <div className="container">

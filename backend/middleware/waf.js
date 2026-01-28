@@ -1,5 +1,7 @@
 
 const AttackLog = require('../models/AttackLog');
+const rateLimit = require('express-rate-limit');
+
 // 1. Define Malicious Signatures (The "Virus Definitions")
 // These Regex patterns look for common attack strings.
 const sqlInjectionPattern = /('(\s|%20)*(OR|AND))|(\-\-)|(UNION(\s|%20)+SELECT)|(DROP(\s|%20)+TABLE)/i;
@@ -54,8 +56,7 @@ const wafMiddleware = (io) => {
                     }
                 })
                 .catch(err => console.error("❌ DB Error:", err));
-            // ---------------------------
-
+          
             // Alert Frontend
             io.emit('attack-alert', attackData);
 
