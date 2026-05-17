@@ -1,0 +1,5001 @@
+payload,label,length,special_chars,keywords
+/index.html?category=tech934,0,28,0,0
+/login,0,6,0,0
+/onload=prompt(1),1,17,2,0
+/about,0,6,0,0
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/contact?category=tech86,0,24,0,0
+/dashboard?user=urmit299,0,24,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/products/item?user=urmit157,0,28,0,0
+/contact?sort=asc993,0,20,0,0
+/login?id=1387,0,14,0,0
+/checkout,0,9,0,0
+/api/users?sort=asc60,0,21,0,0
+/products/item?id=1270,0,22,0,0
+/login?sort=asc122,0,18,0,0
+/login?user=urmit161,0,20,0,0
+/api/users?page=2121,0,20,0,0
+/about?category=tech557,0,23,0,0
+/login,0,6,0,0
+/dashboard,0,10,0,0
+/index.html?sort=asc309,0,23,0,0
+/checkout?category=tech798,0,26,0,0
+/login,0,6,0,0
+/login?id=1703,0,14,0,0
+/contact?id=133,0,15,0,0
+/products/item?sort=asc304,0,26,0,0
+/dashboard?user=urmit770,0,24,0,0
+/index.html?user=urmit964,0,25,0,0
+/<script>alert(document.cookie)</script>,1,40,6,3
+"/api/users?search="" OR 1=1 --",1,29,1,0
+/index.html?search=javascript:eval('var a=1'),1,45,4,1
+"/UNION SELECT username, password FROM users",1,43,0,2
+/about?id=156,0,13,0,0
+/contact?sort=asc787,0,20,0,0
+/index.html?id=19,0,17,0,0
+/index.html?user=urmit734,0,25,0,0
+/contact?category=tech59,0,24,0,0
+/contact?id=1314,0,16,0,0
+/login?user=urmit236,0,20,0,0
+/checkout?user=urmit233,0,23,0,0
+/api/users?sort=asc233,0,22,0,0
+"/index.html?search="" OR 1=1 --",1,30,1,0
+/dashboard,0,10,0,0
+/dashboard?sort=asc494,0,22,0,0
+/contact?search=javascript:eval('var a=1'),1,42,4,1
+/index.html?sort=asc404,0,23,0,0
+/index.html?search=<script>alert(document.cookie)</script>,1,58,6,3
+/index.html?sort=asc902,0,23,0,0
+/about?sort=asc511,0,18,0,0
+/?id=1; DROP TABLE users,1,24,1,1
+"/dashboard?search="" OR 1=1 --",1,29,1,0
+/contact?search=../../../../etc/passwd,1,38,0,0
+/api/users?sort=asc737,0,22,0,0
+/checkout?user=urmit494,0,23,0,0
+/login?category=tech220,0,23,0,0
+/api/users?sort=asc889,0,22,0,0
+/checkout?page=2807,0,19,0,0
+/onload=prompt(1),1,17,2,0
+/contact?category=tech103,0,25,0,0
+/dashboard,0,10,0,0
+/index.html,0,11,0,0
+/checkout?category=tech44,0,25,0,0
+/checkout,0,9,0,0
+/contact?id=1927,0,16,0,0
+/contact?user=urmit750,0,22,0,0
+/index.html?search=../../../../etc/passwd,1,41,0,0
+/contact?id=1930,0,16,0,0
+/checkout?id=1137,0,17,0,0
+/api/users?category=tech752,0,27,0,0
+/products/item?category=tech802,0,31,0,0
+/login?page=2457,0,16,0,0
+/dashboard?page=2390,0,20,0,0
+/../../../../etc/passwd,1,23,0,0
+/onload=prompt(1),1,17,2,0
+/dashboard,0,10,0,0
+/api/users?user=urmit717,0,24,0,0
+/login,0,6,0,0
+/contact,0,8,0,0
+/index.html,0,11,0,0
+/dashboard?category=tech956,0,27,0,0
+/index.html?id=1931,0,19,0,0
+/products/item?page=2468,0,24,0,0
+/index.html,0,11,0,0
+/login?page=2127,0,16,0,0
+/contact?sort=asc995,0,20,0,0
+/dashboard?category=tech404,0,27,0,0
+/index.html?search=../../../../etc/passwd,1,41,0,0
+/contact?page=2460,0,18,0,0
+/api/users?sort=asc297,0,22,0,0
+/about?id=1585,0,14,0,0
+/about?page=2360,0,16,0,0
+/about?page=2655,0,16,0,0
+/checkout?category=tech433,0,26,0,0
+/api/users?search=<script>alert(document.cookie)</script>,1,57,6,3
+/checkout?category=tech950,0,26,0,0
+/login?category=tech854,0,23,0,0
+/dashboard?sort=asc108,0,22,0,0
+/about?page=2882,0,16,0,0
+/about,0,6,0,0
+/contact?page=2903,0,18,0,0
+/api/users,0,10,0,0
+/index.html?user=urmit160,0,25,0,0
+/dashboard?sort=asc443,0,22,0,0
+/login?page=258,0,15,0,0
+/api/users?search=onload=prompt(1),1,34,2,0
+/checkout,0,9,0,0
+/dashboard?id=1784,0,18,0,0
+/login?search=onload=prompt(1),1,30,2,0
+/login?category=tech307,0,23,0,0
+/products/item?user=urmit126,0,28,0,0
+/dashboard?user=urmit178,0,24,0,0
+/api/users?search='; EXEC xp_cmdshell('dir');--,1,47,7,1
+/dashboard,0,10,0,0
+/login?category=tech244,0,23,0,0
+/checkout?category=tech577,0,26,0,0
+/dashboard?user=urmit833,0,24,0,0
+/' OR '1'='1,1,12,4,0
+/about?search=<script>alert(document.cookie)</script>,1,53,6,3
+/api/users?id=1285,0,18,0,0
+/contact?category=tech405,0,25,0,0
+/dashboard?user=urmit613,0,24,0,0
+/dashboard?id=1234,0,18,0,0
+/contact?id=1316,0,16,0,0
+/login?sort=asc328,0,18,0,0
+/' OR '1'='1,1,12,4,0
+/contact?search=../../../windows/system32/cmd.exe,1,49,0,0
+/products/item?id=1640,0,22,0,0
+/index.html,0,11,0,0
+/?id=1; DROP TABLE users,1,24,1,1
+/api/users?id=1305,0,18,0,0
+/api/users?page=2415,0,20,0,0
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/index.html?id=1462,0,19,0,0
+/about?page=2422,0,16,0,0
+/api/users,0,10,0,0
+/checkout,0,9,0,0
+/index.html,0,11,0,0
+/contact,0,8,0,0
+/products/item?sort=asc714,0,26,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/<script>alert(document.cookie)</script>,1,40,6,3
+/products/item?sort=asc778,0,26,0,0
+/checkout?category=tech301,0,26,0,0
+/index.html,0,11,0,0
+/api/users?page=2592,0,20,0,0
+/dashboard?category=tech569,0,27,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/contact?category=tech428,0,25,0,0
+/dashboard?id=1104,0,18,0,0
+/products/item?search='; EXEC xp_cmdshell('dir');--,1,51,7,1
+/api/users?user=urmit482,0,24,0,0
+/login?user=urmit470,0,20,0,0
+/contact,0,8,0,0
+/products/item?search=<script>alert(document.cookie)</script>,1,61,6,3
+/products/item?user=urmit795,0,28,0,0
+/dashboard?id=148,0,17,0,0
+/contact?category=tech108,0,25,0,0
+/about?category=tech455,0,23,0,0
+/api/users?sort=asc268,0,22,0,0
+/dashboard?category=tech298,0,27,0,0
+/index.html?sort=asc303,0,23,0,0
+/../../../../etc/passwd,1,23,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/api/users?page=2909,0,20,0,0
+/products/item?page=2751,0,24,0,0
+/checkout,0,9,0,0
+/onload=prompt(1),1,17,2,0
+/checkout?search=../../../windows/system32/cmd.exe,1,50,0,0
+/api/users?page=2584,0,20,0,0
+/index.html?id=1968,0,19,0,0
+/api/users?page=2888,0,20,0,0
+/dashboard?id=1711,0,18,0,0
+/login?user=urmit184,0,20,0,0
+/checkout?sort=asc346,0,21,0,0
+/contact,0,8,0,0
+/login,0,6,0,0
+/login?page=2832,0,16,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/api/users,0,10,0,0
+/contact?user=urmit225,0,22,0,0
+/api/users?page=2815,0,20,0,0
+/api/users?page=2794,0,20,0,0
+"/UNION SELECT username, password FROM users",1,43,0,2
+/dashboard,0,10,0,0
+/login?page=2191,0,16,0,0
+/login?page=2714,0,16,0,0
+/about?user=urmit522,0,20,0,0
+/dashboard?category=tech47,0,26,0,0
+/products/item,0,14,0,0
+/about?user=urmit416,0,20,0,0
+/checkout?sort=asc521,0,21,0,0
+/checkout?page=2660,0,19,0,0
+/login?sort=asc243,0,18,0,0
+/login?category=tech77,0,22,0,0
+/contact?id=1266,0,16,0,0
+/?id=1; DROP TABLE users,1,24,1,1
+/products/item?category=tech380,0,31,0,0
+/about?page=2104,0,16,0,0
+/checkout?category=tech462,0,26,0,0
+/checkout?page=2733,0,19,0,0
+/dashboard?user=urmit942,0,24,0,0
+/index.html,0,11,0,0
+/<script>alert(document.cookie)</script>,1,40,6,3
+/contact?page=2372,0,18,0,0
+/products/item?user=urmit360,0,28,0,0
+/index.html?sort=asc534,0,23,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/dashboard?sort=asc75,0,21,0,0
+/products/item?category=tech101,0,31,0,0
+/login?category=tech954,0,23,0,0
+/index.html?sort=asc769,0,23,0,0
+/contact?sort=asc250,0,20,0,0
+/contact?page=2997,0,18,0,0
+/dashboard,0,10,0,0
+/api/users,0,10,0,0
+/login?search=admin' --,1,23,1,0
+/<script>alert(document.cookie)</script>,1,40,6,3
+/checkout?id=1626,0,17,0,0
+/login?page=2614,0,16,0,0
+/index.html?id=1140,0,19,0,0
+/index.html?sort=asc663,0,23,0,0
+/api/users?id=1345,0,18,0,0
+/products/item?sort=asc606,0,26,0,0
+/login?sort=asc529,0,18,0,0
+/checkout?sort=asc499,0,21,0,0
+/dashboard?category=tech508,0,27,0,0
+/checkout?user=urmit785,0,23,0,0
+/login?sort=asc573,0,18,0,0
+/contact?sort=asc771,0,20,0,0
+/products/item?page=2665,0,24,0,0
+/contact?user=urmit995,0,22,0,0
+/api/users,0,10,0,0
+/contact?user=urmit555,0,22,0,0
+/' OR '1'='1,1,12,4,0
+/index.html?user=urmit213,0,25,0,0
+/about?user=urmit451,0,20,0,0
+/checkout?page=2940,0,19,0,0
+/api/users?sort=asc575,0,22,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/<script>alert(document.cookie)</script>,1,40,6,3
+/about,0,6,0,0
+/dashboard?id=140,0,17,0,0
+/index.html?user=urmit347,0,25,0,0
+/index.html?category=tech464,0,28,0,0
+/index.html,0,11,0,0
+/checkout?sort=asc427,0,21,0,0
+/about?id=1882,0,14,0,0
+/products/item?search=%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,61,9,3
+/api/users?id=1199,0,18,0,0
+/login,0,6,0,0
+/login?sort=asc423,0,18,0,0
+/api/users?sort=asc222,0,22,0,0
+/contact?search=admin' --,1,25,1,0
+/products/item?search=onload=prompt(1),1,38,2,0
+/checkout?id=1775,0,17,0,0
+/products/item?search=admin' --,1,31,1,0
+/checkout,0,9,0,0
+/checkout,0,9,0,0
+/dashboard?search=onload=prompt(1),1,34,2,0
+/api/users?sort=asc428,0,22,0,0
+/../../../../etc/passwd,1,23,0,0
+/login,0,6,0,0
+/?id=1; DROP TABLE users,1,24,1,1
+/about?sort=asc23,0,17,0,0
+/contact,0,8,0,0
+/login,0,6,0,0
+/dashboard?id=1142,0,18,0,0
+/checkout,0,9,0,0
+/index.html?category=tech725,0,28,0,0
+/api/users?search=admin' --,1,27,1,0
+/login?page=2366,0,16,0,0
+/checkout?user=urmit7,0,21,0,0
+/index.html?category=tech816,0,28,0,0
+/api/users?category=tech948,0,27,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+"/checkout?search="" OR 1=1 --",1,28,1,0
+/checkout,0,9,0,0
+/dashboard,0,10,0,0
+/contact?sort=asc448,0,20,0,0
+/contact?sort=asc90,0,19,0,0
+/about?sort=asc104,0,18,0,0
+/login?category=tech486,0,23,0,0
+/about?category=tech582,0,23,0,0
+/login?id=1271,0,14,0,0
+/api/users?id=1956,0,18,0,0
+/api/users?id=1935,0,18,0,0
+/index.html?page=2854,0,21,0,0
+/checkout?id=1835,0,17,0,0
+/api/users?user=urmit950,0,24,0,0
+/api/users?page=2778,0,20,0,0
+/index.html?user=urmit311,0,25,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/login?id=1664,0,14,0,0
+/dashboard?page=2838,0,20,0,0
+/about?user=urmit740,0,20,0,0
+/about?search=%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,53,9,3
+/index.html?user=urmit274,0,25,0,0
+/login?page=233,0,15,0,0
+/index.html?page=2809,0,21,0,0
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/dashboard?id=196,0,17,0,0
+/index.html,0,11,0,0
+/index.html?page=2120,0,21,0,0
+/api/users,0,10,0,0
+/contact?category=tech719,0,25,0,0
+/index.html?id=1282,0,19,0,0
+/login?user=urmit660,0,20,0,0
+/index.html?id=1685,0,19,0,0
+/contact?sort=asc502,0,20,0,0
+/products/item?category=tech719,0,31,0,0
+/dashboard?id=1926,0,18,0,0
+/about?page=2601,0,16,0,0
+/login?id=1394,0,14,0,0
+/../../../../etc/passwd,1,23,0,0
+/api/users?id=132,0,17,0,0
+/checkout,0,9,0,0
+/index.html?category=tech457,0,28,0,0
+/products/item?user=urmit444,0,28,0,0
+/checkout?category=tech639,0,26,0,0
+/checkout,0,9,0,0
+"/login?search="" OR 1=1 --",1,25,1,0
+/index.html?category=tech63,0,27,0,0
+/checkout?id=1209,0,17,0,0
+/api/users,0,10,0,0
+/products/item?page=256,0,23,0,0
+/index.html,0,11,0,0
+/contact?user=urmit767,0,22,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/index.html?sort=asc521,0,23,0,0
+/dashboard?user=urmit968,0,24,0,0
+/login?category=tech255,0,23,0,0
+/dashboard?id=1827,0,18,0,0
+/products/item?page=2179,0,24,0,0
+/login?id=1708,0,14,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/api/users?user=urmit167,0,24,0,0
+/login?category=tech750,0,23,0,0
+/api/users,0,10,0,0
+/login?id=1291,0,14,0,0
+"/dashboard?search=UNION SELECT username, password FROM users",1,60,0,2
+/checkout?id=151,0,16,0,0
+/api/users?category=tech873,0,27,0,0
+/about?sort=asc228,0,18,0,0
+/products/item?category=tech264,0,31,0,0
+/checkout,0,9,0,0
+/login?sort=asc464,0,18,0,0
+/contact?user=urmit271,0,22,0,0
+/products/item?page=2698,0,24,0,0
+/login?user=urmit897,0,20,0,0
+/about,0,6,0,0
+/login?user=urmit138,0,20,0,0
+/contact?search=javascript:eval('var a=1'),1,42,4,1
+/about?search='; EXEC xp_cmdshell('dir');--,1,43,7,1
+/api/users?category=tech793,0,27,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/products/item?category=tech894,0,31,0,0
+/checkout?sort=asc104,0,21,0,0
+/login?category=tech287,0,23,0,0
+/api/users?category=tech894,0,27,0,0
+/api/users?sort=asc369,0,22,0,0
+/checkout?sort=asc108,0,21,0,0
+/api/users?sort=asc389,0,22,0,0
+/products/item?user=urmit438,0,28,0,0
+/products/item,0,14,0,0
+/api/users?sort=asc259,0,22,0,0
+/about?page=2325,0,16,0,0
+/about?category=tech714,0,23,0,0
+/index.html?id=1501,0,19,0,0
+/contact?user=urmit718,0,22,0,0
+/<script>alert(document.cookie)</script>,1,40,6,3
+/index.html?page=2694,0,21,0,0
+/login?sort=asc734,0,18,0,0
+/contact?user=urmit390,0,22,0,0
+/about?id=11,0,12,0,0
+/login?search=javascript:eval('var a=1'),1,40,4,1
+/products/item,0,14,0,0
+/contact?category=tech651,0,25,0,0
+/login,0,6,0,0
+/products/item?id=1888,0,22,0,0
+/login,0,6,0,0
+"/dashboard?search="" OR 1=1 --",1,29,1,0
+/contact,0,8,0,0
+/dashboard?search=admin' --,1,27,1,0
+/login?category=tech278,0,23,0,0
+/login?page=2457,0,16,0,0
+/about?category=tech717,0,23,0,0
+/checkout,0,9,0,0
+/about,0,6,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/login?user=urmit570,0,20,0,0
+/checkout?sort=asc884,0,21,0,0
+/contact?id=1217,0,16,0,0
+/index.html?id=1960,0,19,0,0
+/dashboard,0,10,0,0
+/api/users?sort=asc910,0,22,0,0
+/api/users?id=1259,0,18,0,0
+/contact?user=urmit540,0,22,0,0
+/index.html?search=admin' --,1,28,1,0
+/products/item?category=tech891,0,31,0,0
+/api/users?category=tech423,0,27,0,0
+/index.html?page=2201,0,21,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/api/users?page=2262,0,20,0,0
+/index.html?category=tech965,0,28,0,0
+/contact?search=onload=prompt(1),1,32,2,0
+/checkout,0,9,0,0
+/contact?search=javascript:eval('var a=1'),1,42,4,1
+/contact,0,8,0,0
+/contact?user=urmit519,0,22,0,0
+"/UNION SELECT username, password FROM users",1,43,0,2
+/index.html?user=urmit353,0,25,0,0
+/about?search=../../../../etc/passwd,1,36,0,0
+/checkout?sort=asc395,0,21,0,0
+/index.html?category=tech881,0,28,0,0
+/login?sort=asc866,0,18,0,0
+/login?page=290,0,15,0,0
+/login?search=<script>alert(document.cookie)</script>,1,53,6,3
+/index.html?id=1995,0,19,0,0
+/about,0,6,0,0
+/api/users?category=tech412,0,27,0,0
+/index.html?id=1379,0,19,0,0
+/about?id=1981,0,14,0,0
+/dashboard?user=urmit904,0,24,0,0
+/checkout?user=urmit71,0,22,0,0
+/contact?id=1245,0,16,0,0
+/index.html?search=../../../../etc/passwd,1,41,0,0
+/checkout?id=1882,0,17,0,0
+/login?sort=asc269,0,18,0,0
+/api/users?page=2502,0,20,0,0
+/dashboard,0,10,0,0
+/login?id=1446,0,14,0,0
+/api/users?page=2270,0,20,0,0
+"/products/item?search="" OR 1=1 --",1,33,1,0
+/checkout?user=urmit39,0,22,0,0
+/api/users?search=<script>alert(document.cookie)</script>,1,57,6,3
+/?id=1; DROP TABLE users,1,24,1,1
+/?id=1; DROP TABLE users,1,24,1,1
+/products/item,0,14,0,0
+/products/item?category=tech948,0,31,0,0
+/checkout,0,9,0,0
+/checkout?user=urmit696,0,23,0,0
+/contact?sort=asc705,0,20,0,0
+/about?id=1350,0,14,0,0
+/api/users?user=urmit480,0,24,0,0
+/dashboard?search=../../../windows/system32/cmd.exe,1,51,0,0
+/products/item?sort=asc138,0,26,0,0
+/dashboard?category=tech734,0,27,0,0
+/index.html?sort=asc473,0,23,0,0
+/api/users?search=javascript:eval('var a=1'),1,44,4,1
+/dashboard,0,10,0,0
+/dashboard?category=tech845,0,27,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/checkout?sort=asc34,0,20,0,0
+/login?user=urmit417,0,20,0,0
+/login?search=' OR '1'='1,1,25,4,0
+/dashboard?user=urmit830,0,24,0,0
+/products/item,0,14,0,0
+/dashboard?search=<script>alert(document.cookie)</script>,1,57,6,3
+/<script>alert(document.cookie)</script>,1,40,6,3
+/index.html?search=%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,58,9,3
+/products/item?sort=asc830,0,26,0,0
+/?id=1; DROP TABLE users,1,24,1,1
+/index.html?search=javascript:eval('var a=1'),1,45,4,1
+/products/item?id=1116,0,22,0,0
+/api/users,0,10,0,0
+"/checkout?search=UNION SELECT username, password FROM users",1,59,0,2
+/dashboard?sort=asc545,0,22,0,0
+/products/item?user=urmit547,0,28,0,0
+/contact?user=urmit801,0,22,0,0
+"/products/item?search="" OR 1=1 --",1,33,1,0
+/contact?sort=asc85,0,19,0,0
+/index.html?user=urmit451,0,25,0,0
+/index.html?sort=asc745,0,23,0,0
+/products/item,0,14,0,0
+/login?user=urmit848,0,20,0,0
+/api/users?id=1301,0,18,0,0
+"/checkout?search="" OR 1=1 --",1,28,1,0
+/contact?page=2465,0,18,0,0
+"/"" OR 1=1 --",1,12,1,0
+/api/users?user=urmit211,0,24,0,0
+/dashboard?sort=asc902,0,22,0,0
+/api/users?id=1598,0,18,0,0
+/dashboard?id=164,0,17,0,0
+/contact,0,8,0,0
+/products/item?user=urmit543,0,28,0,0
+/about?category=tech141,0,23,0,0
+/products/item?sort=asc763,0,26,0,0
+/index.html?id=1423,0,19,0,0
+/api/users?id=1169,0,18,0,0
+/contact?category=tech999,0,25,0,0
+/index.html?sort=asc150,0,23,0,0
+/dashboard?user=urmit501,0,24,0,0
+/api/users?sort=asc9,0,20,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/index.html?category=tech935,0,28,0,0
+/admin' --,1,10,1,0
+/contact?id=1227,0,16,0,0
+/checkout?category=tech356,0,26,0,0
+/checkout,0,9,0,0
+/about?search=onload=prompt(1),1,30,2,0
+/products/item?category=tech109,0,31,0,0
+/checkout?search='; EXEC xp_cmdshell('dir');--,1,46,7,1
+/dashboard?user=urmit876,0,24,0,0
+/about,0,6,0,0
+/login,0,6,0,0
+/products/item?category=tech711,0,31,0,0
+/contact,0,8,0,0
+/products/item?sort=asc337,0,26,0,0
+/dashboard?sort=asc124,0,22,0,0
+/api/users?page=2758,0,20,0,0
+/index.html?page=2622,0,21,0,0
+/checkout,0,9,0,0
+/index.html,0,11,0,0
+/api/users?sort=asc471,0,22,0,0
+/dashboard?user=urmit472,0,24,0,0
+/contact?category=tech475,0,25,0,0
+/about?user=urmit391,0,20,0,0
+/dashboard?search=javascript:eval('var a=1'),1,44,4,1
+/contact?page=2989,0,18,0,0
+/index.html?user=urmit346,0,25,0,0
+/checkout?page=2701,0,19,0,0
+/login?page=2573,0,16,0,0
+/login?page=2196,0,16,0,0
+/login?category=tech37,0,22,0,0
+/contact?category=tech944,0,25,0,0
+/<script>alert(document.cookie)</script>,1,40,6,3
+/contact?category=tech170,0,25,0,0
+/api/users?sort=asc627,0,22,0,0
+/api/users?category=tech393,0,27,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/products/item?id=138,0,21,0,0
+/products/item?category=tech733,0,31,0,0
+/checkout?category=tech607,0,26,0,0
+/api/users,0,10,0,0
+/about?category=tech980,0,23,0,0
+/api/users,0,10,0,0
+/products/item?category=tech381,0,31,0,0
+/dashboard?id=1182,0,18,0,0
+/products/item,0,14,0,0
+/index.html?search=../../../windows/system32/cmd.exe,1,52,0,0
+/products/item,0,14,0,0
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/api/users?search='; EXEC xp_cmdshell('dir');--,1,47,7,1
+/dashboard?search=<script>alert(document.cookie)</script>,1,57,6,3
+/login,0,6,0,0
+/about?id=1781,0,14,0,0
+/contact?category=tech749,0,25,0,0
+/../../../../etc/passwd,1,23,0,0
+/checkout,0,9,0,0
+/about?search=%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,53,9,3
+/dashboard?id=1314,0,18,0,0
+/login?id=1953,0,14,0,0
+/about?category=tech369,0,23,0,0
+/api/users?id=1438,0,18,0,0
+/dashboard?category=tech177,0,27,0,0
+/index.html?sort=asc218,0,23,0,0
+/checkout?page=2863,0,19,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/about,0,6,0,0
+/dashboard?page=2795,0,20,0,0
+/../../../../etc/passwd,1,23,0,0
+/about?id=1767,0,14,0,0
+"/"" OR 1=1 --",1,12,1,0
+/login?sort=asc924,0,18,0,0
+/about?sort=asc548,0,18,0,0
+/index.html?id=1815,0,19,0,0
+/products/item?id=1288,0,22,0,0
+/api/users?id=1629,0,18,0,0
+/login,0,6,0,0
+/../../../../etc/passwd,1,23,0,0
+/dashboard?id=1940,0,18,0,0
+/checkout,0,9,0,0
+/contact,0,8,0,0
+/login?search=?id=1; DROP TABLE users,1,37,1,1
+/products/item,0,14,0,0
+/index.html?page=2434,0,21,0,0
+/contact?category=tech452,0,25,0,0
+/dashboard?user=urmit760,0,24,0,0
+/login?search=' OR '1'='1,1,25,4,0
+/index.html?search=?id=1; DROP TABLE users,1,42,1,1
+/api/users?category=tech771,0,27,0,0
+/about?page=2729,0,16,0,0
+/login?sort=asc553,0,18,0,0
+/dashboard,0,10,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/login?id=1447,0,14,0,0
+/about?page=218,0,15,0,0
+/api/users?category=tech841,0,27,0,0
+/contact?id=1134,0,16,0,0
+/products/item?search=' OR '1'='1,1,33,4,0
+/contact?sort=asc723,0,20,0,0
+/products/item?search=onload=prompt(1),1,38,2,0
+/products/item?id=1531,0,22,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+"/UNION SELECT username, password FROM users",1,43,0,2
+/../../../../etc/passwd,1,23,0,0
+"/UNION SELECT username, password FROM users",1,43,0,2
+/checkout?id=1291,0,17,0,0
+/dashboard,0,10,0,0
+/contact?category=tech405,0,25,0,0
+/contact?category=tech281,0,25,0,0
+/api/users?id=1104,0,18,0,0
+/checkout?user=urmit404,0,23,0,0
+/api/users?category=tech980,0,27,0,0
+"/"" OR 1=1 --",1,12,1,0
+/products/item,0,14,0,0
+/checkout?category=tech799,0,26,0,0
+/dashboard?user=urmit689,0,24,0,0
+/checkout?category=tech108,0,26,0,0
+/checkout?user=urmit929,0,23,0,0
+/checkout,0,9,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/dashboard?category=tech712,0,27,0,0
+/index.html?user=urmit117,0,25,0,0
+/dashboard,0,10,0,0
+/api/users?search=onload=prompt(1),1,34,2,0
+/products/item?id=1363,0,22,0,0
+/api/users?search=' OR '1'='1,1,29,4,0
+/login?category=tech565,0,23,0,0
+/about?page=2117,0,16,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/contact?sort=asc377,0,20,0,0
+/dashboard?user=urmit710,0,24,0,0
+/index.html?id=1211,0,19,0,0
+/dashboard?id=1987,0,18,0,0
+/api/users?sort=asc849,0,22,0,0
+/login?user=urmit223,0,20,0,0
+/dashboard?id=1524,0,18,0,0
+/checkout?user=urmit454,0,23,0,0
+/index.html?search=admin' --,1,28,1,0
+/dashboard?user=urmit366,0,24,0,0
+/login?category=tech465,0,23,0,0
+/dashboard,0,10,0,0
+/checkout?category=tech271,0,26,0,0
+/login?page=2522,0,16,0,0
+/index.html,0,11,0,0
+/api/users?id=1997,0,18,0,0
+/products/item?id=1215,0,22,0,0
+/login?category=tech87,0,22,0,0
+/login?page=2946,0,16,0,0
+/contact,0,8,0,0
+/about?category=tech278,0,23,0,0
+/api/users?page=2103,0,20,0,0
+/dashboard?search=onload=prompt(1),1,34,2,0
+/about?page=210,0,15,0,0
+/checkout,0,9,0,0
+/dashboard?user=urmit387,0,24,0,0
+/index.html?user=urmit192,0,25,0,0
+/index.html?id=1906,0,19,0,0
+/dashboard?sort=asc786,0,22,0,0
+/api/users?category=tech652,0,27,0,0
+/api/users?id=1569,0,18,0,0
+/login?id=1453,0,14,0,0
+/contact?user=urmit254,0,22,0,0
+/products/item?sort=asc356,0,26,0,0
+/dashboard?id=1847,0,18,0,0
+/login?page=2417,0,16,0,0
+/about?page=2743,0,16,0,0
+/login,0,6,0,0
+/products/item?user=urmit401,0,28,0,0
+/dashboard?id=1772,0,18,0,0
+/products/item?search=<script>alert(document.cookie)</script>,1,61,6,3
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/dashboard?id=1451,0,18,0,0
+/dashboard,0,10,0,0
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/about?sort=asc679,0,18,0,0
+/about?category=tech731,0,23,0,0
+/products/item?category=tech348,0,31,0,0
+/products/item?sort=asc62,0,25,0,0
+/contact?user=urmit148,0,22,0,0
+/api/users?user=urmit428,0,24,0,0
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/contact?sort=asc403,0,20,0,0
+/about?page=2907,0,16,0,0
+/about?user=urmit749,0,20,0,0
+/checkout,0,9,0,0
+/login?page=2408,0,16,0,0
+/about?category=tech544,0,23,0,0
+/checkout?page=292,0,18,0,0
+/login,0,6,0,0
+/dashboard,0,10,0,0
+/checkout?page=2851,0,19,0,0
+/api/users?sort=asc243,0,22,0,0
+/about?sort=asc728,0,18,0,0
+/about?user=urmit647,0,20,0,0
+/?id=1; DROP TABLE users,1,24,1,1
+/dashboard?sort=asc463,0,22,0,0
+/index.html?search=admin' --,1,28,1,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/contact?category=tech902,0,25,0,0
+/checkout?user=urmit424,0,23,0,0
+"/"" OR 1=1 --",1,12,1,0
+/login?id=1732,0,14,0,0
+/index.html?search='; EXEC xp_cmdshell('dir');--,1,48,7,1
+/dashboard?category=tech890,0,27,0,0
+/contact?search=%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,55,9,3
+/contact?page=246,0,17,0,0
+"/dashboard?search=UNION SELECT username, password FROM users",1,60,0,2
+/../../../windows/system32/cmd.exe,1,34,0,0
+/checkout?page=2365,0,19,0,0
+/checkout?user=urmit972,0,23,0,0
+/contact?user=urmit753,0,22,0,0
+/index.html,0,11,0,0
+/index.html?id=1373,0,19,0,0
+/checkout?id=1890,0,17,0,0
+/products/item?search=onload=prompt(1),1,38,2,0
+/index.html?id=1141,0,19,0,0
+/products/item?sort=asc338,0,26,0,0
+/?id=1; DROP TABLE users,1,24,1,1
+/api/users?search=?id=1; DROP TABLE users,1,41,1,1
+/contact?user=urmit881,0,22,0,0
+/checkout?sort=asc739,0,21,0,0
+/contact?page=2437,0,18,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/index.html?id=1355,0,19,0,0
+/api/users?sort=asc256,0,22,0,0
+/products/item?id=1369,0,22,0,0
+/about?category=tech868,0,23,0,0
+/dashboard?page=2640,0,20,0,0
+/products/item?sort=asc528,0,26,0,0
+/index.html?page=2925,0,21,0,0
+/dashboard,0,10,0,0
+/about?user=urmit834,0,20,0,0
+/dashboard?category=tech683,0,27,0,0
+/products/item?user=urmit677,0,28,0,0
+/dashboard?user=urmit464,0,24,0,0
+/api/users?sort=asc501,0,22,0,0
+/login?search=<script>alert(document.cookie)</script>,1,53,6,3
+/dashboard,0,10,0,0
+/contact?id=1729,0,16,0,0
+/index.html,0,11,0,0
+/dashboard?category=tech244,0,27,0,0
+/checkout,0,9,0,0
+/about?search=?id=1; DROP TABLE users,1,37,1,1
+/about,0,6,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/dashboard?page=2308,0,20,0,0
+/onload=prompt(1),1,17,2,0
+/index.html?page=2443,0,21,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/index.html?category=tech84,0,27,0,0
+/dashboard?user=urmit119,0,24,0,0
+/about?search=admin' --,1,23,1,0
+/' OR '1'='1,1,12,4,0
+/index.html?sort=asc360,0,23,0,0
+/api/users?page=2500,0,20,0,0
+/?id=1; DROP TABLE users,1,24,1,1
+/checkout?category=tech877,0,26,0,0
+/index.html,0,11,0,0
+/checkout?search=%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,56,9,3
+/dashboard?page=2891,0,20,0,0
+/about?sort=asc272,0,18,0,0
+/checkout?page=2765,0,19,0,0
+/about?user=urmit653,0,20,0,0
+/about?sort=asc573,0,18,0,0
+/checkout,0,9,0,0
+/api/users,0,10,0,0
+/login?user=urmit968,0,20,0,0
+/index.html?category=tech968,0,28,0,0
+/index.html?id=1925,0,19,0,0
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/contact?sort=asc676,0,20,0,0
+/index.html?page=2391,0,21,0,0
+/login?user=urmit962,0,20,0,0
+/login,0,6,0,0
+/dashboard?id=196,0,17,0,0
+/checkout?user=urmit513,0,23,0,0
+/dashboard,0,10,0,0
+"/"" OR 1=1 --",1,12,1,0
+/../../../../etc/passwd,1,23,0,0
+/products/item?page=2776,0,24,0,0
+/' OR '1'='1,1,12,4,0
+/contact?search=../../../../etc/passwd,1,38,0,0
+/products/item?user=urmit263,0,28,0,0
+"/index.html?search="" OR 1=1 --",1,30,1,0
+/checkout?category=tech135,0,26,0,0
+/dashboard?page=2218,0,20,0,0
+/contact,0,8,0,0
+/contact,0,8,0,0
+/index.html,0,11,0,0
+/dashboard?category=tech37,0,26,0,0
+/?id=1; DROP TABLE users,1,24,1,1
+/login?id=1509,0,14,0,0
+/api/users?category=tech231,0,27,0,0
+/checkout?user=urmit405,0,23,0,0
+/dashboard?id=1148,0,18,0,0
+/login?page=2204,0,16,0,0
+/about?id=1203,0,14,0,0
+/checkout?page=2674,0,19,0,0
+/contact?category=tech569,0,25,0,0
+/contact?sort=asc878,0,20,0,0
+/' OR '1'='1,1,12,4,0
+/checkout,0,9,0,0
+/contact?user=urmit477,0,22,0,0
+/dashboard?user=urmit955,0,24,0,0
+/api/users?category=tech459,0,27,0,0
+/login,0,6,0,0
+"/dashboard?search="" OR 1=1 --",1,29,1,0
+/checkout?user=urmit865,0,23,0,0
+/' OR '1'='1,1,12,4,0
+/login?search=../../../windows/system32/cmd.exe,1,47,0,0
+/dashboard?category=tech987,0,27,0,0
+/products/item?category=tech851,0,31,0,0
+/dashboard?id=1959,0,18,0,0
+/about?user=urmit116,0,20,0,0
+/index.html?sort=asc461,0,23,0,0
+/index.html?category=tech881,0,28,0,0
+/index.html?page=2997,0,21,0,0
+/dashboard,0,10,0,0
+/login?page=2614,0,16,0,0
+/login?id=1745,0,14,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/contact?search=%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,55,9,3
+/dashboard?id=1482,0,18,0,0
+/api/users,0,10,0,0
+/dashboard?page=2700,0,20,0,0
+/index.html?page=2989,0,21,0,0
+/about?category=tech734,0,23,0,0
+/api/users?search=../../../../etc/passwd,1,40,0,0
+/api/users?sort=asc585,0,22,0,0
+/products/item?search=' OR '1'='1,1,33,4,0
+/about?page=2214,0,16,0,0
+/dashboard?page=2498,0,20,0,0
+/index.html?user=urmit960,0,25,0,0
+/login?user=urmit919,0,20,0,0
+/products/item,0,14,0,0
+/checkout?sort=asc631,0,21,0,0
+/about?search=%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,53,9,3
+/api/users?id=1594,0,18,0,0
+/login?user=urmit388,0,20,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/login?id=1458,0,14,0,0
+/contact?id=1703,0,16,0,0
+/login?sort=asc490,0,18,0,0
+/about?sort=asc420,0,18,0,0
+/products/item,0,14,0,0
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/products/item?page=2950,0,24,0,0
+/index.html?category=tech859,0,28,0,0
+/about?user=urmit784,0,20,0,0
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/about,0,6,0,0
+/contact?category=tech344,0,25,0,0
+/dashboard?id=1145,0,18,0,0
+/products/item,0,14,0,0
+/about?page=2494,0,16,0,0
+/contact?search=' OR '1'='1,1,27,4,0
+/contact,0,8,0,0
+/contact?id=1153,0,16,0,0
+/dashboard?user=urmit324,0,24,0,0
+/dashboard?page=251,0,19,0,0
+/checkout?user=urmit572,0,23,0,0
+/about?id=1970,0,14,0,0
+/about?sort=asc30,0,17,0,0
+/index.html?category=tech505,0,28,0,0
+/products/item?page=258,0,23,0,0
+/index.html?page=2905,0,21,0,0
+/about?category=tech112,0,23,0,0
+/about?user=urmit670,0,20,0,0
+/products/item,0,14,0,0
+"/about?search="" OR 1=1 --",1,25,1,0
+/contact?user=urmit416,0,22,0,0
+/about?user=urmit973,0,20,0,0
+/login,0,6,0,0
+"/dashboard?search="" OR 1=1 --",1,29,1,0
+/?id=1; DROP TABLE users,1,24,1,1
+/login?page=2335,0,16,0,0
+/index.html?sort=asc885,0,23,0,0
+/dashboard?user=urmit576,0,24,0,0
+/login?page=2557,0,16,0,0
+/contact?user=urmit319,0,22,0,0
+/index.html?id=131,0,18,0,0
+/contact?sort=asc630,0,20,0,0
+/checkout?user=urmit121,0,23,0,0
+/api/users?category=tech200,0,27,0,0
+/admin' --,1,10,1,0
+/products/item?user=urmit913,0,28,0,0
+/contact?search=admin' --,1,25,1,0
+/login,0,6,0,0
+/admin' --,1,10,1,0
+/about?sort=asc418,0,18,0,0
+/products/item?user=urmit664,0,28,0,0
+/checkout?user=urmit291,0,23,0,0
+"/UNION SELECT username, password FROM users",1,43,0,2
+/login?user=urmit280,0,20,0,0
+"/contact?search="" OR 1=1 --",1,27,1,0
+/index.html,0,11,0,0
+/checkout,0,9,0,0
+/api/users,0,10,0,0
+/checkout,0,9,0,0
+/about?user=urmit722,0,20,0,0
+/dashboard,0,10,0,0
+/checkout?sort=asc16,0,20,0,0
+/about?sort=asc66,0,17,0,0
+/products/item?id=1186,0,22,0,0
+/login?page=2769,0,16,0,0
+/about?id=1893,0,14,0,0
+/api/users?user=urmit418,0,24,0,0
+/index.html?sort=asc667,0,23,0,0
+"/UNION SELECT username, password FROM users",1,43,0,2
+/login,0,6,0,0
+/contact?search=' OR '1'='1,1,27,4,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/index.html?user=urmit541,0,25,0,0
+/login,0,6,0,0
+/checkout?id=1815,0,17,0,0
+/products/item?sort=asc930,0,26,0,0
+/index.html,0,11,0,0
+/checkout?category=tech919,0,26,0,0
+/dashboard?category=tech286,0,27,0,0
+/api/users,0,10,0,0
+/contact?id=1787,0,16,0,0
+/checkout?category=tech775,0,26,0,0
+/api/users?id=1728,0,18,0,0
+/about?sort=asc517,0,18,0,0
+/dashboard?id=1200,0,18,0,0
+/checkout?page=2452,0,19,0,0
+/products/item?search=%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,61,9,3
+/dashboard?sort=asc456,0,22,0,0
+/about?id=1325,0,14,0,0
+/about?id=143,0,13,0,0
+/contact?sort=asc816,0,20,0,0
+/contact,0,8,0,0
+/api/users?sort=asc9,0,20,0,0
+/contact?id=179,0,15,0,0
+/checkout?category=tech57,0,25,0,0
+/products/item?category=tech952,0,31,0,0
+/api/users?category=tech634,0,27,0,0
+/index.html?user=urmit197,0,25,0,0
+/contact?user=urmit837,0,22,0,0
+/index.html,0,11,0,0
+/index.html?user=urmit78,0,24,0,0
+/dashboard?page=2436,0,20,0,0
+/dashboard?page=2565,0,20,0,0
+/about?id=1873,0,14,0,0
+/checkout?sort=asc781,0,21,0,0
+/contact?page=2545,0,18,0,0
+/products/item?category=tech160,0,31,0,0
+/checkout?id=1269,0,17,0,0
+/checkout?category=tech870,0,26,0,0
+/login?user=urmit427,0,20,0,0
+/products/item?search=admin' --,1,31,1,0
+/api/users?id=137,0,17,0,0
+/api/users?search=javascript:eval('var a=1'),1,44,4,1
+/javascript:eval('var a=1'),1,27,4,1
+/products/item?page=277,0,23,0,0
+/dashboard?user=urmit81,0,23,0,0
+/api/users?category=tech311,0,27,0,0
+/index.html?page=2171,0,21,0,0
+/contact?id=1647,0,16,0,0
+/admin' --,1,10,1,0
+/dashboard?sort=asc447,0,22,0,0
+/login,0,6,0,0
+/checkout?search='; EXEC xp_cmdshell('dir');--,1,46,7,1
+/contact?page=2472,0,18,0,0
+/products/item?sort=asc39,0,25,0,0
+/about?user=urmit647,0,20,0,0
+/index.html?id=154,0,18,0,0
+"/UNION SELECT username, password FROM users",1,43,0,2
+/index.html?sort=asc343,0,23,0,0
+/dashboard?id=1604,0,18,0,0
+"/UNION SELECT username, password FROM users",1,43,0,2
+/index.html?category=tech296,0,28,0,0
+/api/users?page=2240,0,20,0,0
+/contact?user=urmit45,0,21,0,0
+/dashboard?user=urmit899,0,24,0,0
+/login?category=tech164,0,23,0,0
+/products/item?search=?id=1; DROP TABLE users,1,45,1,1
+/dashboard?user=urmit164,0,24,0,0
+/checkout?page=2515,0,19,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/login?search=onload=prompt(1),1,30,2,0
+/products/item,0,14,0,0
+/dashboard?id=1255,0,18,0,0
+/contact?sort=asc726,0,20,0,0
+/onload=prompt(1),1,17,2,0
+/javascript:eval('var a=1'),1,27,4,1
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/contact,0,8,0,0
+/contact?category=tech689,0,25,0,0
+/admin' --,1,10,1,0
+/api/users?page=265,0,19,0,0
+/about,0,6,0,0
+/dashboard?id=1939,0,18,0,0
+/about?user=urmit961,0,20,0,0
+/login?search=onload=prompt(1),1,30,2,0
+/dashboard?page=2115,0,20,0,0
+/api/users?page=2927,0,20,0,0
+/index.html,0,11,0,0
+/checkout,0,9,0,0
+/checkout?page=2832,0,19,0,0
+/index.html?sort=asc520,0,23,0,0
+/contact,0,8,0,0
+/contact,0,8,0,0
+/contact?user=urmit349,0,22,0,0
+/contact?sort=asc464,0,20,0,0
+/checkout?category=tech399,0,26,0,0
+/dashboard?id=1442,0,18,0,0
+/about?search=<script>alert(document.cookie)</script>,1,53,6,3
+/login?id=1396,0,14,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/products/item,0,14,0,0
+/contact?category=tech239,0,25,0,0
+/products/item?category=tech185,0,31,0,0
+/index.html,0,11,0,0
+/about?search=admin' --,1,23,1,0
+/contact?id=1932,0,16,0,0
+/products/item,0,14,0,0
+/products/item?search=admin' --,1,31,1,0
+/checkout?search=../../../windows/system32/cmd.exe,1,50,0,0
+/dashboard?sort=asc208,0,22,0,0
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/login,0,6,0,0
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/products/item?id=1639,0,22,0,0
+/login?user=urmit769,0,20,0,0
+/api/users?user=urmit315,0,24,0,0
+/index.html?id=1246,0,19,0,0
+/contact?id=176,0,15,0,0
+/api/users?user=urmit893,0,24,0,0
+/contact?page=2675,0,18,0,0
+/checkout?sort=asc321,0,21,0,0
+/products/item?sort=asc330,0,26,0,0
+/login?user=urmit737,0,20,0,0
+/about,0,6,0,0
+/index.html?id=1583,0,19,0,0
+/index.html?id=1315,0,19,0,0
+/checkout?search=../../../windows/system32/cmd.exe,1,50,0,0
+/api/users?category=tech465,0,27,0,0
+/admin' --,1,10,1,0
+/login?id=199,0,13,0,0
+/checkout?search=../../../windows/system32/cmd.exe,1,50,0,0
+/contact?id=1678,0,16,0,0
+/about?search=<script>alert(document.cookie)</script>,1,53,6,3
+/dashboard,0,10,0,0
+/api/users?search=<script>alert(document.cookie)</script>,1,57,6,3
+/api/users,0,10,0,0
+/' OR '1'='1,1,12,4,0
+/login,0,6,0,0
+/../../../../etc/passwd,1,23,0,0
+/products/item?id=1988,0,22,0,0
+/dashboard,0,10,0,0
+/api/users?id=1393,0,18,0,0
+/checkout?id=1359,0,17,0,0
+/login,0,6,0,0
+/checkout?sort=asc11,0,20,0,0
+/api/users?search=?id=1; DROP TABLE users,1,41,1,1
+/login?page=2122,0,16,0,0
+/index.html,0,11,0,0
+/dashboard?user=urmit741,0,24,0,0
+/dashboard?sort=asc506,0,22,0,0
+/checkout?search=<script>alert(document.cookie)</script>,1,56,6,3
+/checkout?user=urmit922,0,23,0,0
+/contact?search=' OR '1'='1,1,27,4,0
+/dashboard?page=275,0,19,0,0
+/../../../../etc/passwd,1,23,0,0
+/about?id=1846,0,14,0,0
+/about?category=tech651,0,23,0,0
+/api/users,0,10,0,0
+/contact?sort=asc34,0,19,0,0
+/contact,0,8,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/api/users?user=urmit637,0,24,0,0
+/dashboard?user=urmit72,0,23,0,0
+/dashboard?page=273,0,19,0,0
+/products/item,0,14,0,0
+/products/item?user=urmit163,0,28,0,0
+/checkout?search=onload=prompt(1),1,33,2,0
+/products/item?search=%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,61,9,3
+/api/users?user=urmit546,0,24,0,0
+"/"" OR 1=1 --",1,12,1,0
+/dashboard?sort=asc936,0,22,0,0
+/contact?id=1264,0,16,0,0
+/login?search=' OR '1'='1,1,25,4,0
+/login?id=161,0,13,0,0
+/products/item?sort=asc415,0,26,0,0
+/contact?id=1443,0,16,0,0
+/api/users?category=tech317,0,27,0,0
+/dashboard?page=2173,0,20,0,0
+/dashboard?id=1820,0,18,0,0
+/dashboard?category=tech65,0,26,0,0
+/about?user=urmit647,0,20,0,0
+/api/users?category=tech629,0,27,0,0
+/products/item?category=tech85,0,30,0,0
+/login?sort=asc747,0,18,0,0
+/products/item?sort=asc455,0,26,0,0
+/about?page=2215,0,16,0,0
+/products/item,0,14,0,0
+/onload=prompt(1),1,17,2,0
+/dashboard?sort=asc157,0,22,0,0
+/login?category=tech415,0,23,0,0
+/api/users?id=160,0,17,0,0
+/about,0,6,0,0
+/api/users,0,10,0,0
+"/contact?search="" OR 1=1 --",1,27,1,0
+/index.html,0,11,0,0
+/login?sort=asc811,0,18,0,0
+/api/users?user=urmit169,0,24,0,0
+/../../../../etc/passwd,1,23,0,0
+/products/item?category=tech766,0,31,0,0
+/contact?category=tech137,0,25,0,0
+/about?user=urmit966,0,20,0,0
+/' OR '1'='1,1,12,4,0
+/products/item?sort=asc408,0,26,0,0
+/products/item?category=tech983,0,31,0,0
+/about?id=1339,0,14,0,0
+/api/users,0,10,0,0
+/api/users?user=urmit542,0,24,0,0
+/index.html?category=tech511,0,28,0,0
+/checkout?id=1675,0,17,0,0
+/contact?page=2266,0,18,0,0
+/checkout?category=tech883,0,26,0,0
+/dashboard?category=tech762,0,27,0,0
+/about?user=urmit24,0,19,0,0
+/products/item?search=<script>alert(document.cookie)</script>,1,61,6,3
+/../../../../etc/passwd,1,23,0,0
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/products/item?sort=asc987,0,26,0,0
+/products/item?sort=asc101,0,26,0,0
+/api/users?category=tech538,0,27,0,0
+/dashboard,0,10,0,0
+/onload=prompt(1),1,17,2,0
+/api/users,0,10,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/index.html?sort=asc263,0,23,0,0
+/checkout?search=' OR '1'='1,1,28,4,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/login?sort=asc883,0,18,0,0
+/about?search=../../../windows/system32/cmd.exe,1,47,0,0
+/api/users?search=?id=1; DROP TABLE users,1,41,1,1
+/login?id=1243,0,14,0,0
+/api/users?category=tech100,0,27,0,0
+/../../../../etc/passwd,1,23,0,0
+/login,0,6,0,0
+/index.html?id=1429,0,19,0,0
+/dashboard?category=tech814,0,27,0,0
+/checkout,0,9,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/contact?sort=asc430,0,20,0,0
+/contact,0,8,0,0
+/about,0,6,0,0
+/dashboard?user=urmit739,0,24,0,0
+/about,0,6,0,0
+/login,0,6,0,0
+/products/item?search=%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,61,9,3
+/api/users?search=../../../windows/system32/cmd.exe,1,51,0,0
+/products/item?id=1699,0,22,0,0
+/login?sort=asc350,0,18,0,0
+/login?id=1946,0,14,0,0
+/products/item?sort=asc964,0,26,0,0
+/checkout?page=2859,0,19,0,0
+/../../../../etc/passwd,1,23,0,0
+/contact?user=urmit718,0,22,0,0
+/../../../../etc/passwd,1,23,0,0
+/dashboard?sort=asc155,0,22,0,0
+/api/users?sort=asc99,0,21,0,0
+/checkout?search='; EXEC xp_cmdshell('dir');--,1,46,7,1
+/about,0,6,0,0
+/index.html?id=1215,0,19,0,0
+/index.html?sort=asc574,0,23,0,0
+/checkout?page=2194,0,19,0,0
+/contact?search=?id=1; DROP TABLE users,1,39,1,1
+/api/users?id=1799,0,18,0,0
+/' OR '1'='1,1,12,4,0
+/contact?sort=asc54,0,19,0,0
+/login?id=1276,0,14,0,0
+/index.html,0,11,0,0
+/products/item?page=2126,0,24,0,0
+/about?id=1191,0,14,0,0
+/api/users?search=onload=prompt(1),1,34,2,0
+/index.html?id=1658,0,19,0,0
+/contact?sort=asc304,0,20,0,0
+/dashboard?category=tech165,0,27,0,0
+/api/users?category=tech909,0,27,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/products/item?id=1462,0,22,0,0
+/contact?page=2124,0,18,0,0
+/products/item?search=javascript:eval('var a=1'),1,48,4,1
+/contact?user=urmit468,0,22,0,0
+/about?category=tech584,0,23,0,0
+/index.html?id=1162,0,19,0,0
+/index.html?id=1988,0,19,0,0
+/checkout?page=2223,0,19,0,0
+/products/item?sort=asc27,0,25,0,0
+/api/users?user=urmit460,0,24,0,0
+/api/users?page=2371,0,20,0,0
+/contact?user=urmit715,0,22,0,0
+/api/users?category=tech923,0,27,0,0
+/api/users,0,10,0,0
+/login,0,6,0,0
+/index.html?category=tech431,0,28,0,0
+/about?page=2733,0,16,0,0
+/about?sort=asc419,0,18,0,0
+/products/item?search=<script>alert(document.cookie)</script>,1,61,6,3
+/checkout,0,9,0,0
+/api/users?category=tech595,0,27,0,0
+/login?category=tech91,0,22,0,0
+/checkout?user=urmit788,0,23,0,0
+/api/users?sort=asc556,0,22,0,0
+/index.html,0,11,0,0
+/products/item?user=urmit841,0,28,0,0
+/dashboard?sort=asc711,0,22,0,0
+/../../../../etc/passwd,1,23,0,0
+/products/item?id=128,0,21,0,0
+/checkout,0,9,0,0
+/about?page=2515,0,16,0,0
+/contact,0,8,0,0
+/index.html?page=2223,0,21,0,0
+/checkout?id=145,0,16,0,0
+/../../../../etc/passwd,1,23,0,0
+/login?id=1859,0,14,0,0
+/products/item?sort=asc589,0,26,0,0
+/login?search=' OR '1'='1,1,25,4,0
+/checkout,0,9,0,0
+/login?id=1415,0,14,0,0
+/' OR '1'='1,1,12,4,0
+/about?category=tech554,0,23,0,0
+/login?sort=asc889,0,18,0,0
+/contact?id=1947,0,16,0,0
+"/UNION SELECT username, password FROM users",1,43,0,2
+/checkout?page=2644,0,19,0,0
+/api/users?sort=asc545,0,22,0,0
+/about?sort=asc778,0,18,0,0
+/api/users?id=1687,0,18,0,0
+/api/users?category=tech19,0,26,0,0
+/index.html,0,11,0,0
+/index.html?page=2764,0,21,0,0
+/about?page=2583,0,16,0,0
+/contact?category=tech943,0,25,0,0
+"/checkout?search=UNION SELECT username, password FROM users",1,59,0,2
+/api/users?user=urmit910,0,24,0,0
+/index.html?user=urmit566,0,25,0,0
+/about,0,6,0,0
+/products/item?category=tech318,0,31,0,0
+/login?user=urmit109,0,20,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/dashboard?search='; EXEC xp_cmdshell('dir');--,1,47,7,1
+/checkout?sort=asc595,0,21,0,0
+/about?id=1857,0,14,0,0
+/onload=prompt(1),1,17,2,0
+/about?category=tech851,0,23,0,0
+/checkout?id=1494,0,17,0,0
+/contact?user=urmit561,0,22,0,0
+/onload=prompt(1),1,17,2,0
+/contact?user=urmit483,0,22,0,0
+"/index.html?search=UNION SELECT username, password FROM users",1,61,0,2
+/index.html?user=urmit77,0,24,0,0
+"/contact?search="" OR 1=1 --",1,27,1,0
+/dashboard?sort=asc967,0,22,0,0
+/products/item,0,14,0,0
+/login?category=tech712,0,23,0,0
+/dashboard?page=2176,0,20,0,0
+/about?sort=asc655,0,18,0,0
+/login,0,6,0,0
+/dashboard?category=tech162,0,27,0,0
+/index.html?page=2583,0,21,0,0
+/products/item?page=2963,0,24,0,0
+/login?page=2209,0,16,0,0
+/products/item,0,14,0,0
+/login,0,6,0,0
+/index.html?id=1482,0,19,0,0
+/contact?category=tech397,0,25,0,0
+/contact,0,8,0,0
+/about?page=2737,0,16,0,0
+/about?id=1790,0,14,0,0
+/?id=1; DROP TABLE users,1,24,1,1
+/dashboard?user=urmit178,0,24,0,0
+/index.html?page=2548,0,21,0,0
+/onload=prompt(1),1,17,2,0
+/index.html?page=2848,0,21,0,0
+/about?user=urmit913,0,20,0,0
+/api/users,0,10,0,0
+/checkout?search=' OR '1'='1,1,28,4,0
+/dashboard?id=1713,0,18,0,0
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/index.html?id=1111,0,19,0,0
+/index.html?search=<script>alert(document.cookie)</script>,1,58,6,3
+/login?search=<script>alert(document.cookie)</script>,1,53,6,3
+/index.html?category=tech461,0,28,0,0
+/index.html?id=142,0,18,0,0
+/login?id=1254,0,14,0,0
+/' OR '1'='1,1,12,4,0
+/about?id=1401,0,14,0,0
+/api/users?user=urmit593,0,24,0,0
+/api/users,0,10,0,0
+/contact?category=tech670,0,25,0,0
+/contact?category=tech324,0,25,0,0
+/products/item?category=tech602,0,31,0,0
+/checkout?sort=asc215,0,21,0,0
+/index.html?id=1416,0,19,0,0
+/about?sort=asc585,0,18,0,0
+/dashboard,0,10,0,0
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/about?id=1408,0,14,0,0
+/login?category=tech452,0,23,0,0
+/contact?page=2848,0,18,0,0
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/about?user=urmit23,0,19,0,0
+"/"" OR 1=1 --",1,12,1,0
+/../../../../etc/passwd,1,23,0,0
+/api/users?id=1827,0,18,0,0
+/api/users?search=admin' --,1,27,1,0
+/dashboard?page=2419,0,20,0,0
+"/about?search="" OR 1=1 --",1,25,1,0
+/checkout?id=126,0,16,0,0
+/contact?user=urmit649,0,22,0,0
+/api/users,0,10,0,0
+/products/item,0,14,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/../../../../etc/passwd,1,23,0,0
+/api/users,0,10,0,0
+/onload=prompt(1),1,17,2,0
+/contact,0,8,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/contact?user=urmit610,0,22,0,0
+/products/item?category=tech419,0,31,0,0
+/contact?category=tech456,0,25,0,0
+/login?user=urmit750,0,20,0,0
+/about?id=1891,0,14,0,0
+/index.html,0,11,0,0
+/checkout?sort=asc860,0,21,0,0
+/contact?user=urmit514,0,22,0,0
+/index.html?id=1431,0,19,0,0
+/index.html?id=164,0,18,0,0
+/dashboard,0,10,0,0
+/login?user=urmit263,0,20,0,0
+/dashboard?page=2611,0,20,0,0
+/checkout,0,9,0,0
+/checkout?sort=asc246,0,21,0,0
+/api/users?id=1750,0,18,0,0
+/products/item?category=tech580,0,31,0,0
+/about,0,6,0,0
+/index.html?search=../../../../etc/passwd,1,41,0,0
+/contact?search=onload=prompt(1),1,32,2,0
+/about?user=urmit602,0,20,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/checkout?user=urmit742,0,23,0,0
+/about?search=../../../windows/system32/cmd.exe,1,47,0,0
+/about?page=2318,0,16,0,0
+/dashboard?id=1793,0,18,0,0
+/login?category=tech492,0,23,0,0
+/products/item?sort=asc80,0,25,0,0
+/checkout?user=urmit204,0,23,0,0
+/index.html?page=213,0,20,0,0
+/../../../../etc/passwd,1,23,0,0
+/index.html?category=tech13,0,27,0,0
+/contact?page=2774,0,18,0,0
+/products/item?category=tech649,0,31,0,0
+/dashboard?user=urmit981,0,24,0,0
+/contact?search=../../../windows/system32/cmd.exe,1,49,0,0
+/checkout,0,9,0,0
+/index.html?page=2889,0,21,0,0
+/login,0,6,0,0
+/login?category=tech470,0,23,0,0
+/index.html?id=1280,0,19,0,0
+/api/users,0,10,0,0
+/login?sort=asc158,0,18,0,0
+/index.html,0,11,0,0
+/index.html?user=urmit825,0,25,0,0
+/index.html?category=tech166,0,28,0,0
+/products/item?user=urmit549,0,28,0,0
+/contact?id=1694,0,16,0,0
+/login?page=2646,0,16,0,0
+/checkout?id=182,0,16,0,0
+/?id=1; DROP TABLE users,1,24,1,1
+/login?page=2805,0,16,0,0
+/checkout?sort=asc484,0,21,0,0
+/about?sort=asc504,0,18,0,0
+/about?user=urmit129,0,20,0,0
+/about?search=onload=prompt(1),1,30,2,0
+/<script>alert(document.cookie)</script>,1,40,6,3
+/login?id=1900,0,14,0,0
+/login?category=tech601,0,23,0,0
+/about?sort=asc278,0,18,0,0
+/checkout,0,9,0,0
+/about?user=urmit975,0,20,0,0
+/index.html?sort=asc223,0,23,0,0
+/about?user=urmit639,0,20,0,0
+/contact?page=2551,0,18,0,0
+/checkout?id=1935,0,17,0,0
+/checkout?page=2777,0,19,0,0
+/checkout?search=?id=1; DROP TABLE users,1,40,1,1
+/dashboard?user=urmit398,0,24,0,0
+/dashboard?category=tech324,0,27,0,0
+/login,0,6,0,0
+/dashboard?sort=asc201,0,22,0,0
+/about?search=admin' --,1,23,1,0
+/dashboard?category=tech374,0,27,0,0
+/contact?search=%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,55,9,3
+/products/item?sort=asc356,0,26,0,0
+/' OR '1'='1,1,12,4,0
+/index.html?sort=asc601,0,23,0,0
+/dashboard?id=1210,0,18,0,0
+/products/item?sort=asc608,0,26,0,0
+/api/users?user=urmit966,0,24,0,0
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/about?user=urmit782,0,20,0,0
+/api/users,0,10,0,0
+/products/item?category=tech474,0,31,0,0
+/api/users,0,10,0,0
+/api/users?page=2260,0,20,0,0
+/login,0,6,0,0
+/products/item?page=2998,0,24,0,0
+/contact?page=2194,0,18,0,0
+/checkout?id=1599,0,17,0,0
+/login?page=2117,0,16,0,0
+/about,0,6,0,0
+/checkout?category=tech610,0,26,0,0
+/index.html?sort=asc12,0,22,0,0
+/login?sort=asc903,0,18,0,0
+/login?sort=asc895,0,18,0,0
+/about,0,6,0,0
+/products/item,0,14,0,0
+/contact?sort=asc373,0,20,0,0
+/contact?category=tech896,0,25,0,0
+/about?category=tech355,0,23,0,0
+"/"" OR 1=1 --",1,12,1,0
+/contact?sort=asc692,0,20,0,0
+/about?user=urmit836,0,20,0,0
+/contact?page=2927,0,18,0,0
+/login?id=165,0,13,0,0
+/about?category=tech297,0,23,0,0
+/contact?sort=asc855,0,20,0,0
+/contact?user=urmit363,0,22,0,0
+/checkout?page=2220,0,19,0,0
+/admin' --,1,10,1,0
+/products/item?search=../../../windows/system32/cmd.exe,1,55,0,0
+/checkout?page=2336,0,19,0,0
+/checkout?search=?id=1; DROP TABLE users,1,40,1,1
+/dashboard?id=1928,0,18,0,0
+/dashboard?sort=asc744,0,22,0,0
+/login,0,6,0,0
+/login?user=urmit213,0,20,0,0
+/checkout?category=tech163,0,26,0,0
+/api/users,0,10,0,0
+/contact?search=' OR '1'='1,1,27,4,0
+/login?id=1495,0,14,0,0
+/admin' --,1,10,1,0
+/checkout?search=' OR '1'='1,1,28,4,0
+/about?search=<script>alert(document.cookie)</script>,1,53,6,3
+/dashboard,0,10,0,0
+/about?id=1592,0,14,0,0
+/products/item?page=2857,0,24,0,0
+/contact?page=249,0,17,0,0
+/dashboard?sort=asc547,0,22,0,0
+/checkout?page=286,0,18,0,0
+/login?sort=asc740,0,18,0,0
+/index.html?id=1416,0,19,0,0
+/contact?sort=asc688,0,20,0,0
+/contact?id=1423,0,16,0,0
+/checkout?search=../../../windows/system32/cmd.exe,1,50,0,0
+/api/users?id=1775,0,18,0,0
+/api/users?sort=asc87,0,21,0,0
+/about?page=2679,0,16,0,0
+/dashboard?category=tech66,0,26,0,0
+/dashboard?page=2576,0,20,0,0
+/contact?user=urmit302,0,22,0,0
+/index.html?id=1423,0,19,0,0
+/contact?page=2353,0,18,0,0
+/about,0,6,0,0
+/login?category=tech93,0,22,0,0
+/checkout?category=tech631,0,26,0,0
+/login?page=2661,0,16,0,0
+/products/item?user=urmit81,0,27,0,0
+/dashboard?sort=asc731,0,22,0,0
+/about,0,6,0,0
+/about?user=urmit557,0,20,0,0
+/login,0,6,0,0
+"/about?search=UNION SELECT username, password FROM users",1,56,0,2
+/checkout,0,9,0,0
+/<script>alert(document.cookie)</script>,1,40,6,3
+/contact?sort=asc74,0,19,0,0
+/index.html?page=2701,0,21,0,0
+/index.html?user=urmit170,0,25,0,0
+/dashboard?id=179,0,17,0,0
+/checkout?id=1990,0,17,0,0
+/dashboard?sort=asc200,0,22,0,0
+/onload=prompt(1),1,17,2,0
+/checkout?user=urmit631,0,23,0,0
+/dashboard,0,10,0,0
+/api/users?page=2280,0,20,0,0
+/about,0,6,0,0
+/dashboard?category=tech8,0,25,0,0
+/index.html?sort=asc773,0,23,0,0
+/dashboard?search=../../../../etc/passwd,1,40,0,0
+/index.html?category=tech315,0,28,0,0
+/contact?page=2336,0,18,0,0
+/api/users,0,10,0,0
+/login?sort=asc10,0,17,0,0
+/about?sort=asc263,0,18,0,0
+"/about?search="" OR 1=1 --",1,25,1,0
+/api/users?sort=asc688,0,22,0,0
+/api/users?id=1857,0,18,0,0
+/checkout?sort=asc344,0,21,0,0
+/login?category=tech734,0,23,0,0
+/about?page=2607,0,16,0,0
+/products/item?page=251,0,23,0,0
+/api/users?category=tech766,0,27,0,0
+/dashboard?search=' OR '1'='1,1,29,4,0
+/checkout?user=urmit927,0,23,0,0
+/about?category=tech761,0,23,0,0
+/checkout?sort=asc95,0,20,0,0
+/api/users?id=1866,0,18,0,0
+/api/users?sort=asc64,0,21,0,0
+/login?user=urmit644,0,20,0,0
+/products/item?category=tech730,0,31,0,0
+/about?page=2490,0,16,0,0
+/checkout?id=1731,0,17,0,0
+/checkout,0,9,0,0
+/products/item,0,14,0,0
+/checkout,0,9,0,0
+/contact?category=tech586,0,25,0,0
+/products/item?id=128,0,21,0,0
+/api/users?user=urmit255,0,24,0,0
+/contact?sort=asc586,0,20,0,0
+/checkout,0,9,0,0
+/contact?search=' OR '1'='1,1,27,4,0
+/products/item?sort=asc127,0,26,0,0
+/checkout?category=tech770,0,26,0,0
+/index.html?category=tech435,0,28,0,0
+/about?sort=asc328,0,18,0,0
+/index.html,0,11,0,0
+/contact,0,8,0,0
+/checkout?category=tech454,0,26,0,0
+/login?sort=asc441,0,18,0,0
+/checkout?sort=asc679,0,21,0,0
+/contact?sort=asc333,0,20,0,0
+/about?id=1208,0,14,0,0
+/dashboard?sort=asc734,0,22,0,0
+/checkout?user=urmit527,0,23,0,0
+/admin' --,1,10,1,0
+/contact?page=2900,0,18,0,0
+"/"" OR 1=1 --",1,12,1,0
+/dashboard?page=2101,0,20,0,0
+/dashboard?category=tech648,0,27,0,0
+/products/item?search=<script>alert(document.cookie)</script>,1,61,6,3
+"/about?search=UNION SELECT username, password FROM users",1,56,0,2
+/contact?id=1736,0,16,0,0
+/checkout?sort=asc840,0,21,0,0
+/index.html?id=1869,0,19,0,0
+/contact?page=2780,0,18,0,0
+/api/users?sort=asc634,0,22,0,0
+/login?user=urmit286,0,20,0,0
+/about?page=2943,0,16,0,0
+/contact?page=2177,0,18,0,0
+/about?id=1855,0,14,0,0
+/api/users?user=urmit393,0,24,0,0
+/onload=prompt(1),1,17,2,0
+/contact,0,8,0,0
+"/index.html?search="" OR 1=1 --",1,30,1,0
+/about?category=tech99,0,22,0,0
+/?id=1; DROP TABLE users,1,24,1,1
+/api/users?category=tech584,0,27,0,0
+/dashboard?page=259,0,19,0,0
+/index.html?category=tech132,0,28,0,0
+/dashboard?search=?id=1; DROP TABLE users,1,41,1,1
+/login?search=admin' --,1,23,1,0
+/contact?user=urmit824,0,22,0,0
+/login,0,6,0,0
+/about?category=tech471,0,23,0,0
+/dashboard?id=1988,0,18,0,0
+/checkout?sort=asc631,0,21,0,0
+/index.html,0,11,0,0
+/about?sort=asc983,0,18,0,0
+/dashboard?page=2879,0,20,0,0
+/products/item?user=urmit168,0,28,0,0
+/dashboard?user=urmit252,0,24,0,0
+/about?sort=asc553,0,18,0,0
+/contact?category=tech301,0,25,0,0
+/index.html?page=2586,0,21,0,0
+/checkout?user=urmit438,0,23,0,0
+/about?user=urmit99,0,19,0,0
+/contact?user=urmit29,0,21,0,0
+/products/item?id=1540,0,22,0,0
+/products/item?sort=asc483,0,26,0,0
+/about?user=urmit896,0,20,0,0
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/index.html?category=tech527,0,28,0,0
+/api/users?page=2452,0,20,0,0
+/dashboard?sort=asc750,0,22,0,0
+/onload=prompt(1),1,17,2,0
+/about,0,6,0,0
+/api/users?sort=asc785,0,22,0,0
+/index.html?sort=asc671,0,23,0,0
+/login?category=tech621,0,23,0,0
+/index.html?category=tech685,0,28,0,0
+/login,0,6,0,0
+/dashboard?page=2950,0,20,0,0
+/products/item?user=urmit435,0,28,0,0
+/api/users?category=tech607,0,27,0,0
+/login?user=urmit598,0,20,0,0
+/checkout,0,9,0,0
+/dashboard?user=urmit661,0,24,0,0
+"/UNION SELECT username, password FROM users",1,43,0,2
+/api/users?sort=asc966,0,22,0,0
+/onload=prompt(1),1,17,2,0
+"/UNION SELECT username, password FROM users",1,43,0,2
+/dashboard?user=urmit679,0,24,0,0
+/about,0,6,0,0
+/login?page=2892,0,16,0,0
+/api/users?page=2381,0,20,0,0
+/products/item?page=2914,0,24,0,0
+/dashboard?category=tech466,0,27,0,0
+/dashboard?sort=asc502,0,22,0,0
+/products/item?page=2865,0,24,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/about?category=tech419,0,23,0,0
+"/index.html?search=UNION SELECT username, password FROM users",1,61,0,2
+/index.html?user=urmit352,0,25,0,0
+/contact?category=tech576,0,25,0,0
+/admin' --,1,10,1,0
+/?id=1; DROP TABLE users,1,24,1,1
+/contact?sort=asc169,0,20,0,0
+/contact?id=1730,0,16,0,0
+/about?user=urmit543,0,20,0,0
+/contact?sort=asc592,0,20,0,0
+/checkout?category=tech264,0,26,0,0
+/about?id=1981,0,14,0,0
+/dashboard?page=2994,0,20,0,0
+"/contact?search=UNION SELECT username, password FROM users",1,58,0,2
+/index.html?sort=asc178,0,23,0,0
+/checkout,0,9,0,0
+/products/item?category=tech905,0,31,0,0
+/products/item?user=urmit296,0,28,0,0
+/products/item?category=tech437,0,31,0,0
+/api/users?sort=asc744,0,22,0,0
+/api/users?user=urmit377,0,24,0,0
+/dashboard?page=2184,0,20,0,0
+/products/item,0,14,0,0
+/dashboard?id=1542,0,18,0,0
+/products/item?id=1541,0,22,0,0
+/login?category=tech962,0,23,0,0
+/contact?id=1113,0,16,0,0
+/dashboard?id=1402,0,18,0,0
+/checkout?page=2383,0,19,0,0
+/dashboard,0,10,0,0
+/contact?user=urmit165,0,22,0,0
+/api/users?page=2618,0,20,0,0
+/dashboard?id=1668,0,18,0,0
+/admin' --,1,10,1,0
+/about?category=tech163,0,23,0,0
+/checkout,0,9,0,0
+/checkout?search=%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,56,9,3
+/dashboard?page=2911,0,20,0,0
+/api/users?user=urmit259,0,24,0,0
+/about?sort=asc237,0,18,0,0
+/products/item?id=1612,0,22,0,0
+/login,0,6,0,0
+/dashboard?category=tech130,0,27,0,0
+/about,0,6,0,0
+/login?search=onload=prompt(1),1,30,2,0
+/dashboard,0,10,0,0
+/api/users?sort=asc671,0,22,0,0
+/products/item?user=urmit408,0,28,0,0
+/contact?category=tech965,0,25,0,0
+/login?search=%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,53,9,3
+/about?page=2295,0,16,0,0
+/products/item?category=tech479,0,31,0,0
+/about?id=1895,0,14,0,0
+/api/users?user=urmit521,0,24,0,0
+/products/item?category=tech76,0,30,0,0
+/api/users?id=1221,0,18,0,0
+/index.html?search=../../../windows/system32/cmd.exe,1,52,0,0
+/login?sort=asc847,0,18,0,0
+/contact,0,8,0,0
+/about?search=' OR '1'='1,1,25,4,0
+/about?category=tech887,0,23,0,0
+/products/item,0,14,0,0
+/checkout?id=1131,0,17,0,0
+/contact?search='; EXEC xp_cmdshell('dir');--,1,45,7,1
+/products/item?user=urmit711,0,28,0,0
+/login?sort=asc793,0,18,0,0
+/about?search=onload=prompt(1),1,30,2,0
+/dashboard,0,10,0,0
+/api/users?user=urmit411,0,24,0,0
+/dashboard,0,10,0,0
+/login,0,6,0,0
+/api/users?id=1292,0,18,0,0
+/contact?sort=asc363,0,20,0,0
+/about?search=../../../windows/system32/cmd.exe,1,47,0,0
+/login?page=2280,0,16,0,0
+/api/users?id=1565,0,18,0,0
+/dashboard?page=2887,0,20,0,0
+/products/item?category=tech320,0,31,0,0
+/onload=prompt(1),1,17,2,0
+/about?page=2459,0,16,0,0
+/checkout?id=1118,0,17,0,0
+/login?user=urmit818,0,20,0,0
+/about?id=1224,0,14,0,0
+/index.html?sort=asc142,0,23,0,0
+/login?page=225,0,15,0,0
+/index.html?id=1914,0,19,0,0
+/products/item,0,14,0,0
+/products/item?sort=asc420,0,26,0,0
+/contact,0,8,0,0
+/index.html?sort=asc366,0,23,0,0
+/api/users?category=tech545,0,27,0,0
+/contact?search='; EXEC xp_cmdshell('dir');--,1,45,7,1
+/contact?user=urmit479,0,22,0,0
+/login?id=1478,0,14,0,0
+/login?page=2892,0,16,0,0
+/products/item?id=1992,0,22,0,0
+/login?id=1629,0,14,0,0
+/dashboard?category=tech873,0,27,0,0
+/products/item?user=urmit671,0,28,0,0
+/products/item?category=tech641,0,31,0,0
+/about?search=?id=1; DROP TABLE users,1,37,1,1
+/checkout,0,9,0,0
+/products/item?category=tech769,0,31,0,0
+/checkout?sort=asc769,0,21,0,0
+/products/item?page=2313,0,24,0,0
+/api/users,0,10,0,0
+/checkout?sort=asc817,0,21,0,0
+/login?search=admin' --,1,23,1,0
+/products/item?sort=asc942,0,26,0,0
+/api/users?search=%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,57,9,3
+/checkout?id=1135,0,17,0,0
+/index.html?page=2551,0,21,0,0
+/index.html?sort=asc854,0,23,0,0
+/dashboard,0,10,0,0
+/about?category=tech467,0,23,0,0
+/api/users?search=../../../../etc/passwd,1,40,0,0
+/index.html?id=1156,0,19,0,0
+/checkout?user=urmit499,0,23,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/index.html?id=1460,0,19,0,0
+/checkout?page=2701,0,19,0,0
+/products/item?user=urmit109,0,28,0,0
+/login?id=1481,0,14,0,0
+/index.html?id=1968,0,19,0,0
+/api/users?category=tech210,0,27,0,0
+/products/item?sort=asc57,0,25,0,0
+/index.html?user=urmit803,0,25,0,0
+/login?category=tech79,0,22,0,0
+/checkout?page=225,0,18,0,0
+/' OR '1'='1,1,12,4,0
+/contact,0,8,0,0
+/api/users?user=urmit812,0,24,0,0
+/index.html?page=2960,0,21,0,0
+/about?id=1639,0,14,0,0
+/products/item?category=tech144,0,31,0,0
+/about?page=2132,0,16,0,0
+/contact?user=urmit637,0,22,0,0
+/index.html?page=2832,0,21,0,0
+/dashboard?category=tech427,0,27,0,0
+/index.html?page=2248,0,21,0,0
+"/api/users?search="" OR 1=1 --",1,29,1,0
+/onload=prompt(1),1,17,2,0
+/login?sort=asc265,0,18,0,0
+/login?sort=asc488,0,18,0,0
+/index.html?sort=asc247,0,23,0,0
+/contact?page=250,0,17,0,0
+/dashboard?id=197,0,17,0,0
+/checkout,0,9,0,0
+/dashboard?page=2712,0,20,0,0
+/api/users?id=1369,0,18,0,0
+/../../../../etc/passwd,1,23,0,0
+/products/item,0,14,0,0
+/checkout?search=?id=1; DROP TABLE users,1,40,1,1
+/about?user=urmit149,0,20,0,0
+/contact?user=urmit210,0,22,0,0
+/api/users?page=2373,0,20,0,0
+/index.html?search='; EXEC xp_cmdshell('dir');--,1,48,7,1
+/login?id=1326,0,14,0,0
+/dashboard,0,10,0,0
+/checkout,0,9,0,0
+/products/item?category=tech52,0,30,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/api/users?category=tech154,0,27,0,0
+/contact?sort=asc92,0,19,0,0
+/dashboard?category=tech346,0,27,0,0
+/index.html?page=2443,0,21,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/contact?page=2761,0,18,0,0
+/api/users?id=1789,0,18,0,0
+/products/item,0,14,0,0
+/about?page=2411,0,16,0,0
+/' OR '1'='1,1,12,4,0
+/dashboard?category=tech150,0,27,0,0
+/checkout?search=javascript:eval('var a=1'),1,43,4,1
+/about?page=2990,0,16,0,0
+/contact?user=urmit365,0,22,0,0
+/index.html?user=urmit178,0,25,0,0
+/about?user=urmit571,0,20,0,0
+/api/users?user=urmit488,0,24,0,0
+/dashboard?page=2767,0,20,0,0
+/products/item?user=urmit108,0,28,0,0
+/index.html?search=../../../../etc/passwd,1,41,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/products/item?category=tech988,0,31,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/checkout,0,9,0,0
+/contact?id=1114,0,16,0,0
+/checkout?user=urmit44,0,22,0,0
+/api/users?id=1453,0,18,0,0
+/checkout?user=urmit138,0,23,0,0
+/products/item?page=2537,0,24,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/checkout?id=123,0,16,0,0
+/login,0,6,0,0
+/api/users,0,10,0,0
+/products/item?category=tech896,0,31,0,0
+/about?category=tech46,0,22,0,0
+/about?category=tech846,0,23,0,0
+/login?page=2664,0,16,0,0
+/?id=1; DROP TABLE users,1,24,1,1
+/checkout?search='; EXEC xp_cmdshell('dir');--,1,46,7,1
+/contact?id=1953,0,16,0,0
+/login?user=urmit961,0,20,0,0
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/login?id=1979,0,14,0,0
+/dashboard?page=2802,0,20,0,0
+/dashboard,0,10,0,0
+/api/users?page=289,0,19,0,0
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/api/users?user=urmit236,0,24,0,0
+/products/item?search=../../../../etc/passwd,1,44,0,0
+/products/item,0,14,0,0
+/index.html?sort=asc165,0,23,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/api/users?category=tech912,0,27,0,0
+/products/item?id=1847,0,22,0,0
+/dashboard?sort=asc660,0,22,0,0
+/checkout?id=1368,0,17,0,0
+/products/item?id=1107,0,22,0,0
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/<script>alert(document.cookie)</script>,1,40,6,3
+/login?user=urmit516,0,20,0,0
+/../../../../etc/passwd,1,23,0,0
+/api/users?search=onload=prompt(1),1,34,2,0
+/products/item?user=urmit635,0,28,0,0
+/index.html?search=../../../../etc/passwd,1,41,0,0
+/api/users?user=urmit136,0,24,0,0
+/products/item?id=1588,0,22,0,0
+/checkout?category=tech46,0,25,0,0
+/about,0,6,0,0
+/index.html?page=2759,0,21,0,0
+/login?page=2955,0,16,0,0
+/products/item?category=tech245,0,31,0,0
+/contact?user=urmit944,0,22,0,0
+/products/item,0,14,0,0
+/dashboard?page=2885,0,20,0,0
+/api/users?user=urmit853,0,24,0,0
+/checkout?id=1764,0,17,0,0
+/contact?user=urmit863,0,22,0,0
+/contact?id=1120,0,16,0,0
+/products/item?id=1215,0,22,0,0
+"/about?search="" OR 1=1 --",1,25,1,0
+/login,0,6,0,0
+/login?sort=asc295,0,18,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/checkout?category=tech288,0,26,0,0
+/dashboard?sort=asc121,0,22,0,0
+/api/users?sort=asc866,0,22,0,0
+/login?sort=asc37,0,17,0,0
+/dashboard?category=tech628,0,27,0,0
+/contact?sort=asc414,0,20,0,0
+/contact?category=tech507,0,25,0,0
+/contact?search=../../../../etc/passwd,1,38,0,0
+/index.html?user=urmit472,0,25,0,0
+/login?page=2953,0,16,0,0
+/index.html?page=2375,0,21,0,0
+/checkout?page=2835,0,19,0,0
+/products/item?category=tech612,0,31,0,0
+/checkout?category=tech630,0,26,0,0
+/about?page=2228,0,16,0,0
+/contact,0,8,0,0
+/login?user=urmit369,0,20,0,0
+/dashboard,0,10,0,0
+/checkout?user=urmit868,0,23,0,0
+/contact?sort=asc824,0,20,0,0
+/index.html?sort=asc257,0,23,0,0
+/about?user=urmit326,0,20,0,0
+/index.html?id=1981,0,19,0,0
+/dashboard?search=?id=1; DROP TABLE users,1,41,1,1
+/products/item?user=urmit863,0,28,0,0
+/dashboard?category=tech58,0,26,0,0
+/dashboard?id=1137,0,18,0,0
+"/UNION SELECT username, password FROM users",1,43,0,2
+/products/item?search=admin' --,1,31,1,0
+/contact?sort=asc713,0,20,0,0
+/contact?search=' OR '1'='1,1,27,4,0
+/login,0,6,0,0
+/' OR '1'='1,1,12,4,0
+/contact?user=urmit469,0,22,0,0
+/contact?category=tech729,0,25,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/dashboard?user=urmit782,0,24,0,0
+/contact?sort=asc333,0,20,0,0
+/contact?user=urmit618,0,22,0,0
+/login?category=tech266,0,23,0,0
+/contact?page=2375,0,18,0,0
+/about?id=1637,0,14,0,0
+/about?category=tech680,0,23,0,0
+/contact?category=tech861,0,25,0,0
+/dashboard,0,10,0,0
+/products/item?page=2888,0,24,0,0
+/index.html,0,11,0,0
+/index.html?sort=asc848,0,23,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/api/users?category=tech280,0,27,0,0
+/api/users,0,10,0,0
+/api/users?id=1927,0,18,0,0
+/?id=1; DROP TABLE users,1,24,1,1
+/onload=prompt(1),1,17,2,0
+/login,0,6,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/contact?sort=asc15,0,19,0,0
+/contact?sort=asc20,0,19,0,0
+/contact?page=2485,0,18,0,0
+/about?search=<script>alert(document.cookie)</script>,1,53,6,3
+/contact?id=1435,0,16,0,0
+/products/item?page=2791,0,24,0,0
+/checkout?user=urmit739,0,23,0,0
+/api/users,0,10,0,0
+/checkout?category=tech868,0,26,0,0
+/login?sort=asc744,0,18,0,0
+/dashboard?category=tech901,0,27,0,0
+/products/item?user=urmit395,0,28,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/about?page=2964,0,16,0,0
+/products/item?id=1834,0,22,0,0
+/login?search=javascript:eval('var a=1'),1,40,4,1
+/products/item?id=167,0,21,0,0
+"/UNION SELECT username, password FROM users",1,43,0,2
+/?id=1; DROP TABLE users,1,24,1,1
+/checkout?id=1133,0,17,0,0
+/?id=1; DROP TABLE users,1,24,1,1
+/javascript:eval('var a=1'),1,27,4,1
+/index.html?search=../../../windows/system32/cmd.exe,1,52,0,0
+/login?user=urmit929,0,20,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/api/users?sort=asc78,0,21,0,0
+/index.html?id=1142,0,19,0,0
+/checkout?user=urmit132,0,23,0,0
+/login?page=2730,0,16,0,0
+/contact?user=urmit870,0,22,0,0
+/about?sort=asc126,0,18,0,0
+"/"" OR 1=1 --",1,12,1,0
+/index.html?user=urmit595,0,25,0,0
+/checkout?category=tech283,0,26,0,0
+/checkout?page=2584,0,19,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/api/users?page=244,0,19,0,0
+/products/item?sort=asc641,0,26,0,0
+/contact?page=2386,0,18,0,0
+/contact?user=urmit812,0,22,0,0
+/index.html?sort=asc685,0,23,0,0
+/api/users?category=tech853,0,27,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/' OR '1'='1,1,12,4,0
+/contact?sort=asc261,0,20,0,0
+/dashboard?user=urmit518,0,24,0,0
+/api/users?id=1388,0,18,0,0
+/about?user=urmit407,0,20,0,0
+/index.html?sort=asc660,0,23,0,0
+/contact?page=2437,0,18,0,0
+/index.html?sort=asc899,0,23,0,0
+/checkout?id=1672,0,17,0,0
+/about?category=tech70,0,22,0,0
+/contact?id=1481,0,16,0,0
+/admin' --,1,10,1,0
+/checkout,0,9,0,0
+/index.html,0,11,0,0
+/api/users?id=1897,0,18,0,0
+/dashboard,0,10,0,0
+/about?sort=asc289,0,18,0,0
+/about?category=tech166,0,23,0,0
+/api/users?search=onload=prompt(1),1,34,2,0
+/contact?search=<script>alert(document.cookie)</script>,1,55,6,3
+/products/item,0,14,0,0
+/index.html,0,11,0,0
+/about?page=220,0,15,0,0
+/index.html?user=urmit689,0,25,0,0
+/dashboard?id=1978,0,18,0,0
+/?id=1; DROP TABLE users,1,24,1,1
+/index.html?id=1287,0,19,0,0
+/index.html?sort=asc57,0,22,0,0
+/dashboard?category=tech926,0,27,0,0
+/index.html?category=tech611,0,28,0,0
+/checkout,0,9,0,0
+/dashboard,0,10,0,0
+/index.html?id=1759,0,19,0,0
+/login?user=urmit988,0,20,0,0
+/dashboard?id=1436,0,18,0,0
+/contact?user=urmit849,0,22,0,0
+/contact?user=urmit137,0,22,0,0
+/products/item?sort=asc894,0,26,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/about?page=244,0,15,0,0
+"/index.html?search="" OR 1=1 --",1,30,1,0
+/api/users?id=1309,0,18,0,0
+/about?category=tech536,0,23,0,0
+/login,0,6,0,0
+/login,0,6,0,0
+/dashboard?user=urmit291,0,24,0,0
+/checkout,0,9,0,0
+/index.html?search=admin' --,1,28,1,0
+/login?category=tech892,0,23,0,0
+/contact?sort=asc132,0,20,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/dashboard?id=17,0,16,0,0
+/products/item?user=urmit346,0,28,0,0
+"/index.html?search="" OR 1=1 --",1,30,1,0
+/about?search=%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,53,9,3
+/contact?page=249,0,17,0,0
+/checkout?user=urmit137,0,23,0,0
+/checkout?sort=asc680,0,21,0,0
+/index.html,0,11,0,0
+/index.html?sort=asc846,0,23,0,0
+/dashboard?id=1365,0,18,0,0
+"/UNION SELECT username, password FROM users",1,43,0,2
+/login?category=tech632,0,23,0,0
+/admin' --,1,10,1,0
+/<script>alert(document.cookie)</script>,1,40,6,3
+/dashboard?user=urmit649,0,24,0,0
+/contact?user=urmit134,0,22,0,0
+/api/users?page=2859,0,20,0,0
+/dashboard?category=tech602,0,27,0,0
+/about?page=2775,0,16,0,0
+/index.html?page=2529,0,21,0,0
+/checkout?page=2249,0,19,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/api/users?sort=asc229,0,22,0,0
+/checkout?id=1926,0,17,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/index.html?page=2754,0,21,0,0
+"/index.html?search=UNION SELECT username, password FROM users",1,61,0,2
+/index.html?page=2790,0,21,0,0
+/index.html,0,11,0,0
+/contact?sort=asc460,0,20,0,0
+/checkout?category=tech382,0,26,0,0
+/products/item?sort=asc726,0,26,0,0
+/checkout?id=1143,0,17,0,0
+/dashboard?sort=asc250,0,22,0,0
+/about?sort=asc52,0,17,0,0
+/checkout?category=tech263,0,26,0,0
+/login?sort=asc235,0,18,0,0
+/products/item,0,14,0,0
+/about?search=<script>alert(document.cookie)</script>,1,53,6,3
+/index.html?user=urmit367,0,25,0,0
+/about?page=233,0,15,0,0
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/onload=prompt(1),1,17,2,0
+/api/users,0,10,0,0
+/about?id=1686,0,14,0,0
+/about?page=216,0,15,0,0
+/index.html,0,11,0,0
+/index.html?id=1819,0,19,0,0
+/login?user=urmit457,0,20,0,0
+/login?user=urmit100,0,20,0,0
+/login,0,6,0,0
+/index.html?category=tech802,0,28,0,0
+/products/item,0,14,0,0
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/contact?id=1927,0,16,0,0
+/about?user=urmit333,0,20,0,0
+/login?user=urmit146,0,20,0,0
+/checkout?user=urmit161,0,23,0,0
+/products/item?search=../../../windows/system32/cmd.exe,1,55,0,0
+/index.html?search=<script>alert(document.cookie)</script>,1,58,6,3
+/products/item?sort=asc137,0,26,0,0
+/login?user=urmit14,0,19,0,0
+/checkout?page=2710,0,19,0,0
+/login?category=tech898,0,23,0,0
+/login?category=tech355,0,23,0,0
+/about?id=1275,0,14,0,0
+/dashboard?page=2290,0,20,0,0
+/index.html?sort=asc381,0,23,0,0
+/about,0,6,0,0
+/checkout?search=' OR '1'='1,1,28,4,0
+/checkout,0,9,0,0
+/dashboard?sort=asc134,0,22,0,0
+/api/users?sort=asc628,0,22,0,0
+/products/item?user=urmit696,0,28,0,0
+/login?sort=asc39,0,17,0,0
+/dashboard?sort=asc438,0,22,0,0
+/index.html,0,11,0,0
+/products/item?user=urmit442,0,28,0,0
+/checkout?page=2893,0,19,0,0
+/api/users?user=urmit386,0,24,0,0
+/dashboard,0,10,0,0
+/checkout?id=1186,0,17,0,0
+/dashboard?search='; EXEC xp_cmdshell('dir');--,1,47,7,1
+/dashboard?page=2714,0,20,0,0
+/about?user=urmit700,0,20,0,0
+/login,0,6,0,0
+/about?search=admin' --,1,23,1,0
+/products/item?category=tech721,0,31,0,0
+/products/item,0,14,0,0
+/index.html?id=1808,0,19,0,0
+/login?page=2209,0,16,0,0
+/index.html?page=228,0,20,0,0
+/contact?user=urmit670,0,22,0,0
+/about?sort=asc409,0,18,0,0
+/api/users?user=urmit476,0,24,0,0
+/api/users?user=urmit715,0,24,0,0
+/about?user=urmit59,0,19,0,0
+/index.html?sort=asc477,0,23,0,0
+/products/item?page=2768,0,24,0,0
+/api/users?search=' OR '1'='1,1,29,4,0
+/dashboard?category=tech846,0,27,0,0
+/login,0,6,0,0
+/contact?user=urmit588,0,22,0,0
+/index.html?category=tech711,0,28,0,0
+/contact?category=tech24,0,24,0,0
+/api/users?page=2715,0,20,0,0
+/<script>alert(document.cookie)</script>,1,40,6,3
+/checkout?id=1603,0,17,0,0
+/about,0,6,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/about?search=admin' --,1,23,1,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/index.html?sort=asc665,0,23,0,0
+/dashboard?sort=asc504,0,22,0,0
+"/"" OR 1=1 --",1,12,1,0
+/dashboard?sort=asc669,0,22,0,0
+/dashboard?user=urmit838,0,24,0,0
+/index.html?page=2498,0,21,0,0
+/login?id=1691,0,14,0,0
+/checkout,0,9,0,0
+/index.html?page=2924,0,21,0,0
+/login?sort=asc119,0,18,0,0
+/products/item?category=tech261,0,31,0,0
+/dashboard?page=2185,0,20,0,0
+/contact?id=1462,0,16,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/dashboard,0,10,0,0
+/products/item?page=2645,0,24,0,0
+/index.html?search=../../../windows/system32/cmd.exe,1,52,0,0
+/checkout?sort=asc925,0,21,0,0
+/checkout?page=2996,0,19,0,0
+/about?user=urmit561,0,20,0,0
+/api/users,0,10,0,0
+/about?user=urmit659,0,20,0,0
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/contact?sort=asc864,0,20,0,0
+/login?category=tech907,0,23,0,0
+/dashboard,0,10,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/about?sort=asc623,0,18,0,0
+/login?page=2825,0,16,0,0
+/about?sort=asc840,0,18,0,0
+/checkout?sort=asc585,0,21,0,0
+/dashboard?search=javascript:eval('var a=1'),1,44,4,1
+/../../../windows/system32/cmd.exe,1,34,0,0
+"/UNION SELECT username, password FROM users",1,43,0,2
+/login?sort=asc101,0,18,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/admin' --,1,10,1,0
+/dashboard?sort=asc433,0,22,0,0
+/login?page=2991,0,16,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/about?sort=asc528,0,18,0,0
+/checkout?user=urmit355,0,23,0,0
+/checkout?id=1422,0,17,0,0
+/dashboard?user=urmit750,0,24,0,0
+/api/users?sort=asc63,0,21,0,0
+/index.html?user=urmit607,0,25,0,0
+/login?page=2478,0,16,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/dashboard?search=<script>alert(document.cookie)</script>,1,57,6,3
+/dashboard?user=urmit851,0,24,0,0
+/contact?id=1567,0,16,0,0
+/dashboard?page=2877,0,20,0,0
+/index.html?id=1768,0,19,0,0
+/' OR '1'='1,1,12,4,0
+/api/users?sort=asc685,0,22,0,0
+/dashboard?search=?id=1; DROP TABLE users,1,41,1,1
+/products/item?sort=asc430,0,26,0,0
+/index.html?page=2192,0,21,0,0
+/api/users?page=2394,0,20,0,0
+/index.html?page=241,0,20,0,0
+/index.html?id=1610,0,19,0,0
+/dashboard?search=onload=prompt(1),1,34,2,0
+/checkout?search=../../../windows/system32/cmd.exe,1,50,0,0
+/checkout?search=%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,56,9,3
+/api/users?user=urmit426,0,24,0,0
+/dashboard?sort=asc921,0,22,0,0
+/contact?category=tech212,0,25,0,0
+/api/users?category=tech433,0,27,0,0
+/index.html,0,11,0,0
+/about,0,6,0,0
+/index.html?page=2154,0,21,0,0
+/about?sort=asc654,0,18,0,0
+/dashboard?search=../../../../etc/passwd,1,40,0,0
+/index.html?sort=asc204,0,23,0,0
+/checkout?user=urmit827,0,23,0,0
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/about?page=2327,0,16,0,0
+/contact,0,8,0,0
+/dashboard,0,10,0,0
+/products/item?user=urmit369,0,28,0,0
+/checkout?category=tech757,0,26,0,0
+/api/users?category=tech911,0,27,0,0
+/admin' --,1,10,1,0
+/dashboard?category=tech830,0,27,0,0
+/contact?user=urmit574,0,22,0,0
+/index.html,0,11,0,0
+/dashboard?user=urmit54,0,23,0,0
+/products/item?id=1373,0,22,0,0
+/onload=prompt(1),1,17,2,0
+/login?id=1856,0,14,0,0
+/api/users?user=urmit426,0,24,0,0
+/api/users?id=121,0,17,0,0
+/login?page=2830,0,16,0,0
+/admin' --,1,10,1,0
+/checkout?search=../../../../etc/passwd,1,39,0,0
+/about?category=tech236,0,23,0,0
+/about,0,6,0,0
+"/"" OR 1=1 --",1,12,1,0
+/login?id=1802,0,14,0,0
+/index.html?sort=asc206,0,23,0,0
+/dashboard?page=2191,0,20,0,0
+/checkout?id=1609,0,17,0,0
+/contact?page=2209,0,18,0,0
+/index.html?category=tech580,0,28,0,0
+/index.html?id=1902,0,19,0,0
+/dashboard?category=tech734,0,27,0,0
+/dashboard?sort=asc163,0,22,0,0
+/dashboard?sort=asc714,0,22,0,0
+/checkout?category=tech688,0,26,0,0
+/api/users?user=urmit599,0,24,0,0
+/index.html?category=tech697,0,28,0,0
+/login?category=tech493,0,23,0,0
+/index.html?category=tech172,0,28,0,0
+/api/users?sort=asc291,0,22,0,0
+/about?page=220,0,15,0,0
+/dashboard?user=urmit268,0,24,0,0
+/index.html,0,11,0,0
+/login?search=?id=1; DROP TABLE users,1,37,1,1
+/about?sort=asc474,0,18,0,0
+/login?category=tech848,0,23,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/products/item?user=urmit210,0,28,0,0
+/index.html?user=urmit746,0,25,0,0
+/products/item?sort=asc306,0,26,0,0
+/checkout,0,9,0,0
+/checkout?sort=asc424,0,21,0,0
+/about?category=tech26,0,22,0,0
+/checkout?sort=asc814,0,21,0,0
+/api/users?page=28,0,18,0,0
+/products/item?sort=asc83,0,25,0,0
+/checkout?sort=asc408,0,21,0,0
+/contact?id=1970,0,16,0,0
+/dashboard?user=urmit463,0,24,0,0
+/about?page=2895,0,16,0,0
+/about,0,6,0,0
+"/"" OR 1=1 --",1,12,1,0
+/products/item,0,14,0,0
+/login?category=tech203,0,23,0,0
+/checkout,0,9,0,0
+/dashboard?page=2146,0,20,0,0
+/products/item?user=urmit390,0,28,0,0
+/index.html?user=urmit72,0,24,0,0
+/contact?user=urmit68,0,21,0,0
+/dashboard?category=tech830,0,27,0,0
+/dashboard?id=1722,0,18,0,0
+/about?id=1669,0,14,0,0
+/dashboard?id=113,0,17,0,0
+/contact?category=tech628,0,25,0,0
+/login?id=1475,0,14,0,0
+/contact?category=tech996,0,25,0,0
+/index.html?user=urmit520,0,25,0,0
+/index.html,0,11,0,0
+/contact?search=?id=1; DROP TABLE users,1,39,1,1
+/checkout?search=javascript:eval('var a=1'),1,43,4,1
+/login?page=2145,0,16,0,0
+/index.html?category=tech924,0,28,0,0
+/products/item?category=tech262,0,31,0,0
+/api/users?page=2791,0,20,0,0
+/api/users?sort=asc645,0,22,0,0
+/about?category=tech283,0,23,0,0
+/checkout?user=urmit878,0,23,0,0
+/about?user=urmit269,0,20,0,0
+/index.html?search='; EXEC xp_cmdshell('dir');--,1,48,7,1
+/about?category=tech293,0,23,0,0
+/products/item?category=tech792,0,31,0,0
+/index.html?sort=asc263,0,23,0,0
+/api/users?page=2544,0,20,0,0
+/index.html?sort=asc965,0,23,0,0
+/dashboard,0,10,0,0
+/index.html?category=tech609,0,28,0,0
+/api/users?sort=asc643,0,22,0,0
+/about,0,6,0,0
+/api/users,0,10,0,0
+/api/users?user=urmit294,0,24,0,0
+/about?id=1916,0,14,0,0
+/about?id=1721,0,14,0,0
+/login?page=2779,0,16,0,0
+/contact?page=2127,0,18,0,0
+/login?category=tech659,0,23,0,0
+/about?search=javascript:eval('var a=1'),1,40,4,1
+/dashboard?sort=asc956,0,22,0,0
+"/"" OR 1=1 --",1,12,1,0
+/index.html?user=urmit892,0,25,0,0
+/api/users?search=../../../../etc/passwd,1,40,0,0
+/products/item?page=214,0,23,0,0
+/contact?search=<script>alert(document.cookie)</script>,1,55,6,3
+/dashboard,0,10,0,0
+/products/item?id=1158,0,22,0,0
+/checkout?category=tech893,0,26,0,0
+/login,0,6,0,0
+/?id=1; DROP TABLE users,1,24,1,1
+/products/item?user=urmit54,0,27,0,0
+/products/item?user=urmit653,0,28,0,0
+/contact?user=urmit191,0,22,0,0
+/api/users?sort=asc825,0,22,0,0
+/index.html?page=242,0,20,0,0
+/admin' --,1,10,1,0
+/checkout?user=urmit590,0,23,0,0
+/dashboard?page=2338,0,20,0,0
+/login?page=2164,0,16,0,0
+/about?sort=asc979,0,18,0,0
+/checkout,0,9,0,0
+/index.html?user=urmit189,0,25,0,0
+/checkout,0,9,0,0
+/api/users?user=urmit735,0,24,0,0
+/index.html?sort=asc270,0,23,0,0
+/index.html?category=tech844,0,28,0,0
+/dashboard?user=urmit208,0,24,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/index.html?sort=asc210,0,23,0,0
+/contact,0,8,0,0
+/index.html?category=tech52,0,27,0,0
+/checkout?page=2441,0,19,0,0
+/contact?user=urmit400,0,22,0,0
+/about?category=tech247,0,23,0,0
+/checkout?sort=asc14,0,20,0,0
+/products/item?sort=asc918,0,26,0,0
+/about?page=2841,0,16,0,0
+/login?id=1520,0,14,0,0
+/products/item?category=tech788,0,31,0,0
+/dashboard?page=210,0,19,0,0
+/login?id=1841,0,14,0,0
+/contact?id=1564,0,16,0,0
+/dashboard?sort=asc484,0,22,0,0
+/api/users?user=urmit804,0,24,0,0
+/dashboard?id=1167,0,18,0,0
+/about?page=2468,0,16,0,0
+/index.html?id=169,0,18,0,0
+/api/users?id=1400,0,18,0,0
+/products/item?search=onload=prompt(1),1,38,2,0
+/about?user=urmit779,0,20,0,0
+/dashboard?page=2556,0,20,0,0
+/about?user=urmit360,0,20,0,0
+/products/item?user=urmit426,0,28,0,0
+/<script>alert(document.cookie)</script>,1,40,6,3
+/api/users?sort=asc969,0,22,0,0
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/products/item?sort=asc950,0,26,0,0
+/api/users?search=admin' --,1,27,1,0
+/api/users?user=urmit204,0,24,0,0
+/login,0,6,0,0
+/dashboard?id=1352,0,18,0,0
+/api/users?id=1596,0,18,0,0
+"/UNION SELECT username, password FROM users",1,43,0,2
+/contact?page=2545,0,18,0,0
+/checkout?category=tech275,0,26,0,0
+/../../../../etc/passwd,1,23,0,0
+/login?category=tech465,0,23,0,0
+/checkout?category=tech130,0,26,0,0
+/index.html?page=264,0,20,0,0
+/products/item?user=urmit765,0,28,0,0
+/checkout?sort=asc830,0,21,0,0
+/login?category=tech62,0,22,0,0
+/checkout,0,9,0,0
+/contact,0,8,0,0
+/api/users?search=../../../../etc/passwd,1,40,0,0
+/about?search=../../../windows/system32/cmd.exe,1,47,0,0
+/index.html?search=../../../windows/system32/cmd.exe,1,52,0,0
+/contact?id=1198,0,16,0,0
+/contact,0,8,0,0
+/login?page=2745,0,16,0,0
+/contact?page=2912,0,18,0,0
+/index.html?sort=asc996,0,23,0,0
+/about?page=2675,0,16,0,0
+/about?user=urmit588,0,20,0,0
+/products/item,0,14,0,0
+/contact?sort=asc344,0,20,0,0
+/checkout?user=urmit355,0,23,0,0
+/about?category=tech708,0,23,0,0
+/api/users?id=1432,0,18,0,0
+/dashboard?id=1797,0,18,0,0
+/contact?sort=asc120,0,20,0,0
+/checkout?user=urmit251,0,23,0,0
+/contact?search=javascript:eval('var a=1'),1,42,4,1
+/login?sort=asc110,0,18,0,0
+/contact?id=1450,0,16,0,0
+/login?category=tech30,0,22,0,0
+/contact?search=../../../windows/system32/cmd.exe,1,49,0,0
+/api/users?category=tech183,0,27,0,0
+"/UNION SELECT username, password FROM users",1,43,0,2
+/dashboard,0,10,0,0
+/login?id=1920,0,14,0,0
+/login?search=javascript:eval('var a=1'),1,40,4,1
+/about?user=urmit77,0,19,0,0
+/login,0,6,0,0
+/dashboard?sort=asc303,0,22,0,0
+/api/users?category=tech491,0,27,0,0
+/contact,0,8,0,0
+/login?page=247,0,15,0,0
+/index.html?page=2657,0,21,0,0
+/about,0,6,0,0
+/index.html?id=1159,0,19,0,0
+/products/item?sort=asc225,0,26,0,0
+/about?sort=asc185,0,18,0,0
+/index.html?user=urmit993,0,25,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/api/users?sort=asc540,0,22,0,0
+/api/users,0,10,0,0
+/login?category=tech589,0,23,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+"/UNION SELECT username, password FROM users",1,43,0,2
+/api/users?page=2795,0,20,0,0
+"/"" OR 1=1 --",1,12,1,0
+/login?id=1153,0,14,0,0
+/contact?category=tech437,0,25,0,0
+/index.html?sort=asc931,0,23,0,0
+/products/item?user=urmit556,0,28,0,0
+/api/users?page=2930,0,20,0,0
+/login?user=urmit595,0,20,0,0
+/contact?sort=asc570,0,20,0,0
+/api/users?page=2581,0,20,0,0
+/api/users?user=urmit620,0,24,0,0
+/index.html?user=urmit634,0,25,0,0
+/api/users?page=2135,0,20,0,0
+/about?category=tech778,0,23,0,0
+/dashboard?user=urmit61,0,23,0,0
+"/UNION SELECT username, password FROM users",1,43,0,2
+/products/item,0,14,0,0
+/login,0,6,0,0
+/about,0,6,0,0
+/api/users?search=../../../../etc/passwd,1,40,0,0
+/products/item?category=tech729,0,31,0,0
+/dashboard?user=urmit733,0,24,0,0
+/login?user=urmit794,0,20,0,0
+/products/item?user=urmit191,0,28,0,0
+/contact?page=2197,0,18,0,0
+/checkout?page=2894,0,19,0,0
+/admin' --,1,10,1,0
+/dashboard,0,10,0,0
+/contact?user=urmit166,0,22,0,0
+/checkout,0,9,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/products/item?category=tech151,0,31,0,0
+/contact?id=114,0,15,0,0
+/login?user=urmit943,0,20,0,0
+/contact?category=tech877,0,25,0,0
+/checkout?sort=asc578,0,21,0,0
+/api/users,0,10,0,0
+/checkout?category=tech637,0,26,0,0
+/login?user=urmit791,0,20,0,0
+/checkout,0,9,0,0
+/about,0,6,0,0
+/about?page=2411,0,16,0,0
+/products/item?category=tech969,0,31,0,0
+/contact?page=2563,0,18,0,0
+/onload=prompt(1),1,17,2,0
+/checkout?page=2740,0,19,0,0
+/<script>alert(document.cookie)</script>,1,40,6,3
+/dashboard?user=urmit669,0,24,0,0
+/about,0,6,0,0
+/login?user=urmit589,0,20,0,0
+/products/item,0,14,0,0
+"/api/users?search="" OR 1=1 --",1,29,1,0
+/products/item?user=urmit612,0,28,0,0
+/about?page=2760,0,16,0,0
+/login?category=tech708,0,23,0,0
+/login?category=tech797,0,23,0,0
+/index.html?id=1987,0,19,0,0
+/about?sort=asc311,0,18,0,0
+/checkout?sort=asc718,0,21,0,0
+/products/item?id=1332,0,22,0,0
+/<script>alert(document.cookie)</script>,1,40,6,3
+/contact,0,8,0,0
+/contact?sort=asc552,0,20,0,0
+/login?category=tech199,0,23,0,0
+/login?id=1661,0,14,0,0
+/contact,0,8,0,0
+/checkout?search=onload=prompt(1),1,33,2,0
+/index.html?search=admin' --,1,28,1,0
+/checkout?category=tech569,0,26,0,0
+/api/users?category=tech351,0,27,0,0
+/index.html?category=tech697,0,28,0,0
+/checkout?category=tech368,0,26,0,0
+/checkout?id=1688,0,17,0,0
+/products/item,0,14,0,0
+/../../../../etc/passwd,1,23,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/checkout,0,9,0,0
+/onload=prompt(1),1,17,2,0
+/login?user=urmit489,0,20,0,0
+/checkout?category=tech163,0,26,0,0
+/dashboard?id=1533,0,18,0,0
+/dashboard?sort=asc236,0,22,0,0
+"/"" OR 1=1 --",1,12,1,0
+/about?category=tech554,0,23,0,0
+"/checkout?search=UNION SELECT username, password FROM users",1,59,0,2
+/about?sort=asc863,0,18,0,0
+/index.html,0,11,0,0
+"/"" OR 1=1 --",1,12,1,0
+/dashboard?category=tech316,0,27,0,0
+/api/users?user=urmit729,0,24,0,0
+/dashboard?sort=asc777,0,22,0,0
+/?id=1; DROP TABLE users,1,24,1,1
+/checkout?user=urmit631,0,23,0,0
+/products/item?search=../../../windows/system32/cmd.exe,1,55,0,0
+/index.html?id=1823,0,19,0,0
+/contact?id=1444,0,16,0,0
+/checkout?id=1212,0,17,0,0
+/about?page=2801,0,16,0,0
+/index.html?user=urmit227,0,25,0,0
+/api/users?id=1869,0,18,0,0
+/contact?search=javascript:eval('var a=1'),1,42,4,1
+/?id=1; DROP TABLE users,1,24,1,1
+/contact?category=tech933,0,25,0,0
+/api/users,0,10,0,0
+/login?category=tech488,0,23,0,0
+/dashboard?id=1839,0,18,0,0
+/contact,0,8,0,0
+/index.html,0,11,0,0
+/index.html,0,11,0,0
+/api/users?category=tech418,0,27,0,0
+/contact,0,8,0,0
+/dashboard?id=1855,0,18,0,0
+/index.html?id=1508,0,19,0,0
+/about?id=1755,0,14,0,0
+/dashboard?user=urmit526,0,24,0,0
+/login?user=urmit72,0,19,0,0
+/products/item?id=1226,0,22,0,0
+/api/users?page=2344,0,20,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/about?id=1440,0,14,0,0
+/about?page=2890,0,16,0,0
+/products/item?search=?id=1; DROP TABLE users,1,45,1,1
+/login?sort=asc147,0,18,0,0
+/login?user=urmit287,0,20,0,0
+/about,0,6,0,0
+/dashboard?page=2364,0,20,0,0
+/api/users?sort=asc458,0,22,0,0
+/contact?sort=asc556,0,20,0,0
+/index.html?page=2782,0,21,0,0
+/../../../../etc/passwd,1,23,0,0
+/about?search=onload=prompt(1),1,30,2,0
+/dashboard,0,10,0,0
+/index.html?category=tech198,0,28,0,0
+/login?user=urmit285,0,20,0,0
+/contact?page=235,0,17,0,0
+/checkout?category=tech118,0,26,0,0
+/about?user=urmit756,0,20,0,0
+/products/item?page=222,0,23,0,0
+/checkout?sort=asc91,0,20,0,0
+/checkout,0,9,0,0
+/checkout?category=tech385,0,26,0,0
+/index.html?category=tech597,0,28,0,0
+/api/users?id=1558,0,18,0,0
+/index.html?page=2521,0,21,0,0
+/about,0,6,0,0
+/contact?sort=asc743,0,20,0,0
+/contact?page=2336,0,18,0,0
+/checkout?page=2386,0,19,0,0
+/index.html?id=1789,0,19,0,0
+/api/users?page=2380,0,20,0,0
+/products/item?category=tech501,0,31,0,0
+/contact?user=urmit872,0,22,0,0
+/products/item?sort=asc714,0,26,0,0
+/products/item?id=1519,0,22,0,0
+/checkout?category=tech135,0,26,0,0
+/checkout,0,9,0,0
+/api/users?search='; EXEC xp_cmdshell('dir');--,1,47,7,1
+/checkout?category=tech880,0,26,0,0
+/dashboard?id=113,0,17,0,0
+/checkout?sort=asc610,0,21,0,0
+/products/item?search=?id=1; DROP TABLE users,1,45,1,1
+/api/users?user=urmit58,0,23,0,0
+/api/users?id=1580,0,18,0,0
+/about,0,6,0,0
+/checkout,0,9,0,0
+/dashboard?category=tech480,0,27,0,0
+/index.html?id=1892,0,19,0,0
+/index.html?user=urmit194,0,25,0,0
+/index.html?id=1400,0,19,0,0
+/contact?user=urmit110,0,22,0,0
+/checkout,0,9,0,0
+/dashboard?category=tech840,0,27,0,0
+/onload=prompt(1),1,17,2,0
+/index.html?user=urmit473,0,25,0,0
+/dashboard?search=<script>alert(document.cookie)</script>,1,57,6,3
+/checkout?sort=asc729,0,21,0,0
+/contact?search=onload=prompt(1),1,32,2,0
+/login?sort=asc805,0,18,0,0
+/onload=prompt(1),1,17,2,0
+/contact?page=2986,0,18,0,0
+/login?page=2137,0,16,0,0
+"/"" OR 1=1 --",1,12,1,0
+/api/users?category=tech414,0,27,0,0
+/api/users,0,10,0,0
+/<script>alert(document.cookie)</script>,1,40,6,3
+/products/item?sort=asc154,0,26,0,0
+/checkout,0,9,0,0
+/about?id=1335,0,14,0,0
+/contact?category=tech886,0,25,0,0
+"/UNION SELECT username, password FROM users",1,43,0,2
+/about?user=urmit716,0,20,0,0
+/checkout?id=1313,0,17,0,0
+/checkout?user=urmit826,0,23,0,0
+/checkout?page=2676,0,19,0,0
+/login?page=2870,0,16,0,0
+/api/users?sort=asc680,0,22,0,0
+/about?sort=asc166,0,18,0,0
+/checkout?page=2300,0,19,0,0
+/index.html?sort=asc543,0,23,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/dashboard?category=tech861,0,27,0,0
+/contact?user=urmit981,0,22,0,0
+/dashboard?search=admin' --,1,27,1,0
+/checkout?sort=asc919,0,21,0,0
+/dashboard?id=1702,0,18,0,0
+/index.html?sort=asc396,0,23,0,0
+/dashboard?search=<script>alert(document.cookie)</script>,1,57,6,3
+/login,0,6,0,0
+/api/users?sort=asc501,0,22,0,0
+/contact?category=tech248,0,25,0,0
+/products/item?id=1986,0,22,0,0
+/checkout,0,9,0,0
+/dashboard?page=2395,0,20,0,0
+/checkout?user=urmit581,0,23,0,0
+/api/users?sort=asc135,0,22,0,0
+/<script>alert(document.cookie)</script>,1,40,6,3
+"/index.html?search=UNION SELECT username, password FROM users",1,61,0,2
+/contact?category=tech90,0,24,0,0
+"/"" OR 1=1 --",1,12,1,0
+"/index.html?search="" OR 1=1 --",1,30,1,0
+/products/item,0,14,0,0
+/api/users?id=1608,0,18,0,0
+/../../../../etc/passwd,1,23,0,0
+/dashboard?page=2137,0,20,0,0
+/api/users?sort=asc912,0,22,0,0
+/about?search=../../../../etc/passwd,1,36,0,0
+/dashboard?user=urmit716,0,24,0,0
+/about?sort=asc478,0,18,0,0
+/dashboard?sort=asc242,0,22,0,0
+/index.html?user=urmit912,0,25,0,0
+/api/users?category=tech494,0,27,0,0
+/checkout?sort=asc908,0,21,0,0
+/api/users?category=tech535,0,27,0,0
+/products/item?user=urmit583,0,28,0,0
+/index.html,0,11,0,0
+/checkout,0,9,0,0
+/checkout?sort=asc544,0,21,0,0
+/onload=prompt(1),1,17,2,0
+/about,0,6,0,0
+/login?page=2890,0,16,0,0
+/login?search=../../../../etc/passwd,1,36,0,0
+/index.html?page=2858,0,21,0,0
+/login?category=tech109,0,23,0,0
+"/"" OR 1=1 --",1,12,1,0
+/products/item?sort=asc647,0,26,0,0
+/login?category=tech980,0,23,0,0
+/api/users,0,10,0,0
+/index.html?search=onload=prompt(1),1,35,2,0
+/checkout?sort=asc292,0,21,0,0
+/login?id=1591,0,14,0,0
+/login?user=urmit155,0,20,0,0
+/dashboard?id=1806,0,18,0,0
+/about?search=?id=1; DROP TABLE users,1,37,1,1
+/contact?id=1606,0,16,0,0
+/contact?user=urmit724,0,22,0,0
+/about?search='; EXEC xp_cmdshell('dir');--,1,43,7,1
+/contact?page=2799,0,18,0,0
+/' OR '1'='1,1,12,4,0
+/about?category=tech35,0,22,0,0
+/dashboard?search=javascript:eval('var a=1'),1,44,4,1
+"/UNION SELECT username, password FROM users",1,43,0,2
+/index.html?user=urmit726,0,25,0,0
+/login?category=tech879,0,23,0,0
+/products/item?sort=asc381,0,26,0,0
+/index.html?search='; EXEC xp_cmdshell('dir');--,1,48,7,1
+/index.html?category=tech52,0,27,0,0
+/about?user=urmit128,0,20,0,0
+/checkout?page=2276,0,19,0,0
+/api/users?page=2743,0,20,0,0
+/login?category=tech456,0,23,0,0
+/login?sort=asc771,0,18,0,0
+/checkout?sort=asc255,0,21,0,0
+/about?user=urmit893,0,20,0,0
+/index.html?user=urmit235,0,25,0,0
+/products/item?user=urmit447,0,28,0,0
+/api/users?user=urmit660,0,24,0,0
+/products/item?user=urmit962,0,28,0,0
+/api/users,0,10,0,0
+/api/users?id=171,0,17,0,0
+/contact,0,8,0,0
+/onload=prompt(1),1,17,2,0
+/contact?id=141,0,15,0,0
+/index.html?user=urmit402,0,25,0,0
+/api/users,0,10,0,0
+/api/users?category=tech764,0,27,0,0
+/about?search=<script>alert(document.cookie)</script>,1,53,6,3
+/index.html?page=2901,0,21,0,0
+"/index.html?search="" OR 1=1 --",1,30,1,0
+/../../../../etc/passwd,1,23,0,0
+/checkout?category=tech242,0,26,0,0
+/checkout,0,9,0,0
+/checkout?category=tech428,0,26,0,0
+/dashboard?user=urmit653,0,24,0,0
+/contact?user=urmit312,0,22,0,0
+/login?user=urmit421,0,20,0,0
+/checkout?user=urmit558,0,23,0,0
+/dashboard?user=urmit607,0,24,0,0
+/dashboard,0,10,0,0
+/dashboard?user=urmit391,0,24,0,0
+/api/users?sort=asc654,0,22,0,0
+/products/item?id=1800,0,22,0,0
+/api/users,0,10,0,0
+/' OR '1'='1,1,12,4,0
+/index.html?sort=asc149,0,23,0,0
+/about?id=1968,0,14,0,0
+/products/item?user=urmit364,0,28,0,0
+/about,0,6,0,0
+/checkout?id=1513,0,17,0,0
+/api/users,0,10,0,0
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/api/users?sort=asc788,0,22,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/dashboard?search='; EXEC xp_cmdshell('dir');--,1,47,7,1
+/login,0,6,0,0
+/index.html,0,11,0,0
+/products/item?page=2592,0,24,0,0
+/checkout?id=1319,0,17,0,0
+/checkout?page=2956,0,19,0,0
+/checkout?user=urmit179,0,23,0,0
+/products/item?sort=asc790,0,26,0,0
+/index.html?user=urmit719,0,25,0,0
+"/UNION SELECT username, password FROM users",1,43,0,2
+/checkout?sort=asc390,0,21,0,0
+/about?id=1936,0,14,0,0
+/checkout?user=urmit832,0,23,0,0
+/checkout?user=urmit699,0,23,0,0
+/contact?id=1650,0,16,0,0
+/products/item?category=tech677,0,31,0,0
+/checkout?sort=asc75,0,20,0,0
+/about,0,6,0,0
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/checkout,0,9,0,0
+/about?category=tech731,0,23,0,0
+/products/item?category=tech626,0,31,0,0
+/login?sort=asc458,0,18,0,0
+/contact?user=urmit581,0,22,0,0
+/contact?search='; EXEC xp_cmdshell('dir');--,1,45,7,1
+/index.html?sort=asc720,0,23,0,0
+"/UNION SELECT username, password FROM users",1,43,0,2
+/contact,0,8,0,0
+/contact?sort=asc170,0,20,0,0
+/checkout?id=1114,0,17,0,0
+/products/item?id=1616,0,22,0,0
+/index.html?sort=asc520,0,23,0,0
+/dashboard,0,10,0,0
+/contact?sort=asc47,0,19,0,0
+/login?category=tech854,0,23,0,0
+/contact?search=../../../windows/system32/cmd.exe,1,49,0,0
+/contact?page=2444,0,18,0,0
+/checkout?user=urmit541,0,23,0,0
+/dashboard?sort=asc20,0,21,0,0
+/dashboard?id=1273,0,18,0,0
+/index.html,0,11,0,0
+/api/users?sort=asc587,0,22,0,0
+/api/users,0,10,0,0
+/login?search=admin' --,1,23,1,0
+"/index.html?search=UNION SELECT username, password FROM users",1,61,0,2
+/api/users?search=' OR '1'='1,1,29,4,0
+/login?category=tech405,0,23,0,0
+/index.html,0,11,0,0
+/api/users?search=%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,57,9,3
+/contact?user=urmit261,0,22,0,0
+/checkout?user=urmit679,0,23,0,0
+/login?user=urmit663,0,20,0,0
+/login?category=tech337,0,23,0,0
+"/UNION SELECT username, password FROM users",1,43,0,2
+/checkout?sort=asc816,0,21,0,0
+"/login?search="" OR 1=1 --",1,25,1,0
+/products/item,0,14,0,0
+/products/item,0,14,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/products/item?id=1287,0,22,0,0
+/checkout?id=1760,0,17,0,0
+/?id=1; DROP TABLE users,1,24,1,1
+/products/item?sort=asc889,0,26,0,0
+/api/users?user=urmit121,0,24,0,0
+/contact?user=urmit447,0,22,0,0
+/dashboard?user=urmit643,0,24,0,0
+/checkout?id=1425,0,17,0,0
+/products/item?search=admin' --,1,31,1,0
+/products/item,0,14,0,0
+"/"" OR 1=1 --",1,12,1,0
+/javascript:eval('var a=1'),1,27,4,1
+/api/users?category=tech212,0,27,0,0
+/checkout?sort=asc298,0,21,0,0
+/api/users,0,10,0,0
+/contact?user=urmit685,0,22,0,0
+/api/users?sort=asc475,0,22,0,0
+/dashboard?page=266,0,19,0,0
+/checkout?user=urmit695,0,23,0,0
+/dashboard?page=2205,0,20,0,0
+/dashboard?user=urmit371,0,24,0,0
+/login?category=tech47,0,22,0,0
+/login?user=urmit290,0,20,0,0
+/contact,0,8,0,0
+/products/item?user=urmit991,0,28,0,0
+/contact?sort=asc366,0,20,0,0
+/index.html?category=tech719,0,28,0,0
+/index.html?search=onload=prompt(1),1,35,2,0
+/about?user=urmit74,0,19,0,0
+/' OR '1'='1,1,12,4,0
+/checkout?page=2845,0,19,0,0
+/index.html?page=2393,0,21,0,0
+/<script>alert(document.cookie)</script>,1,40,6,3
+/api/users?sort=asc665,0,22,0,0
+"/UNION SELECT username, password FROM users",1,43,0,2
+/checkout?search=../../../../etc/passwd,1,39,0,0
+/checkout?page=2501,0,19,0,0
+/login?category=tech683,0,23,0,0
+/login?page=2644,0,16,0,0
+/api/users?user=urmit530,0,24,0,0
+"/"" OR 1=1 --",1,12,1,0
+/api/users?sort=asc359,0,22,0,0
+/index.html?id=1358,0,19,0,0
+/dashboard?id=166,0,17,0,0
+/contact?sort=asc797,0,20,0,0
+/api/users,0,10,0,0
+/about?id=1224,0,14,0,0
+/dashboard?page=2829,0,20,0,0
+/api/users?id=1273,0,18,0,0
+/dashboard?page=2475,0,20,0,0
+/contact,0,8,0,0
+/index.html?category=tech605,0,28,0,0
+/about?search=?id=1; DROP TABLE users,1,37,1,1
+/products/item?id=1325,0,22,0,0
+/checkout?search=onload=prompt(1),1,33,2,0
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/dashboard?page=2710,0,20,0,0
+/index.html?category=tech367,0,28,0,0
+/contact?page=2213,0,18,0,0
+/dashboard,0,10,0,0
+/login?sort=asc212,0,18,0,0
+/contact?page=251,0,17,0,0
+/products/item?category=tech837,0,31,0,0
+/index.html,0,11,0,0
+/index.html?search=' OR '1'='1,1,30,4,0
+/about?search=admin' --,1,23,1,0
+/api/users?page=2407,0,20,0,0
+/about?category=tech45,0,22,0,0
+/dashboard,0,10,0,0
+/' OR '1'='1,1,12,4,0
+/checkout?page=2573,0,19,0,0
+/login,0,6,0,0
+/about?sort=asc915,0,18,0,0
+/api/users?page=2780,0,20,0,0
+"/checkout?search="" OR 1=1 --",1,28,1,0
+/api/users?id=1433,0,18,0,0
+/checkout?id=1408,0,17,0,0
+/products/item?page=2162,0,24,0,0
+/products/item?id=152,0,21,0,0
+/index.html?category=tech530,0,28,0,0
+/products/item,0,14,0,0
+/about?sort=asc961,0,18,0,0
+/login?user=urmit873,0,20,0,0
+/contact?user=urmit674,0,22,0,0
+/api/users,0,10,0,0
+/products/item?sort=asc134,0,26,0,0
+/dashboard?category=tech122,0,27,0,0
+/contact?sort=asc830,0,20,0,0
+/checkout?id=1403,0,17,0,0
+/login?id=1767,0,14,0,0
+/contact?user=urmit508,0,22,0,0
+/products/item?user=urmit452,0,28,0,0
+/about?user=urmit208,0,20,0,0
+/contact?search=%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,55,9,3
+/products/item?id=1105,0,22,0,0
+/contact?sort=asc530,0,20,0,0
+/products/item?id=199,0,21,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/login,0,6,0,0
+/about?sort=asc385,0,18,0,0
+/dashboard?id=1950,0,18,0,0
+/login?category=tech975,0,23,0,0
+/about?page=2704,0,16,0,0
+/contact?page=2726,0,18,0,0
+/checkout?id=1332,0,17,0,0
+/about?page=2358,0,16,0,0
+/checkout?id=1203,0,17,0,0
+"/"" OR 1=1 --",1,12,1,0
+/api/users?category=tech834,0,27,0,0
+/api/users?category=tech794,0,27,0,0
+/about?page=2536,0,16,0,0
+"/dashboard?search="" OR 1=1 --",1,29,1,0
+/login?category=tech176,0,23,0,0
+/contact?category=tech191,0,25,0,0
+/about?category=tech45,0,22,0,0
+/index.html?search=<script>alert(document.cookie)</script>,1,58,6,3
+/about?sort=asc214,0,18,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/../../../windows/system32/cmd.exe,1,34,0,0
+/about?category=tech169,0,23,0,0
+/dashboard,0,10,0,0
+"/checkout?search=UNION SELECT username, password FROM users",1,59,0,2
+/contact?category=tech199,0,25,0,0
+/about?page=2318,0,16,0,0
+/login?page=2863,0,16,0,0
+/checkout?category=tech218,0,26,0,0
+/api/users?category=tech250,0,27,0,0
+/contact?user=urmit345,0,22,0,0
+/login?page=2657,0,16,0,0
+/index.html,0,11,0,0
+/dashboard?page=2213,0,20,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/checkout?user=urmit264,0,23,0,0
+/api/users?id=1730,0,18,0,0
+/index.html?user=urmit897,0,25,0,0
+/dashboard?page=2728,0,20,0,0
+/api/users?page=2766,0,20,0,0
+/products/item?category=tech602,0,31,0,0
+/api/users,0,10,0,0
+/login,0,6,0,0
+/about?id=1380,0,14,0,0
+/contact?user=urmit929,0,22,0,0
+/products/item?category=tech143,0,31,0,0
+/api/users?search=../../../../etc/passwd,1,40,0,0
+/contact?id=116,0,15,0,0
+/index.html?sort=asc161,0,23,0,0
+/checkout?category=tech828,0,26,0,0
+/admin' --,1,10,1,0
+/api/users?sort=asc449,0,22,0,0
+/api/users,0,10,0,0
+/about?search='; EXEC xp_cmdshell('dir');--,1,43,7,1
+/about?page=2784,0,16,0,0
+/contact?sort=asc710,0,20,0,0
+/products/item?sort=asc102,0,26,0,0
+/dashboard?sort=asc599,0,22,0,0
+/api/users?page=2461,0,20,0,0
+/../../../../etc/passwd,1,23,0,0
+/about?category=tech302,0,23,0,0
+/<script>alert(document.cookie)</script>,1,40,6,3
+/login,0,6,0,0
+/api/users?user=urmit737,0,24,0,0
+/checkout?category=tech977,0,26,0,0
+/login?category=tech3,0,21,0,0
+/checkout?search=../../../../etc/passwd,1,39,0,0
+/about?sort=asc100,0,18,0,0
+/api/users?id=1893,0,18,0,0
+/contact?id=1670,0,16,0,0
+/index.html?user=urmit730,0,25,0,0
+/contact?user=urmit550,0,22,0,0
+/login?user=urmit212,0,20,0,0
+/dashboard?user=urmit319,0,24,0,0
+/about?user=urmit328,0,20,0,0
+/dashboard,0,10,0,0
+"/UNION SELECT username, password FROM users",1,43,0,2
+/dashboard?id=1546,0,18,0,0
+/checkout,0,9,0,0
+"/UNION SELECT username, password FROM users",1,43,0,2
+/about?id=1251,0,14,0,0
+/login?search=?id=1; DROP TABLE users,1,37,1,1
+/about?page=2826,0,16,0,0
+/login,0,6,0,0
+/login?id=188,0,13,0,0
+/checkout?category=tech439,0,26,0,0
+/products/item?search=' OR '1'='1,1,33,4,0
+/api/users?id=154,0,17,0,0
+/checkout,0,9,0,0
+/products/item?page=2347,0,24,0,0
+/login?search=%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,53,9,3
+/dashboard?category=tech825,0,27,0,0
+"/checkout?search=UNION SELECT username, password FROM users",1,59,0,2
+/dashboard,0,10,0,0
+/dashboard?user=urmit901,0,24,0,0
+/dashboard?sort=asc598,0,22,0,0
+/about?sort=asc947,0,18,0,0
+/dashboard?category=tech876,0,27,0,0
+/dashboard?page=2505,0,20,0,0
+/dashboard?sort=asc596,0,22,0,0
+/checkout?id=1374,0,17,0,0
+/products/item?category=tech277,0,31,0,0
+/login?page=2624,0,16,0,0
+/index.html?search=onload=prompt(1),1,35,2,0
+/api/users?category=tech980,0,27,0,0
+/login?id=1533,0,14,0,0
+/index.html,0,11,0,0
+/contact?sort=asc211,0,20,0,0
+/contact?id=1759,0,16,0,0
+/index.html?user=urmit537,0,25,0,0
+/about?category=tech420,0,23,0,0
+/about?sort=asc265,0,18,0,0
+/api/users?page=2366,0,20,0,0
+/about?user=urmit57,0,19,0,0
+/checkout,0,9,0,0
+/about,0,6,0,0
+/?id=1; DROP TABLE users,1,24,1,1
+/admin' --,1,10,1,0
+/dashboard?user=urmit494,0,24,0,0
+/checkout?id=1766,0,17,0,0
+/index.html?user=urmit371,0,25,0,0
+/about?category=tech470,0,23,0,0
+/login?page=2491,0,16,0,0
+/dashboard?user=urmit396,0,24,0,0
+/checkout?sort=asc484,0,21,0,0
+/checkout?sort=asc815,0,21,0,0
+/about?id=1495,0,14,0,0
+/login?sort=asc337,0,18,0,0
+/contact?category=tech189,0,25,0,0
+/login?id=1372,0,14,0,0
+/contact,0,8,0,0
+/api/users?id=1476,0,18,0,0
+/dashboard?id=151,0,17,0,0
+/dashboard?page=267,0,19,0,0
+/contact?category=tech737,0,25,0,0
+/dashboard?id=1609,0,18,0,0
+/contact?sort=asc837,0,20,0,0
+/login?user=urmit586,0,20,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/contact?id=1578,0,16,0,0
+/dashboard?sort=asc117,0,22,0,0
+/dashboard?search=../../../../etc/passwd,1,40,0,0
+/checkout?id=1828,0,17,0,0
+/products/item?user=urmit568,0,28,0,0
+/../../../../etc/passwd,1,23,0,0
+/index.html,0,11,0,0
+/products/item?category=tech24,0,30,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/api/users?search=%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,57,9,3
+/index.html,0,11,0,0
+/dashboard?sort=asc927,0,22,0,0
+/about,0,6,0,0
+/products/item?id=1191,0,22,0,0
+/dashboard?user=urmit480,0,24,0,0
+/dashboard?category=tech55,0,26,0,0
+/index.html?search=onload=prompt(1),1,35,2,0
+/login,0,6,0,0
+/products/item?sort=asc884,0,26,0,0
+/checkout?page=2625,0,19,0,0
+/index.html?search=%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,58,9,3
+/admin' --,1,10,1,0
+/about?id=1986,0,14,0,0
+/api/users?id=1478,0,18,0,0
+/login?category=tech94,0,22,0,0
+/login?user=urmit427,0,20,0,0
+/login?id=1387,0,14,0,0
+/contact?search=?id=1; DROP TABLE users,1,39,1,1
+/login?category=tech66,0,22,0,0
+/about,0,6,0,0
+/products/item,0,14,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/index.html?search=admin' --,1,28,1,0
+/login?user=urmit282,0,20,0,0
+/api/users?id=122,0,17,0,0
+/index.html?category=tech437,0,28,0,0
+/about?id=1785,0,14,0,0
+/products/item,0,14,0,0
+/checkout?category=tech717,0,26,0,0
+/<script>alert(document.cookie)</script>,1,40,6,3
+/index.html?category=tech699,0,28,0,0
+/about?sort=asc266,0,18,0,0
+/dashboard?sort=asc958,0,22,0,0
+/index.html?category=tech141,0,28,0,0
+/dashboard?user=urmit385,0,24,0,0
+/<script>alert(document.cookie)</script>,1,40,6,3
+/dashboard?user=urmit359,0,24,0,0
+/about?sort=asc564,0,18,0,0
+/about?category=tech293,0,23,0,0
+/login,0,6,0,0
+/dashboard?user=urmit146,0,24,0,0
+/?id=1; DROP TABLE users,1,24,1,1
+/index.html?id=1593,0,19,0,0
+/index.html?category=tech559,0,28,0,0
+/api/users?user=urmit671,0,24,0,0
+/products/item?page=2703,0,24,0,0
+/api/users?id=1547,0,18,0,0
+/<script>alert(document.cookie)</script>,1,40,6,3
+/products/item?page=273,0,23,0,0
+/contact?id=1162,0,16,0,0
+/index.html,0,11,0,0
+/products/item?user=urmit679,0,28,0,0
+/login?page=2835,0,16,0,0
+/about?user=urmit739,0,20,0,0
+/login?page=2672,0,16,0,0
+/dashboard?page=2173,0,20,0,0
+/contact?search='; EXEC xp_cmdshell('dir');--,1,45,7,1
+/index.html?sort=asc371,0,23,0,0
+/about?category=tech180,0,23,0,0
+/checkout?category=tech903,0,26,0,0
+/dashboard,0,10,0,0
+/products/item?search='; EXEC xp_cmdshell('dir');--,1,51,7,1
+/checkout?sort=asc743,0,21,0,0
+/products/item?search=%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,61,9,3
+/index.html?user=urmit422,0,25,0,0
+/products/item?sort=asc380,0,26,0,0
+/dashboard?page=2803,0,20,0,0
+/login?user=urmit622,0,20,0,0
+/about?page=2572,0,16,0,0
+/login?category=tech803,0,23,0,0
+/about?category=tech619,0,23,0,0
+/about?sort=asc679,0,18,0,0
+/api/users?category=tech146,0,27,0,0
+/login?id=1624,0,14,0,0
+/contact?page=2628,0,18,0,0
+/checkout?id=1702,0,17,0,0
+/../../../../etc/passwd,1,23,0,0
+/dashboard,0,10,0,0
+/products/item?category=tech943,0,31,0,0
+/login?search=<script>alert(document.cookie)</script>,1,53,6,3
+/dashboard,0,10,0,0
+/products/item?user=urmit372,0,28,0,0
+/login?search=../../../windows/system32/cmd.exe,1,47,0,0
+/login?page=2822,0,16,0,0
+/login?id=1430,0,14,0,0
+/login?user=urmit8,0,18,0,0
+/contact?user=urmit130,0,22,0,0
+/api/users?sort=asc667,0,22,0,0
+/index.html?id=1124,0,19,0,0
+/index.html?user=urmit515,0,25,0,0
+/api/users?id=11,0,16,0,0
+/login?id=1952,0,14,0,0
+/checkout?sort=asc405,0,21,0,0
+/checkout?page=2591,0,19,0,0
+/checkout?user=urmit145,0,23,0,0
+/products/item?id=1752,0,22,0,0
+/index.html?sort=asc635,0,23,0,0
+/dashboard,0,10,0,0
+/login,0,6,0,0
+/dashboard?sort=asc980,0,22,0,0
+/api/users?user=urmit776,0,24,0,0
+"/checkout?search="" OR 1=1 --",1,28,1,0
+/about?user=urmit12,0,19,0,0
+/about?sort=asc558,0,18,0,0
+/login?page=2471,0,16,0,0
+/contact?user=urmit880,0,22,0,0
+"/products/item?search="" OR 1=1 --",1,33,1,0
+/index.html?category=tech687,0,28,0,0
+/api/users?page=2566,0,20,0,0
+/contact,0,8,0,0
+/checkout?category=tech414,0,26,0,0
+/contact?user=urmit970,0,22,0,0
+/products/item?page=2938,0,24,0,0
+/products/item?user=urmit29,0,27,0,0
+/dashboard?id=1392,0,18,0,0
+/?id=1; DROP TABLE users,1,24,1,1
+/login?category=tech799,0,23,0,0
+/products/item?id=1803,0,22,0,0
+/checkout?user=urmit625,0,23,0,0
+/contact?page=2655,0,18,0,0
+/login?id=16,0,12,0,0
+/login?page=2839,0,16,0,0
+/login?user=urmit249,0,20,0,0
+"/login?search=UNION SELECT username, password FROM users",1,56,0,2
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/login?page=2903,0,16,0,0
+/checkout?id=1137,0,17,0,0
+/api/users?page=2100,0,20,0,0
+/products/item?page=2751,0,24,0,0
+/contact?category=tech986,0,25,0,0
+/about?page=2459,0,16,0,0
+/index.html?page=2528,0,21,0,0
+/api/users?user=urmit706,0,24,0,0
+/dashboard?id=1165,0,18,0,0
+/api/users?user=urmit938,0,24,0,0
+/contact?user=urmit101,0,22,0,0
+"/contact?search=UNION SELECT username, password FROM users",1,58,0,2
+/about,0,6,0,0
+/contact?search=' OR '1'='1,1,27,4,0
+/<script>alert(document.cookie)</script>,1,40,6,3
+/about?search=<script>alert(document.cookie)</script>,1,53,6,3
+/products/item?page=2134,0,24,0,0
+/login?page=2245,0,16,0,0
+/api/users?id=1619,0,18,0,0
+/checkout,0,9,0,0
+/api/users?user=urmit329,0,24,0,0
+/contact?page=2649,0,18,0,0
+/checkout?sort=asc756,0,21,0,0
+/login,0,6,0,0
+"/"" OR 1=1 --",1,12,1,0
+/checkout,0,9,0,0
+/products/item?search=javascript:eval('var a=1'),1,48,4,1
+/index.html,0,11,0,0
+/dashboard?sort=asc509,0,22,0,0
+/onload=prompt(1),1,17,2,0
+/about?user=urmit921,0,20,0,0
+/api/users?search=%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,57,9,3
+/checkout?id=1502,0,17,0,0
+/products/item?page=2600,0,24,0,0
+/' OR '1'='1,1,12,4,0
+/products/item,0,14,0,0
+/api/users?id=1121,0,18,0,0
+/api/users?id=1790,0,18,0,0
+/index.html?search=javascript:eval('var a=1'),1,45,4,1
+/about?page=2131,0,16,0,0
+/contact?search=javascript:eval('var a=1'),1,42,4,1
+/api/users?sort=asc748,0,22,0,0
+/api/users?id=1330,0,18,0,0
+/onload=prompt(1),1,17,2,0
+/index.html?category=tech562,0,28,0,0
+/products/item?user=urmit247,0,28,0,0
+/about?id=1407,0,14,0,0
+/login?category=tech894,0,23,0,0
+/products/item?sort=asc230,0,26,0,0
+/index.html?search=onload=prompt(1),1,35,2,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/contact,0,8,0,0
+/admin' --,1,10,1,0
+/products/item,0,14,0,0
+/checkout?page=2899,0,19,0,0
+/contact?search=%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,55,9,3
+/../../../../etc/passwd,1,23,0,0
+/index.html?id=1703,0,19,0,0
+/products/item,0,14,0,0
+/checkout?user=urmit26,0,22,0,0
+/' OR '1'='1,1,12,4,0
+/login?sort=asc73,0,17,0,0
+/about?page=2116,0,16,0,0
+/admin' --,1,10,1,0
+/contact?sort=asc524,0,20,0,0
+/api/users,0,10,0,0
+/products/item?search=%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,61,9,3
+/about?category=tech547,0,23,0,0
+/api/users?user=urmit937,0,24,0,0
+/checkout?page=2772,0,19,0,0
+/login?category=tech360,0,23,0,0
+/dashboard?category=tech511,0,27,0,0
+/api/users,0,10,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/api/users?user=urmit162,0,24,0,0
+/index.html?id=1742,0,19,0,0
+/contact?page=2544,0,18,0,0
+/api/users?id=1544,0,18,0,0
+/checkout?search=?id=1; DROP TABLE users,1,40,1,1
+/contact?search='; EXEC xp_cmdshell('dir');--,1,45,7,1
+/index.html?page=2827,0,21,0,0
+/contact?id=1306,0,16,0,0
+/dashboard?category=tech315,0,27,0,0
+/dashboard,0,10,0,0
+/checkout?id=1166,0,17,0,0
+/login?search=../../../../etc/passwd,1,36,0,0
+/about?page=2411,0,16,0,0
+/about?page=2643,0,16,0,0
+/index.html?category=tech926,0,28,0,0
+/products/item?search=admin' --,1,31,1,0
+/login?id=1844,0,14,0,0
+/dashboard?sort=asc46,0,21,0,0
+/checkout?sort=asc19,0,20,0,0
+/contact,0,8,0,0
+/api/users?sort=asc206,0,22,0,0
+/api/users?category=tech218,0,27,0,0
+/checkout?category=tech233,0,26,0,0
+/products/item?user=urmit941,0,28,0,0
+/products/item,0,14,0,0
+/api/users?sort=asc391,0,22,0,0
+/checkout?sort=asc1,0,19,0,0
+/login?page=2935,0,16,0,0
+/contact?search=?id=1; DROP TABLE users,1,39,1,1
+/checkout,0,9,0,0
+/login,0,6,0,0
+/products/item,0,14,0,0
+/contact,0,8,0,0
+/contact?sort=asc393,0,20,0,0
+/checkout?user=urmit966,0,23,0,0
+/contact?user=urmit657,0,22,0,0
+/products/item?search=../../../../etc/passwd,1,44,0,0
+/products/item?category=tech76,0,30,0,0
+/login?user=urmit690,0,20,0,0
+/about?sort=asc663,0,18,0,0
+/products/item,0,14,0,0
+/about?user=urmit987,0,20,0,0
+/checkout?category=tech370,0,26,0,0
+/products/item?id=1549,0,22,0,0
+/about?id=1523,0,14,0,0
+/login?id=1592,0,14,0,0
+/index.html?sort=asc383,0,23,0,0
+/contact?id=137,0,15,0,0
+/dashboard?page=2944,0,20,0,0
+/login?id=1841,0,14,0,0
+/login,0,6,0,0
+/onload=prompt(1),1,17,2,0
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/about,0,6,0,0
+/about?category=tech580,0,23,0,0
+/login?id=1365,0,14,0,0
+/about,0,6,0,0
+/api/users,0,10,0,0
+/login?page=2252,0,16,0,0
+/index.html?sort=asc609,0,23,0,0
+/dashboard?category=tech812,0,27,0,0
+/dashboard?category=tech328,0,27,0,0
+/onload=prompt(1),1,17,2,0
+/checkout?user=urmit312,0,23,0,0
+/checkout,0,9,0,0
+/contact?page=2300,0,18,0,0
+/dashboard?id=1781,0,18,0,0
+/products/item,0,14,0,0
+/contact?category=tech959,0,25,0,0
+/contact?user=urmit759,0,22,0,0
+/about?search=../../../../etc/passwd,1,36,0,0
+/checkout?user=urmit365,0,23,0,0
+/about?user=urmit574,0,20,0,0
+/index.html?sort=asc531,0,23,0,0
+/login?user=urmit208,0,20,0,0
+/login,0,6,0,0
+/contact?category=tech32,0,24,0,0
+/index.html?sort=asc508,0,23,0,0
+/api/users?id=1119,0,18,0,0
+/api/users?sort=asc467,0,22,0,0
+/contact?id=119,0,15,0,0
+/contact,0,8,0,0
+/dashboard?sort=asc724,0,22,0,0
+/about?search=../../../../etc/passwd,1,36,0,0
+/dashboard?sort=asc370,0,22,0,0
+/dashboard?category=tech204,0,27,0,0
+/onload=prompt(1),1,17,2,0
+/javascript:eval('var a=1'),1,27,4,1
+/login?category=tech165,0,23,0,0
+/index.html?id=1844,0,19,0,0
+/checkout,0,9,0,0
+/products/item?id=1763,0,22,0,0
+/api/users?sort=asc468,0,22,0,0
+/login?user=urmit136,0,20,0,0
+/dashboard,0,10,0,0
+/products/item?id=1150,0,22,0,0
+/contact?category=tech628,0,25,0,0
+/index.html?user=urmit257,0,25,0,0
+/dashboard,0,10,0,0
+/checkout?user=urmit621,0,23,0,0
+/login?search=' OR '1'='1,1,25,4,0
+/about?search=admin' --,1,23,1,0
+/contact?category=tech362,0,25,0,0
+/about,0,6,0,0
+/products/item?search=' OR '1'='1,1,33,4,0
+/contact?sort=asc201,0,20,0,0
+/products/item?page=2531,0,24,0,0
+/login?page=2814,0,16,0,0
+/contact?category=tech376,0,25,0,0
+/api/users?sort=asc422,0,22,0,0
+/dashboard?page=2977,0,20,0,0
+/contact?user=urmit928,0,22,0,0
+"/UNION SELECT username, password FROM users",1,43,0,2
+/login,0,6,0,0
+/products/item?sort=asc143,0,26,0,0
+/about?category=tech938,0,23,0,0
+/products/item?page=2269,0,24,0,0
+/dashboard?category=tech371,0,27,0,0
+/dashboard?id=1695,0,18,0,0
+/index.html?page=2712,0,21,0,0
+/dashboard?category=tech282,0,27,0,0
+/products/item?category=tech769,0,31,0,0
+/contact,0,8,0,0
+/products/item,0,14,0,0
+/contact?id=1524,0,16,0,0
+/dashboard?category=tech384,0,27,0,0
+/onload=prompt(1),1,17,2,0
+/about?id=1882,0,14,0,0
+/dashboard?user=urmit212,0,24,0,0
+/login,0,6,0,0
+/contact?category=tech125,0,25,0,0
+/about?id=1918,0,14,0,0
+/login?id=1713,0,14,0,0
+/<script>alert(document.cookie)</script>,1,40,6,3
+/?id=1; DROP TABLE users,1,24,1,1
+/index.html,0,11,0,0
+/checkout?id=1650,0,17,0,0
+/index.html,0,11,0,0
+/index.html?search=%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,58,9,3
+/about?id=1437,0,14,0,0
+/login?sort=asc18,0,17,0,0
+/login?search=onload=prompt(1),1,30,2,0
+"/"" OR 1=1 --",1,12,1,0
+/about,0,6,0,0
+/about?sort=asc306,0,18,0,0
+/about?page=2904,0,16,0,0
+/?id=1; DROP TABLE users,1,24,1,1
+/index.html?search=javascript:eval('var a=1'),1,45,4,1
+/dashboard?user=urmit318,0,24,0,0
+/contact?page=2655,0,18,0,0
+/about?category=tech286,0,23,0,0
+/login?user=urmit61,0,19,0,0
+/contact?page=2409,0,18,0,0
+/login?category=tech326,0,23,0,0
+/api/users?sort=asc372,0,22,0,0
+/products/item,0,14,0,0
+/products/item?user=urmit282,0,28,0,0
+/api/users?sort=asc20,0,21,0,0
+/api/users,0,10,0,0
+/about?category=tech745,0,23,0,0
+/dashboard?sort=asc742,0,22,0,0
+"/api/users?search=UNION SELECT username, password FROM users",1,60,0,2
+/products/item?id=1303,0,22,0,0
+/products/item,0,14,0,0
+/' OR '1'='1,1,12,4,0
+/api/users,0,10,0,0
+"/"" OR 1=1 --",1,12,1,0
+/index.html?id=1152,0,19,0,0
+/products/item?id=1773,0,22,0,0
+/products/item?user=urmit655,0,28,0,0
+/api/users?page=2809,0,20,0,0
+/checkout,0,9,0,0
+/about?category=tech835,0,23,0,0
+/contact?category=tech300,0,25,0,0
+/products/item?sort=asc83,0,25,0,0
+/admin' --,1,10,1,0
+/about,0,6,0,0
+/checkout?search='; EXEC xp_cmdshell('dir');--,1,46,7,1
+/index.html?id=1879,0,19,0,0
+/index.html?sort=asc867,0,23,0,0
+/api/users?search=../../../windows/system32/cmd.exe,1,51,0,0
+/checkout?search=javascript:eval('var a=1'),1,43,4,1
+/login?search=../../../windows/system32/cmd.exe,1,47,0,0
+/contact,0,8,0,0
+/index.html?sort=asc122,0,23,0,0
+/login,0,6,0,0
+/api/users?id=1840,0,18,0,0
+/contact?id=11,0,14,0,0
+/products/item?user=urmit210,0,28,0,0
+/dashboard?user=urmit936,0,24,0,0
+"/"" OR 1=1 --",1,12,1,0
+/api/users?search='; EXEC xp_cmdshell('dir');--,1,47,7,1
+/products/item?page=2899,0,24,0,0
+"/UNION SELECT username, password FROM users",1,43,0,2
+/dashboard,0,10,0,0
+/dashboard?sort=asc94,0,21,0,0
+/about?search=javascript:eval('var a=1'),1,40,4,1
+/login,0,6,0,0
+"/contact?search=UNION SELECT username, password FROM users",1,58,0,2
+"/dashboard?search=UNION SELECT username, password FROM users",1,60,0,2
+/checkout?id=1215,0,17,0,0
+/login?page=2321,0,16,0,0
+/contact?page=2190,0,18,0,0
+/checkout?user=urmit96,0,22,0,0
+/index.html?id=1775,0,19,0,0
+/index.html?page=2187,0,21,0,0
+/about?search=../../../windows/system32/cmd.exe,1,47,0,0
+/products/item?user=urmit657,0,28,0,0
+/products/item?sort=asc223,0,26,0,0
+/contact?id=1703,0,16,0,0
+/products/item?user=urmit564,0,28,0,0
+/about?search=javascript:eval('var a=1'),1,40,4,1
+/products/item?id=1643,0,22,0,0
+/dashboard,0,10,0,0
+/checkout?category=tech838,0,26,0,0
+/index.html?id=1218,0,19,0,0
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/dashboard?category=tech947,0,27,0,0
+/dashboard?page=2230,0,20,0,0
+/about?search=?id=1; DROP TABLE users,1,37,1,1
+/login?search='; EXEC xp_cmdshell('dir');--,1,43,7,1
+/login?id=1779,0,14,0,0
+/dashboard,0,10,0,0
+/contact?user=urmit725,0,22,0,0
+/login,0,6,0,0
+/index.html?id=1142,0,19,0,0
+/login?user=urmit724,0,20,0,0
+/index.html?category=tech993,0,28,0,0
+/products/item?page=2371,0,24,0,0
+/login?page=2548,0,16,0,0
+/dashboard?sort=asc713,0,22,0,0
+/login,0,6,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/login?user=urmit187,0,20,0,0
+/contact?id=122,0,15,0,0
+/checkout?id=1238,0,17,0,0
+/products/item?search=../../../windows/system32/cmd.exe,1,55,0,0
+/contact?sort=asc686,0,20,0,0
+/dashboard?category=tech782,0,27,0,0
+/products/item?id=1158,0,22,0,0
+/' OR '1'='1,1,12,4,0
+/about?sort=asc81,0,17,0,0
+/dashboard?search=javascript:eval('var a=1'),1,44,4,1
+/checkout?sort=asc848,0,21,0,0
+/dashboard?category=tech230,0,27,0,0
+/about?id=1808,0,14,0,0
+/about?category=tech975,0,23,0,0
+/dashboard,0,10,0,0
+/products/item?search=../../../../etc/passwd,1,44,0,0
+/about?sort=asc868,0,18,0,0
+/login,0,6,0,0
+/checkout?page=2114,0,19,0,0
+/login?user=urmit433,0,20,0,0
+/index.html,0,11,0,0
+/' OR '1'='1,1,12,4,0
+/contact?category=tech519,0,25,0,0
+/checkout?page=2650,0,19,0,0
+/login?search=%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,53,9,3
+/' OR '1'='1,1,12,4,0
+/contact?category=tech209,0,25,0,0
+/index.html?id=1971,0,19,0,0
+/checkout?id=198,0,16,0,0
+/index.html?user=urmit474,0,25,0,0
+/products/item,0,14,0,0
+/index.html?user=urmit162,0,25,0,0
+/dashboard,0,10,0,0
+/products/item?user=urmit747,0,28,0,0
+/login?user=urmit855,0,20,0,0
+/about?category=tech672,0,23,0,0
+/login?user=urmit219,0,20,0,0
+/api/users?sort=asc579,0,22,0,0
+/about?page=2615,0,16,0,0
+/products/item?category=tech227,0,31,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/login?id=1613,0,14,0,0
+/api/users,0,10,0,0
+/checkout?category=tech773,0,26,0,0
+/' OR '1'='1,1,12,4,0
+/products/item?search='; EXEC xp_cmdshell('dir');--,1,51,7,1
+/api/users?sort=asc252,0,22,0,0
+/products/item?sort=asc106,0,26,0,0
+/products/item?category=tech25,0,30,0,0
+/<script>alert(document.cookie)</script>,1,40,6,3
+/api/users?sort=asc157,0,22,0,0
+/index.html?search=' OR '1'='1,1,30,4,0
+/login?page=2892,0,16,0,0
+/dashboard?page=226,0,19,0,0
+/checkout?id=1932,0,17,0,0
+/products/item?category=tech138,0,31,0,0
+/contact?id=1361,0,16,0,0
+"/UNION SELECT username, password FROM users",1,43,0,2
+/contact?id=1181,0,16,0,0
+/dashboard?id=1136,0,18,0,0
+/<script>alert(document.cookie)</script>,1,40,6,3
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/index.html?id=190,0,18,0,0
+/contact?sort=asc727,0,20,0,0
+/../../../../etc/passwd,1,23,0,0
+/checkout,0,9,0,0
+/dashboard?id=1693,0,18,0,0
+/checkout?user=urmit181,0,23,0,0
+/products/item?category=tech180,0,31,0,0
+/checkout?id=1912,0,17,0,0
+/checkout?category=tech697,0,26,0,0
+/dashboard?user=urmit956,0,24,0,0
+/index.html?page=2301,0,21,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/about?sort=asc457,0,18,0,0
+/about?search='; EXEC xp_cmdshell('dir');--,1,43,7,1
+/index.html?sort=asc873,0,23,0,0
+/api/users?page=221,0,19,0,0
+/index.html?user=urmit216,0,25,0,0
+/dashboard?user=urmit498,0,24,0,0
+"/about?search="" OR 1=1 --",1,25,1,0
+/dashboard?page=2329,0,20,0,0
+/' OR '1'='1,1,12,4,0
+/dashboard?id=1177,0,18,0,0
+/login?search='; EXEC xp_cmdshell('dir');--,1,43,7,1
+/login?search='; EXEC xp_cmdshell('dir');--,1,43,7,1
+/checkout?category=tech230,0,26,0,0
+/dashboard?sort=asc623,0,22,0,0
+/index.html?page=2176,0,21,0,0
+/about?user=urmit741,0,20,0,0
+/contact?user=urmit892,0,22,0,0
+/login,0,6,0,0
+/about?page=2433,0,16,0,0
+/products/item?id=1574,0,22,0,0
+/checkout,0,9,0,0
+/checkout?user=urmit247,0,23,0,0
+/products/item?category=tech729,0,31,0,0
+/checkout?search=%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,56,9,3
+/contact?category=tech102,0,25,0,0
+/api/users,0,10,0,0
+/about?category=tech107,0,23,0,0
+/index.html?category=tech66,0,27,0,0
+/about,0,6,0,0
+/contact?category=tech596,0,25,0,0
+/products/item?user=urmit943,0,28,0,0
+/login,0,6,0,0
+/' OR '1'='1,1,12,4,0
+/about?search=javascript:eval('var a=1'),1,40,4,1
+/api/users?sort=asc665,0,22,0,0
+/checkout?search=admin' --,1,26,1,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/login?category=tech825,0,23,0,0
+/api/users?user=urmit190,0,24,0,0
+/index.html?id=1987,0,19,0,0
+/products/item?search=?id=1; DROP TABLE users,1,45,1,1
+/checkout,0,9,0,0
+/about?page=2926,0,16,0,0
+/api/users?category=tech258,0,27,0,0
+/login?category=tech906,0,23,0,0
+"/"" OR 1=1 --",1,12,1,0
+/checkout?search=' OR '1'='1,1,28,4,0
+/api/users,0,10,0,0
+/dashboard,0,10,0,0
+/api/users?id=1743,0,18,0,0
+/index.html?page=2981,0,21,0,0
+/index.html?sort=asc995,0,23,0,0
+/contact?search=../../../windows/system32/cmd.exe,1,49,0,0
+/checkout,0,9,0,0
+/index.html?sort=asc791,0,23,0,0
+/checkout?category=tech498,0,26,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/api/users?category=tech623,0,27,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/checkout,0,9,0,0
+/about?category=tech699,0,23,0,0
+/checkout,0,9,0,0
+/api/users?search=../../../windows/system32/cmd.exe,1,51,0,0
+/checkout,0,9,0,0
+/contact?category=tech426,0,25,0,0
+/' OR '1'='1,1,12,4,0
+/dashboard?category=tech98,0,26,0,0
+/products/item?category=tech202,0,31,0,0
+/products/item?category=tech339,0,31,0,0
+/index.html?sort=asc423,0,23,0,0
+/api/users?user=urmit765,0,24,0,0
+/index.html,0,11,0,0
+/checkout?id=1794,0,17,0,0
+/index.html?search=javascript:eval('var a=1'),1,45,4,1
+/index.html?id=1662,0,19,0,0
+/about?page=2738,0,16,0,0
+/api/users?category=tech360,0,27,0,0
+/contact?sort=asc73,0,19,0,0
+/dashboard?category=tech33,0,26,0,0
+/checkout,0,9,0,0
+/products/item?sort=asc484,0,26,0,0
+/login?user=urmit574,0,20,0,0
+"/"" OR 1=1 --",1,12,1,0
+/about?category=tech695,0,23,0,0
+/' OR '1'='1,1,12,4,0
+/dashboard?sort=asc901,0,22,0,0
+/contact?category=tech513,0,25,0,0
+/contact?user=urmit376,0,22,0,0
+/products/item,0,14,0,0
+/dashboard?page=224,0,19,0,0
+/checkout?category=tech834,0,26,0,0
+/dashboard?id=1286,0,18,0,0
+/contact?user=urmit212,0,22,0,0
+/dashboard,0,10,0,0
+/about?user=urmit463,0,20,0,0
+/products/item?user=urmit436,0,28,0,0
+/?id=1; DROP TABLE users,1,24,1,1
+/index.html?id=122,0,18,0,0
+/index.html?sort=asc737,0,23,0,0
+/contact?page=2113,0,18,0,0
+/contact?user=urmit858,0,22,0,0
+/about?user=urmit834,0,20,0,0
+/checkout?search=<script>alert(document.cookie)</script>,1,56,6,3
+/index.html?id=1241,0,19,0,0
+/checkout?page=2715,0,19,0,0
+/login?id=1235,0,14,0,0
+/dashboard?search=javascript:eval('var a=1'),1,44,4,1
+/about?category=tech769,0,23,0,0
+/api/users?page=2656,0,20,0,0
+/contact?user=urmit560,0,22,0,0
+/products/item,0,14,0,0
+/products/item?id=1519,0,22,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/about?category=tech437,0,23,0,0
+/' OR '1'='1,1,12,4,0
+/api/users?sort=asc546,0,22,0,0
+"/index.html?search="" OR 1=1 --",1,30,1,0
+/products/item?sort=asc655,0,26,0,0
+/about,0,6,0,0
+/api/users?page=2279,0,20,0,0
+/about?search=onload=prompt(1),1,30,2,0
+/about,0,6,0,0
+/contact?user=urmit732,0,22,0,0
+/index.html?sort=asc957,0,23,0,0
+/dashboard?user=urmit613,0,24,0,0
+/api/users,0,10,0,0
+/about?sort=asc792,0,18,0,0
+/about?id=1408,0,14,0,0
+/dashboard?search=admin' --,1,27,1,0
+/checkout?page=2279,0,19,0,0
+/login?id=1534,0,14,0,0
+/products/item?id=1495,0,22,0,0
+/about?id=1517,0,14,0,0
+/login?user=urmit272,0,20,0,0
+/about?sort=asc811,0,18,0,0
+/products/item?id=1465,0,22,0,0
+/checkout?id=1109,0,17,0,0
+/checkout?search=' OR '1'='1,1,28,4,0
+/api/users?category=tech812,0,27,0,0
+/index.html?search=?id=1; DROP TABLE users,1,42,1,1
+/index.html?id=180,0,18,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/about?page=2124,0,16,0,0
+/api/users?category=tech947,0,27,0,0
+/login?category=tech62,0,22,0,0
+/index.html?id=1425,0,19,0,0
+/checkout?category=tech27,0,25,0,0
+/dashboard?search=javascript:eval('var a=1'),1,44,4,1
+/onload=prompt(1),1,17,2,0
+/contact?user=urmit333,0,22,0,0
+/checkout?user=urmit962,0,23,0,0
+/login?category=tech963,0,23,0,0
+/products/item?page=2980,0,24,0,0
+/?id=1; DROP TABLE users,1,24,1,1
+/index.html?sort=asc475,0,23,0,0
+/contact?page=2732,0,18,0,0
+/about?search='; EXEC xp_cmdshell('dir');--,1,43,7,1
+/products/item?search=../../../windows/system32/cmd.exe,1,55,0,0
+/index.html?sort=asc63,0,22,0,0
+/dashboard?user=urmit870,0,24,0,0
+/api/users?id=1174,0,18,0,0
+/about?search=' OR '1'='1,1,25,4,0
+/about?id=1488,0,14,0,0
+/dashboard?page=2161,0,20,0,0
+/checkout?page=2129,0,19,0,0
+/contact?id=118,0,15,0,0
+/about?page=2335,0,16,0,0
+/dashboard?sort=asc281,0,22,0,0
+/products/item?sort=asc356,0,26,0,0
+/login?search=' OR '1'='1,1,25,4,0
+"/login?search="" OR 1=1 --",1,25,1,0
+/products/item?id=1532,0,22,0,0
+/checkout?user=urmit701,0,23,0,0
+/contact?category=tech440,0,25,0,0
+/index.html?sort=asc311,0,23,0,0
+/products/item?search=' OR '1'='1,1,33,4,0
+/api/users,0,10,0,0
+/dashboard?category=tech939,0,27,0,0
+/api/users?category=tech790,0,27,0,0
+/login?id=1546,0,14,0,0
+/dashboard?page=229,0,19,0,0
+/dashboard?sort=asc722,0,22,0,0
+/contact?category=tech924,0,25,0,0
+/admin' --,1,10,1,0
+/api/users?category=tech281,0,27,0,0
+/products/item?user=urmit396,0,28,0,0
+/about?search=?id=1; DROP TABLE users,1,37,1,1
+/index.html?search=?id=1; DROP TABLE users,1,42,1,1
+/contact,0,8,0,0
+/contact,0,8,0,0
+/checkout?page=2506,0,19,0,0
+/../../../../etc/passwd,1,23,0,0
+/products/item?search=../../../windows/system32/cmd.exe,1,55,0,0
+/api/users,0,10,0,0
+/products/item,0,14,0,0
+/api/users?user=urmit869,0,24,0,0
+/../../../../etc/passwd,1,23,0,0
+/dashboard?sort=asc959,0,22,0,0
+/checkout?id=1355,0,17,0,0
+/about?user=urmit86,0,19,0,0
+/about?user=urmit372,0,20,0,0
+/checkout?category=tech788,0,26,0,0
+/checkout?page=2770,0,19,0,0
+/dashboard?category=tech463,0,27,0,0
+/contact?sort=asc820,0,20,0,0
+/index.html?search=?id=1; DROP TABLE users,1,42,1,1
+/api/users?id=1769,0,18,0,0
+/dashboard?id=1531,0,18,0,0
+/products/item?category=tech430,0,31,0,0
+/login?sort=asc696,0,18,0,0
+/checkout?category=tech605,0,26,0,0
+/dashboard?id=1134,0,18,0,0
+/checkout?id=1903,0,17,0,0
+/products/item?page=2403,0,24,0,0
+/index.html,0,11,0,0
+/products/item?user=urmit371,0,28,0,0
+/about?page=2509,0,16,0,0
+/products/item?sort=asc74,0,25,0,0
+/checkout,0,9,0,0
+/contact?category=tech775,0,25,0,0
+/login?id=1373,0,14,0,0
+/checkout?id=1972,0,17,0,0
+/index.html?category=tech490,0,28,0,0
+/contact?user=urmit617,0,22,0,0
+/products/item?id=1894,0,22,0,0
+/contact,0,8,0,0
+/products/item?id=127,0,21,0,0
+/api/users?category=tech268,0,27,0,0
+/admin' --,1,10,1,0
+/admin' --,1,10,1,0
+/products/item?id=1329,0,22,0,0
+/about?sort=asc475,0,18,0,0
+/api/users?page=2878,0,20,0,0
+/dashboard?id=1483,0,18,0,0
+/contact?sort=asc613,0,20,0,0
+/about?category=tech322,0,23,0,0
+/dashboard?id=1157,0,18,0,0
+"/"" OR 1=1 --",1,12,1,0
+/checkout?category=tech386,0,26,0,0
+/index.html,0,11,0,0
+/login?category=tech512,0,23,0,0
+/login?user=urmit340,0,20,0,0
+/api/users?id=15,0,16,0,0
+/api/users?category=tech391,0,27,0,0
+/contact?page=2309,0,18,0,0
+/login?sort=asc92,0,17,0,0
+/dashboard?id=1219,0,18,0,0
+/api/users?category=tech590,0,27,0,0
+/about?sort=asc399,0,18,0,0
+/checkout?user=urmit740,0,23,0,0
+/dashboard?category=tech140,0,27,0,0
+/checkout?sort=asc346,0,21,0,0
+/dashboard?sort=asc333,0,22,0,0
+/about?sort=asc977,0,18,0,0
+/products/item?user=urmit397,0,28,0,0
+/checkout?sort=asc474,0,21,0,0
+/' OR '1'='1,1,12,4,0
+/products/item,0,14,0,0
+/api/users?category=tech146,0,27,0,0
+/contact?sort=asc872,0,20,0,0
+/login?id=1519,0,14,0,0
+/checkout?category=tech154,0,26,0,0
+/login?page=2317,0,16,0,0
+/login?id=1398,0,14,0,0
+/onload=prompt(1),1,17,2,0
+/admin' --,1,10,1,0
+/login?search='; EXEC xp_cmdshell('dir');--,1,43,7,1
+/dashboard?sort=asc595,0,22,0,0
+/products/item?page=2712,0,24,0,0
+/checkout?search=?id=1; DROP TABLE users,1,40,1,1
+/products/item?search=' OR '1'='1,1,33,4,0
+/index.html?page=2409,0,21,0,0
+/checkout?id=1974,0,17,0,0
+/checkout?id=1333,0,17,0,0
+/api/users?user=urmit245,0,24,0,0
+/api/users?sort=asc864,0,22,0,0
+/contact,0,8,0,0
+/api/users?page=2370,0,20,0,0
+/index.html?sort=asc199,0,23,0,0
+/checkout?search=../../../windows/system32/cmd.exe,1,50,0,0
+/products/item?sort=asc964,0,26,0,0
+/dashboard?id=1179,0,18,0,0
+/login?user=urmit109,0,20,0,0
+/checkout?id=1243,0,17,0,0
+/about?search='; EXEC xp_cmdshell('dir');--,1,43,7,1
+/index.html?id=1701,0,19,0,0
+/about?id=1451,0,14,0,0
+/checkout?id=1955,0,17,0,0
+/about?id=1212,0,14,0,0
+/dashboard?page=2159,0,20,0,0
+/about,0,6,0,0
+/about?user=urmit795,0,20,0,0
+/index.html?category=tech329,0,28,0,0
+/dashboard?id=1571,0,18,0,0
+/login,0,6,0,0
+/admin' --,1,10,1,0
+/dashboard?category=tech100,0,27,0,0
+/contact,0,8,0,0
+/login?page=258,0,15,0,0
+/index.html,0,11,0,0
+/dashboard,0,10,0,0
+/api/users?sort=asc365,0,22,0,0
+/about?page=2412,0,16,0,0
+/about?page=2200,0,16,0,0
+/dashboard?category=tech280,0,27,0,0
+"/"" OR 1=1 --",1,12,1,0
+/dashboard?category=tech549,0,27,0,0
+/dashboard,0,10,0,0
+/products/item,0,14,0,0
+/login?sort=asc478,0,18,0,0
+/api/users,0,10,0,0
+/products/item?search=%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,61,9,3
+/checkout?page=2148,0,19,0,0
+/api/users?user=urmit731,0,24,0,0
+/about?sort=asc603,0,18,0,0
+/index.html?page=2716,0,21,0,0
+/checkout?sort=asc45,0,20,0,0
+/products/item?user=urmit352,0,28,0,0
+/login?id=182,0,13,0,0
+/index.html?id=1527,0,19,0,0
+/dashboard?sort=asc20,0,21,0,0
+/' OR '1'='1,1,12,4,0
+/products/item?sort=asc970,0,26,0,0
+/contact,0,8,0,0
+/api/users?sort=asc707,0,22,0,0
+/checkout?page=287,0,18,0,0
+/onload=prompt(1),1,17,2,0
+/dashboard?page=2894,0,20,0,0
+/checkout?id=1906,0,17,0,0
+/login?category=tech881,0,23,0,0
+/login?sort=asc675,0,18,0,0
+/?id=1; DROP TABLE users,1,24,1,1
+/contact?search=../../../../etc/passwd,1,38,0,0
+/' OR '1'='1,1,12,4,0
+/about?category=tech70,0,22,0,0
+/index.html,0,11,0,0
+/about?category=tech542,0,23,0,0
+/index.html?search=admin' --,1,28,1,0
+/index.html?sort=asc126,0,23,0,0
+/api/users?user=urmit850,0,24,0,0
+/dashboard?id=1452,0,18,0,0
+/api/users?sort=asc844,0,22,0,0
+/index.html,0,11,0,0
+/login?page=2821,0,16,0,0
+/checkout?sort=asc432,0,21,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/index.html?id=1221,0,19,0,0
+/about?search=onload=prompt(1),1,30,2,0
+/api/users?id=1405,0,18,0,0
+/login?id=1505,0,14,0,0
+/index.html?search=../../../../etc/passwd,1,41,0,0
+/dashboard?id=1132,0,18,0,0
+/contact?id=1754,0,16,0,0
+/dashboard?user=urmit982,0,24,0,0
+/contact?sort=asc727,0,20,0,0
+/checkout?user=urmit49,0,22,0,0
+/dashboard,0,10,0,0
+/contact?page=2882,0,18,0,0
+/login?sort=asc203,0,18,0,0
+/contact?user=urmit737,0,22,0,0
+/' OR '1'='1,1,12,4,0
+/products/item?id=1822,0,22,0,0
+/login?sort=asc460,0,18,0,0
+/products/item?sort=asc996,0,26,0,0
+/api/users?page=2158,0,20,0,0
+/checkout?user=urmit108,0,23,0,0
+/contact?page=2583,0,18,0,0
+/api/users?id=1211,0,18,0,0
+/products/item?category=tech657,0,31,0,0
+"/about?search=UNION SELECT username, password FROM users",1,56,0,2
+/contact?id=1174,0,16,0,0
+/login?category=tech764,0,23,0,0
+/contact,0,8,0,0
+/contact?category=tech113,0,25,0,0
+/products/item?sort=asc713,0,26,0,0
+"/login?search="" OR 1=1 --",1,25,1,0
+/contact?page=249,0,17,0,0
+/dashboard?user=urmit471,0,24,0,0
+/products/item,0,14,0,0
+/about?search=onload=prompt(1),1,30,2,0
+/about?id=1459,0,14,0,0
+/<script>alert(document.cookie)</script>,1,40,6,3
+/api/users?user=urmit251,0,24,0,0
+/checkout?sort=asc503,0,21,0,0
+"/"" OR 1=1 --",1,12,1,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/dashboard,0,10,0,0
+/dashboard?id=1269,0,18,0,0
+/index.html,0,11,0,0
+/about,0,6,0,0
+/dashboard?page=2627,0,20,0,0
+/products/item?user=urmit243,0,28,0,0
+/about?page=2638,0,16,0,0
+/api/users?category=tech146,0,27,0,0
+/checkout,0,9,0,0
+/checkout?category=tech869,0,26,0,0
+/index.html,0,11,0,0
+/products/item?category=tech547,0,31,0,0
+/contact?user=urmit995,0,22,0,0
+/login?id=1920,0,14,0,0
+/' OR '1'='1,1,12,4,0
+/about?search=../../../windows/system32/cmd.exe,1,47,0,0
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/login?category=tech362,0,23,0,0
+/contact?category=tech499,0,25,0,0
+/index.html?page=2463,0,21,0,0
+/checkout?page=2272,0,19,0,0
+/api/users,0,10,0,0
+/api/users,0,10,0,0
+/api/users?page=2154,0,20,0,0
+/about,0,6,0,0
+/api/users,0,10,0,0
+/products/item?sort=asc717,0,26,0,0
+/dashboard?sort=asc580,0,22,0,0
+/api/users?user=urmit909,0,24,0,0
+/about?user=urmit469,0,20,0,0
+/?id=1; DROP TABLE users,1,24,1,1
+/products/item?sort=asc698,0,26,0,0
+/dashboard?page=2806,0,20,0,0
+/about?page=2457,0,16,0,0
+/checkout?user=urmit520,0,23,0,0
+/../../../../etc/passwd,1,23,0,0
+/dashboard?user=urmit157,0,24,0,0
+/products/item?sort=asc11,0,25,0,0
+/index.html,0,11,0,0
+/checkout?search=?id=1; DROP TABLE users,1,40,1,1
+/dashboard?user=urmit108,0,24,0,0
+/contact,0,8,0,0
+/index.html?page=2637,0,21,0,0
+/products/item?sort=asc855,0,26,0,0
+/index.html,0,11,0,0
+/api/users?category=tech774,0,27,0,0
+/contact?id=1245,0,16,0,0
+/?id=1; DROP TABLE users,1,24,1,1
+/checkout?category=tech805,0,26,0,0
+/about?sort=asc971,0,18,0,0
+/products/item?id=1982,0,22,0,0
+/contact?user=urmit198,0,22,0,0
+/checkout?page=2881,0,19,0,0
+/contact?user=urmit64,0,21,0,0
+/index.html?id=12,0,17,0,0
+/api/users?category=tech657,0,27,0,0
+/api/users?page=2784,0,20,0,0
+/api/users?sort=asc675,0,22,0,0
+/api/users,0,10,0,0
+/contact?category=tech832,0,25,0,0
+/contact,0,8,0,0
+/api/users?sort=asc794,0,22,0,0
+/about?page=2798,0,16,0,0
+/checkout?user=urmit998,0,23,0,0
+/dashboard?category=tech772,0,27,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/index.html?category=tech688,0,28,0,0
+/admin' --,1,10,1,0
+/about?id=1109,0,14,0,0
+/products/item,0,14,0,0
+/login?search=admin' --,1,23,1,0
+/api/users,0,10,0,0
+/login?category=tech946,0,23,0,0
+/contact?id=1511,0,16,0,0
+/products/item?page=2109,0,24,0,0
+/about,0,6,0,0
+/contact?category=tech347,0,25,0,0
+/contact?search=../../../../etc/passwd,1,38,0,0
+/dashboard,0,10,0,0
+"/api/users?search="" OR 1=1 --",1,29,1,0
+/about?id=1904,0,14,0,0
+/dashboard?id=1667,0,18,0,0
+/login?id=1884,0,14,0,0
+/api/users?page=2648,0,20,0,0
+/dashboard?sort=asc548,0,22,0,0
+/index.html?category=tech68,0,27,0,0
+/checkout,0,9,0,0
+/index.html?sort=asc33,0,22,0,0
+/login?page=2880,0,16,0,0
+/contact?id=1946,0,16,0,0
+/dashboard?id=1395,0,18,0,0
+/contact,0,8,0,0
+/checkout?page=2803,0,19,0,0
+/checkout,0,9,0,0
+"/"" OR 1=1 --",1,12,1,0
+/login?id=1864,0,14,0,0
+/about?category=tech589,0,23,0,0
+/index.html?page=2795,0,21,0,0
+/dashboard?id=1621,0,18,0,0
+"/UNION SELECT username, password FROM users",1,43,0,2
+/dashboard?search=onload=prompt(1),1,34,2,0
+/products/item,0,14,0,0
+/dashboard?category=tech643,0,27,0,0
+/about?category=tech769,0,23,0,0
+/products/item?id=1305,0,22,0,0
+/about?user=urmit393,0,20,0,0
+/login?search=../../../windows/system32/cmd.exe,1,47,0,0
+/api/users?id=1466,0,18,0,0
+/api/users?user=urmit50,0,23,0,0
+/dashboard?page=2645,0,20,0,0
+/checkout?page=2307,0,19,0,0
+/contact?page=2556,0,18,0,0
+/dashboard?id=1270,0,18,0,0
+/about?user=urmit958,0,20,0,0
+/dashboard,0,10,0,0
+/login?page=2664,0,16,0,0
+/' OR '1'='1,1,12,4,0
+/contact?user=urmit542,0,22,0,0
+/index.html?category=tech932,0,28,0,0
+/checkout?search=../../../windows/system32/cmd.exe,1,50,0,0
+/index.html?id=1955,0,19,0,0
+/products/item?category=tech726,0,31,0,0
+/api/users?id=1472,0,18,0,0
+/contact?category=tech318,0,25,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/checkout?sort=asc32,0,20,0,0
+/api/users,0,10,0,0
+/dashboard?category=tech621,0,27,0,0
+/products/item?sort=asc329,0,26,0,0
+/contact?page=2635,0,18,0,0
+/dashboard?category=tech343,0,27,0,0
+/products/item?page=2220,0,24,0,0
+/api/users?category=tech873,0,27,0,0
+/api/users?sort=asc332,0,22,0,0
+"/dashboard?search="" OR 1=1 --",1,29,1,0
+/contact?category=tech512,0,25,0,0
+/contact?category=tech236,0,25,0,0
+/contact?page=294,0,17,0,0
+/dashboard?user=urmit118,0,24,0,0
+/api/users?search=admin' --,1,27,1,0
+/api/users?user=urmit924,0,24,0,0
+/index.html?user=urmit952,0,25,0,0
+/products/item?page=2660,0,24,0,0
+"/index.html?search="" OR 1=1 --",1,30,1,0
+/checkout?sort=asc413,0,21,0,0
+/about,0,6,0,0
+/admin' --,1,10,1,0
+/contact?id=1758,0,16,0,0
+/login,0,6,0,0
+/about?sort=asc838,0,18,0,0
+/products/item,0,14,0,0
+/login?search=<script>alert(document.cookie)</script>,1,53,6,3
+/api/users?user=urmit58,0,23,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/about?sort=asc2,0,16,0,0
+/login?category=tech561,0,23,0,0
+/contact?page=2671,0,18,0,0
+/products/item?user=urmit727,0,28,0,0
+/about?page=2769,0,16,0,0
+/index.html?sort=asc495,0,23,0,0
+/api/users?search=' OR '1'='1,1,29,4,0
+/products/item,0,14,0,0
+/login?sort=asc351,0,18,0,0
+"/checkout?search=UNION SELECT username, password FROM users",1,59,0,2
+/products/item?user=urmit399,0,28,0,0
+/index.html?sort=asc753,0,23,0,0
+/login?sort=asc331,0,18,0,0
+/api/users?sort=asc590,0,22,0,0
+/onload=prompt(1),1,17,2,0
+/dashboard?category=tech847,0,27,0,0
+/login?page=2426,0,16,0,0
+/dashboard?id=1494,0,18,0,0
+/products/item?sort=asc861,0,26,0,0
+/login?page=274,0,15,0,0
+/index.html?page=2652,0,21,0,0
+/login?id=1626,0,14,0,0
+/dashboard?sort=asc569,0,22,0,0
+/contact?page=2798,0,18,0,0
+/about?search=../../../../etc/passwd,1,36,0,0
+/dashboard?sort=asc609,0,22,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/index.html?category=tech226,0,28,0,0
+/index.html?search=admin' --,1,28,1,0
+/index.html?category=tech833,0,28,0,0
+/login?user=urmit98,0,19,0,0
+"/products/item?search=UNION SELECT username, password FROM users",1,64,0,2
+/about?category=tech177,0,23,0,0
+/products/item,0,14,0,0
+/products/item?user=urmit155,0,28,0,0
+/products/item?category=tech929,0,31,0,0
+/dashboard?page=2465,0,20,0,0
+/about,0,6,0,0
+/about?id=1715,0,14,0,0
+/contact?search=' OR '1'='1,1,27,4,0
+/index.html?user=urmit594,0,25,0,0
+/api/users?sort=asc865,0,22,0,0
+"/api/users?search="" OR 1=1 --",1,29,1,0
+/dashboard?page=2698,0,20,0,0
+/contact?category=tech346,0,25,0,0
+/contact?search=?id=1; DROP TABLE users,1,39,1,1
+/contact?sort=asc80,0,19,0,0
+/about?sort=asc436,0,18,0,0
+/onload=prompt(1),1,17,2,0
+/checkout?category=tech269,0,26,0,0
+/checkout?id=1193,0,17,0,0
+/checkout?category=tech439,0,26,0,0
+/api/users?id=1135,0,18,0,0
+/index.html?id=1407,0,19,0,0
+/login?category=tech210,0,23,0,0
+/checkout?user=urmit576,0,23,0,0
+/' OR '1'='1,1,12,4,0
+/contact?user=urmit435,0,22,0,0
+/index.html?user=urmit886,0,25,0,0
+/about?id=1222,0,14,0,0
+/index.html?category=tech979,0,28,0,0
+/checkout?user=urmit193,0,23,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/contact?search=onload=prompt(1),1,32,2,0
+/onload=prompt(1),1,17,2,0
+/products/item?search=../../../windows/system32/cmd.exe,1,55,0,0
+/products/item?sort=asc525,0,26,0,0
+/api/users,0,10,0,0
+/login?sort=asc729,0,18,0,0
+/contact?user=urmit645,0,22,0,0
+/products/item?sort=asc426,0,26,0,0
+/checkout?search=onload=prompt(1),1,33,2,0
+/dashboard?sort=asc147,0,22,0,0
+/dashboard,0,10,0,0
+/about,0,6,0,0
+/?id=1; DROP TABLE users,1,24,1,1
+/contact?page=2657,0,18,0,0
+/api/users,0,10,0,0
+/products/item?sort=asc409,0,26,0,0
+/about?sort=asc766,0,18,0,0
+/products/item,0,14,0,0
+/checkout?page=2342,0,19,0,0
+/contact?user=urmit453,0,22,0,0
+/checkout?sort=asc23,0,20,0,0
+/index.html?category=tech314,0,28,0,0
+/products/item?page=2857,0,24,0,0
+/index.html?id=1368,0,19,0,0
+/index.html?id=1319,0,19,0,0
+/api/users?category=tech463,0,27,0,0
+/checkout?id=178,0,16,0,0
+/dashboard?category=tech715,0,27,0,0
+/checkout?category=tech806,0,26,0,0
+/about,0,6,0,0
+/contact?user=urmit169,0,22,0,0
+/about?user=urmit90,0,19,0,0
+/api/users,0,10,0,0
+/products/item?sort=asc428,0,26,0,0
+/admin' --,1,10,1,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/api/users?user=urmit862,0,24,0,0
+/checkout?sort=asc393,0,21,0,0
+/checkout?id=1598,0,17,0,0
+/dashboard?user=urmit883,0,24,0,0
+/contact?category=tech508,0,25,0,0
+/contact?category=tech381,0,25,0,0
+/api/users?user=urmit560,0,24,0,0
+/about?id=1738,0,14,0,0
+/about?search=admin' --,1,23,1,0
+/login?category=tech126,0,23,0,0
+/dashboard,0,10,0,0
+/dashboard?user=urmit844,0,24,0,0
+/onload=prompt(1),1,17,2,0
+/api/users?id=1162,0,18,0,0
+/login,0,6,0,0
+/about?search=?id=1; DROP TABLE users,1,37,1,1
+/' OR '1'='1,1,12,4,0
+/contact?sort=asc234,0,20,0,0
+/api/users?id=1813,0,18,0,0
+/../../../../etc/passwd,1,23,0,0
+/products/item?sort=asc774,0,26,0,0
+/login?category=tech716,0,23,0,0
+/login?search=javascript:eval('var a=1'),1,40,4,1
+/checkout?user=urmit704,0,23,0,0
+/dashboard?page=2717,0,20,0,0
+/dashboard?category=tech201,0,27,0,0
+/contact?sort=asc408,0,20,0,0
+/index.html?category=tech908,0,28,0,0
+/login?category=tech952,0,23,0,0
+/login,0,6,0,0
+/onload=prompt(1),1,17,2,0
+/index.html?page=2493,0,21,0,0
+/checkout?sort=asc936,0,21,0,0
+/products/item?user=urmit707,0,28,0,0
+/api/users?search=<script>alert(document.cookie)</script>,1,57,6,3
+/products/item?sort=asc821,0,26,0,0
+/products/item?sort=asc25,0,25,0,0
+/contact?search=../../../../etc/passwd,1,38,0,0
+/contact?category=tech102,0,25,0,0
+/index.html?category=tech839,0,28,0,0
+/about?id=196,0,13,0,0
+/login?page=2838,0,16,0,0
+/login?category=tech866,0,23,0,0
+/dashboard,0,10,0,0
+/checkout?page=2717,0,19,0,0
+/products/item?page=2993,0,24,0,0
+/dashboard?id=1712,0,18,0,0
+/checkout?id=1130,0,17,0,0
+/contact?user=urmit394,0,22,0,0
+/api/users?sort=asc461,0,22,0,0
+/onload=prompt(1),1,17,2,0
+/contact?sort=asc538,0,20,0,0
+/login?user=urmit394,0,20,0,0
+/checkout?user=urmit165,0,23,0,0
+/admin' --,1,10,1,0
+/dashboard?page=2409,0,20,0,0
+/index.html?sort=asc142,0,23,0,0
+/dashboard?page=2496,0,20,0,0
+/about?sort=asc947,0,18,0,0
+/login?id=1263,0,14,0,0
+/checkout,0,9,0,0
+/api/users?search=../../../../etc/passwd,1,40,0,0
+/api/users?search=?id=1; DROP TABLE users,1,41,1,1
+/dashboard?page=2694,0,20,0,0
+/api/users?user=urmit368,0,24,0,0
+/' OR '1'='1,1,12,4,0
+/index.html,0,11,0,0
+/api/users?sort=asc425,0,22,0,0
+/about?page=2279,0,16,0,0
+/login,0,6,0,0
+/login?user=urmit307,0,20,0,0
+/index.html?sort=asc469,0,23,0,0
+/contact?search=?id=1; DROP TABLE users,1,39,1,1
+/checkout?category=tech475,0,26,0,0
+/api/users?category=tech370,0,27,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/products/item?id=1631,0,22,0,0
+/<script>alert(document.cookie)</script>,1,40,6,3
+/onload=prompt(1),1,17,2,0
+/login?id=1753,0,14,0,0
+/checkout?page=2554,0,19,0,0
+/dashboard?sort=asc656,0,22,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/index.html?user=urmit467,0,25,0,0
+/products/item?sort=asc121,0,26,0,0
+"/login?search=UNION SELECT username, password FROM users",1,56,0,2
+/admin' --,1,10,1,0
+/login,0,6,0,0
+/about?sort=asc822,0,18,0,0
+/login?page=2461,0,16,0,0
+"/products/item?search=UNION SELECT username, password FROM users",1,64,0,2
+/api/users?id=1492,0,18,0,0
+/dashboard?page=2834,0,20,0,0
+/contact?page=2884,0,18,0,0
+/login?search=?id=1; DROP TABLE users,1,37,1,1
+"/about?search="" OR 1=1 --",1,25,1,0
+/products/item?user=urmit550,0,28,0,0
+/checkout?search=../../../../etc/passwd,1,39,0,0
+/?id=1; DROP TABLE users,1,24,1,1
+/checkout?sort=asc807,0,21,0,0
+/index.html?sort=asc392,0,23,0,0
+/login?user=urmit73,0,19,0,0
+/index.html?sort=asc912,0,23,0,0
+/dashboard?sort=asc989,0,22,0,0
+/dashboard?user=urmit90,0,23,0,0
+"/"" OR 1=1 --",1,12,1,0
+/products/item?page=2613,0,24,0,0
+/checkout,0,9,0,0
+/products/item,0,14,0,0
+/checkout?id=1303,0,17,0,0
+/login?id=1534,0,14,0,0
+/dashboard,0,10,0,0
+/dashboard?sort=asc700,0,22,0,0
+/contact?category=tech931,0,25,0,0
+/products/item?page=24,0,22,0,0
+/../../../../etc/passwd,1,23,0,0
+/contact?page=2884,0,18,0,0
+/login?category=tech253,0,23,0,0
+/login,0,6,0,0
+/login?page=2386,0,16,0,0
+/api/users?user=urmit101,0,24,0,0
+/index.html?id=1121,0,19,0,0
+/products/item?user=urmit456,0,28,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/dashboard?sort=asc794,0,22,0,0
+/products/item?category=tech146,0,31,0,0
+/../../../../etc/passwd,1,23,0,0
+/contact?id=1819,0,16,0,0
+/api/users?sort=asc933,0,22,0,0
+/checkout,0,9,0,0
+/dashboard?id=1862,0,18,0,0
+/login?sort=asc648,0,18,0,0
+/about,0,6,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/about?category=tech729,0,23,0,0
+/index.html?search=../../../windows/system32/cmd.exe,1,52,0,0
+/about?user=urmit719,0,20,0,0
+/login?search=?id=1; DROP TABLE users,1,37,1,1
+/products/item?search=../../../../etc/passwd,1,44,0,0
+/api/users?user=urmit891,0,24,0,0
+/login?user=urmit168,0,20,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/dashboard?user=urmit723,0,24,0,0
+/products/item?user=urmit272,0,28,0,0
+/index.html?sort=asc756,0,23,0,0
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/api/users?page=2953,0,20,0,0
+/index.html?sort=asc310,0,23,0,0
+/dashboard,0,10,0,0
+/contact?sort=asc123,0,20,0,0
+/contact?id=1329,0,16,0,0
+/api/users?search=javascript:eval('var a=1'),1,44,4,1
+/about,0,6,0,0
+/login?page=2413,0,16,0,0
+/about?category=tech67,0,22,0,0
+/dashboard?id=14,0,16,0,0
+/api/users,0,10,0,0
+/checkout?page=2398,0,19,0,0
+/products/item?id=1501,0,22,0,0
+/products/item?user=urmit202,0,28,0,0
+/products/item?page=2615,0,24,0,0
+/index.html?category=tech29,0,27,0,0
+/contact,0,8,0,0
+/contact?sort=asc979,0,20,0,0
+/dashboard?page=2572,0,20,0,0
+/login?user=urmit671,0,20,0,0
+/checkout?category=tech137,0,26,0,0
+/about?sort=asc815,0,18,0,0
+/contact,0,8,0,0
+/contact?search=?id=1; DROP TABLE users,1,39,1,1
+/login,0,6,0,0
+/about?id=1854,0,14,0,0
+"/about?search=UNION SELECT username, password FROM users",1,56,0,2
+/login?id=1260,0,14,0,0
+/products/item?id=1595,0,22,0,0
+/login?page=2567,0,16,0,0
+/checkout?id=1216,0,17,0,0
+/about,0,6,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/onload=prompt(1),1,17,2,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/login,0,6,0,0
+/api/users?page=2353,0,20,0,0
+/about?id=1297,0,14,0,0
+/index.html?user=urmit227,0,25,0,0
+/checkout?page=2611,0,19,0,0
+/index.html?search=onload=prompt(1),1,35,2,0
+/login?page=2918,0,16,0,0
+/onload=prompt(1),1,17,2,0
+/contact?search=javascript:eval('var a=1'),1,42,4,1
+/api/users?search=%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,57,9,3
+/api/users,0,10,0,0
+/products/item?page=2252,0,24,0,0
+/index.html?sort=asc26,0,22,0,0
+/contact?user=urmit52,0,21,0,0
+/dashboard?sort=asc294,0,22,0,0
+/about?page=2956,0,16,0,0
+/index.html?sort=asc9,0,21,0,0
+/index.html?user=urmit869,0,25,0,0
+/checkout?search=../../../../etc/passwd,1,39,0,0
+/login?search=javascript:eval('var a=1'),1,40,4,1
+/api/users,0,10,0,0
+/login?page=2777,0,16,0,0
+/index.html,0,11,0,0
+/products/item?search=?id=1; DROP TABLE users,1,45,1,1
+/login?id=1703,0,14,0,0
+/login?page=2481,0,16,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/products/item?user=urmit435,0,28,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/login?user=urmit931,0,20,0,0
+/about?page=2301,0,16,0,0
+/login?page=2781,0,16,0,0
+/products/item?search=' OR '1'='1,1,33,4,0
+/login?page=2336,0,16,0,0
+/api/users?search=%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,57,9,3
+/login?user=urmit793,0,20,0,0
+/about?page=2546,0,16,0,0
+/contact,0,8,0,0
+/contact?page=2257,0,18,0,0
+/checkout?search=?id=1; DROP TABLE users,1,40,1,1
+/api/users?user=urmit993,0,24,0,0
+/about?category=tech320,0,23,0,0
+/login,0,6,0,0
+/login?search=onload=prompt(1),1,30,2,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/index.html,0,11,0,0
+/admin' --,1,10,1,0
+/login?id=128,0,13,0,0
+/dashboard?search=%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,57,9,3
+/api/users?id=1535,0,18,0,0
+/index.html?id=1650,0,19,0,0
+/contact,0,8,0,0
+"/contact?search=UNION SELECT username, password FROM users",1,58,0,2
+/index.html?id=1232,0,19,0,0
+/products/item?category=tech839,0,31,0,0
+/contact,0,8,0,0
+"/"" OR 1=1 --",1,12,1,0
+/dashboard?page=218,0,19,0,0
+/products/item?page=2599,0,24,0,0
+/index.html?id=1647,0,19,0,0
+"/checkout?search="" OR 1=1 --",1,28,1,0
+/products/item?sort=asc29,0,25,0,0
+"/UNION SELECT username, password FROM users",1,43,0,2
+/dashboard?category=tech633,0,27,0,0
+/about?page=2698,0,16,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+"/UNION SELECT username, password FROM users",1,43,0,2
+/products/item?category=tech509,0,31,0,0
+/login,0,6,0,0
+/index.html?page=2339,0,21,0,0
+/checkout?sort=asc916,0,21,0,0
+/checkout?user=urmit202,0,23,0,0
+/index.html?page=2107,0,21,0,0
+/api/users?category=tech860,0,27,0,0
+/index.html?id=1232,0,19,0,0
+/login?user=urmit802,0,20,0,0
+/checkout?search=onload=prompt(1),1,33,2,0
+/products/item?page=2381,0,24,0,0
+/contact?sort=asc648,0,20,0,0
+/products/item?sort=asc403,0,26,0,0
+/login?id=1821,0,14,0,0
+/about?category=tech547,0,23,0,0
+/about?sort=asc709,0,18,0,0
+/checkout?id=1382,0,17,0,0
+/../../../../etc/passwd,1,23,0,0
+/dashboard?category=tech464,0,27,0,0
+/index.html?page=2281,0,21,0,0
+/about?category=tech232,0,23,0,0
+/index.html?category=tech900,0,28,0,0
+/products/item?user=urmit254,0,28,0,0
+/dashboard?user=urmit876,0,24,0,0
+/checkout?sort=asc415,0,21,0,0
+/contact?search=admin' --,1,25,1,0
+/dashboard?page=2187,0,20,0,0
+/login?category=tech197,0,23,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/admin' --,1,10,1,0
+/login?category=tech170,0,23,0,0
+/dashboard?search=admin' --,1,27,1,0
+/contact,0,8,0,0
+/about?id=1722,0,14,0,0
+/contact?id=1118,0,16,0,0
+/login?user=urmit542,0,20,0,0
+/products/item?id=1456,0,22,0,0
+/api/users?page=257,0,19,0,0
+/products/item?page=2426,0,24,0,0
+/checkout?page=2860,0,19,0,0
+/../../../../etc/passwd,1,23,0,0
+/checkout?category=tech224,0,26,0,0
+/dashboard,0,10,0,0
+/dashboard?page=2966,0,20,0,0
+/api/users?page=2265,0,20,0,0
+/login?id=1227,0,14,0,0
+/contact?id=1648,0,16,0,0
+/<script>alert(document.cookie)</script>,1,40,6,3
+/dashboard?category=tech938,0,27,0,0
+/index.html?search=onload=prompt(1),1,35,2,0
+/contact?sort=asc241,0,20,0,0
+"/checkout?search="" OR 1=1 --",1,28,1,0
+/login?category=tech64,0,22,0,0
+/login?search=<script>alert(document.cookie)</script>,1,53,6,3
+/api/users?user=urmit141,0,24,0,0
+/about,0,6,0,0
+/products/item?category=tech407,0,31,0,0
+/dashboard?page=2990,0,20,0,0
+/dashboard?page=2989,0,20,0,0
+/index.html?search=onload=prompt(1),1,35,2,0
+"/dashboard?search="" OR 1=1 --",1,29,1,0
+/login?sort=asc988,0,18,0,0
+/products/item?category=tech444,0,31,0,0
+/checkout?id=1410,0,17,0,0
+/dashboard?id=1956,0,18,0,0
+/products/item,0,14,0,0
+/login?search=../../../../etc/passwd,1,36,0,0
+/onload=prompt(1),1,17,2,0
+/index.html?id=1510,0,19,0,0
+/api/users?search=' OR '1'='1,1,29,4,0
+/../../../../etc/passwd,1,23,0,0
+/checkout?category=tech909,0,26,0,0
+/products/item?user=urmit820,0,28,0,0
+/checkout?user=urmit725,0,23,0,0
+/api/users?sort=asc731,0,22,0,0
+/index.html?category=tech367,0,28,0,0
+/products/item?page=2898,0,24,0,0
+/about?search=<script>alert(document.cookie)</script>,1,53,6,3
+/checkout?category=tech565,0,26,0,0
+/index.html?sort=asc833,0,23,0,0
+/index.html?id=1472,0,19,0,0
+/index.html,0,11,0,0
+/login?user=urmit463,0,20,0,0
+/checkout?id=1966,0,17,0,0
+/about?page=2218,0,16,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/api/users?id=1609,0,18,0,0
+/api/users,0,10,0,0
+/about,0,6,0,0
+/about?id=1727,0,14,0,0
+/login?id=1572,0,14,0,0
+"/"" OR 1=1 --",1,12,1,0
+/products/item?sort=asc682,0,26,0,0
+/index.html?user=urmit795,0,25,0,0
+/index.html?sort=asc792,0,23,0,0
+/about,0,6,0,0
+/../../../../etc/passwd,1,23,0,0
+"/api/users?search=UNION SELECT username, password FROM users",1,60,0,2
+/checkout?search=<script>alert(document.cookie)</script>,1,56,6,3
+/dashboard?id=1821,0,18,0,0
+/dashboard?id=1902,0,18,0,0
+/checkout?sort=asc515,0,21,0,0
+/api/users?user=urmit316,0,24,0,0
+/products/item?id=1768,0,22,0,0
+/checkout?category=tech665,0,26,0,0
+/products/item,0,14,0,0
+/contact?id=1235,0,16,0,0
+/checkout?category=tech893,0,26,0,0
+/about?category=tech615,0,23,0,0
+/dashboard?user=urmit699,0,24,0,0
+/login?page=2175,0,16,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/login?page=2292,0,16,0,0
+/dashboard?user=urmit712,0,24,0,0
+/api/users?category=tech440,0,27,0,0
+/products/item?id=1806,0,22,0,0
+/contact?category=tech914,0,25,0,0
+/index.html?id=1673,0,19,0,0
+/checkout?category=tech768,0,26,0,0
+/dashboard?id=1102,0,18,0,0
+/products/item?page=2774,0,24,0,0
+/login,0,6,0,0
+/login,0,6,0,0
+/contact?category=tech985,0,25,0,0
+/login?page=2199,0,16,0,0
+/login?category=tech768,0,23,0,0
+"/UNION SELECT username, password FROM users",1,43,0,2
+/index.html?user=urmit218,0,25,0,0
+/dashboard?sort=asc556,0,22,0,0
+/products/item?user=urmit895,0,28,0,0
+/checkout?sort=asc217,0,21,0,0
+"/index.html?search="" OR 1=1 --",1,30,1,0
+/dashboard?user=urmit965,0,24,0,0
+/dashboard?category=tech135,0,27,0,0
+/checkout?search=javascript:eval('var a=1'),1,43,4,1
+/contact?user=urmit187,0,22,0,0
+/checkout?category=tech792,0,26,0,0
+/about?id=1258,0,14,0,0
+/../../../../etc/passwd,1,23,0,0
+/dashboard,0,10,0,0
+/checkout,0,9,0,0
+/about?user=urmit527,0,20,0,0
+"/login?search=UNION SELECT username, password FROM users",1,56,0,2
+/dashboard?sort=asc538,0,22,0,0
+/contact?page=2948,0,18,0,0
+/contact,0,8,0,0
+/login?category=tech847,0,23,0,0
+/checkout?search=onload=prompt(1),1,33,2,0
+/api/users,0,10,0,0
+/products/item,0,14,0,0
+/about?sort=asc343,0,18,0,0
+/login?id=1673,0,14,0,0
+/login?category=tech880,0,23,0,0
+/checkout,0,9,0,0
+/products/item?sort=asc581,0,26,0,0
+/about?user=urmit586,0,20,0,0
+/api/users?page=2132,0,20,0,0
+/api/users?sort=asc23,0,21,0,0
+/dashboard?user=urmit197,0,24,0,0
+/?id=1; DROP TABLE users,1,24,1,1
+/dashboard?id=1477,0,18,0,0
+/dashboard?search=' OR '1'='1,1,29,4,0
+/about?category=tech497,0,23,0,0
+/products/item?sort=asc696,0,26,0,0
+/products/item?user=urmit112,0,28,0,0
+/contact?page=240,0,17,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+"/"" OR 1=1 --",1,12,1,0
+/contact,0,8,0,0
+/contact?sort=asc781,0,20,0,0
+/login?sort=asc288,0,18,0,0
+/index.html?sort=asc542,0,23,0,0
+/login?sort=asc748,0,18,0,0
+/onload=prompt(1),1,17,2,0
+/checkout?sort=asc276,0,21,0,0
+/contact,0,8,0,0
+/checkout?page=2331,0,19,0,0
+/contact?sort=asc689,0,20,0,0
+/login?page=2402,0,16,0,0
+/contact?id=1898,0,16,0,0
+/index.html?user=urmit572,0,25,0,0
+/checkout?search=../../../windows/system32/cmd.exe,1,50,0,0
+/dashboard?sort=asc212,0,22,0,0
+/api/users?user=urmit469,0,24,0,0
+/dashboard?sort=asc48,0,21,0,0
+/checkout?user=urmit138,0,23,0,0
+"/UNION SELECT username, password FROM users",1,43,0,2
+/about?page=2217,0,16,0,0
+/api/users?search=%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,57,9,3
+/checkout,0,9,0,0
+/dashboard?user=urmit42,0,23,0,0
+/products/item?id=1790,0,22,0,0
+/contact?id=1628,0,16,0,0
+/login?sort=asc978,0,18,0,0
+/api/users?category=tech739,0,27,0,0
+/api/users?category=tech742,0,27,0,0
+/dashboard?user=urmit300,0,24,0,0
+/contact,0,8,0,0
+/onload=prompt(1),1,17,2,0
+/login?user=urmit259,0,20,0,0
+/checkout?category=tech197,0,26,0,0
+/dashboard?sort=asc307,0,22,0,0
+/admin' --,1,10,1,0
+/login?category=tech361,0,23,0,0
+/products/item?page=287,0,23,0,0
+/api/users?user=urmit270,0,24,0,0
+/login?page=2426,0,16,0,0
+/about?page=2144,0,16,0,0
+/checkout?search=admin' --,1,26,1,0
+/api/users?id=1447,0,18,0,0
+/checkout?page=2467,0,19,0,0
+/about?page=225,0,15,0,0
+/products/item?user=urmit575,0,28,0,0
+/dashboard?id=1263,0,18,0,0
+/products/item?sort=asc711,0,26,0,0
+/api/users?user=urmit195,0,24,0,0
+/dashboard?id=1724,0,18,0,0
+/dashboard,0,10,0,0
+/products/item?id=1524,0,22,0,0
+/api/users?user=urmit729,0,24,0,0
+/login?user=urmit955,0,20,0,0
+"/UNION SELECT username, password FROM users",1,43,0,2
+/about?id=1549,0,14,0,0
+/checkout?category=tech335,0,26,0,0
+/contact?category=tech855,0,25,0,0
+/about,0,6,0,0
+/onload=prompt(1),1,17,2,0
+/admin' --,1,10,1,0
+/checkout?sort=asc414,0,21,0,0
+/dashboard?id=1641,0,18,0,0
+/dashboard?page=2343,0,20,0,0
+/dashboard?id=1131,0,18,0,0
+/products/item,0,14,0,0
+/dashboard?category=tech797,0,27,0,0
+"/UNION SELECT username, password FROM users",1,43,0,2
+/login?page=2699,0,16,0,0
+/login,0,6,0,0
+/index.html?sort=asc577,0,23,0,0
+/about?id=1711,0,14,0,0
+/about?category=tech566,0,23,0,0
+/products/item?user=urmit969,0,28,0,0
+/products/item?category=tech467,0,31,0,0
+"/products/item?search=UNION SELECT username, password FROM users",1,64,0,2
+/contact?category=tech272,0,25,0,0
+/checkout?search=?id=1; DROP TABLE users,1,40,1,1
+/dashboard?search=' OR '1'='1,1,29,4,0
+/about?id=1678,0,14,0,0
+/checkout?search=?id=1; DROP TABLE users,1,40,1,1
+/contact?sort=asc404,0,20,0,0
+/index.html?user=urmit43,0,24,0,0
+/api/users?page=2116,0,20,0,0
+/about?sort=asc945,0,18,0,0
+/contact,0,8,0,0
+/api/users?id=1730,0,18,0,0
+/contact,0,8,0,0
+/dashboard?page=2745,0,20,0,0
+/api/users?search=?id=1; DROP TABLE users,1,41,1,1
+/products/item,0,14,0,0
+/products/item,0,14,0,0
+/about,0,6,0,0
+/about?user=urmit991,0,20,0,0
+/products/item,0,14,0,0
+/login,0,6,0,0
+/about?category=tech355,0,23,0,0
+/api/users?id=1743,0,18,0,0
+/products/item?id=1270,0,22,0,0
+/../../../../etc/passwd,1,23,0,0
+/contact?sort=asc175,0,20,0,0
+/api/users?user=urmit677,0,24,0,0
+/checkout?category=tech181,0,26,0,0
+/index.html,0,11,0,0
+/api/users?search=onload=prompt(1),1,34,2,0
+/checkout?search=?id=1; DROP TABLE users,1,40,1,1
+/products/item?id=1609,0,22,0,0
+/about?user=urmit849,0,20,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/products/item?search=../../../../etc/passwd,1,44,0,0
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/index.html?user=urmit351,0,25,0,0
+/login?id=1540,0,14,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/dashboard,0,10,0,0
+/about?id=1254,0,14,0,0
+/contact?user=urmit693,0,22,0,0
+/dashboard?sort=asc239,0,22,0,0
+/contact?page=2451,0,18,0,0
+/checkout?search=../../../windows/system32/cmd.exe,1,50,0,0
+/contact?category=tech160,0,25,0,0
+/index.html?category=tech305,0,28,0,0
+"/"" OR 1=1 --",1,12,1,0
+/about?user=urmit343,0,20,0,0
+/checkout?search=../../../../etc/passwd,1,39,0,0
+/index.html?id=1224,0,19,0,0
+/checkout?id=124,0,16,0,0
+/checkout,0,9,0,0
+/index.html?category=tech492,0,28,0,0
+/index.html?sort=asc633,0,23,0,0
+/index.html,0,11,0,0
+/api/users?page=2513,0,20,0,0
+/api/users?user=urmit446,0,24,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/../../../windows/system32/cmd.exe,1,34,0,0
+/login?user=urmit845,0,20,0,0
+/checkout?sort=asc39,0,20,0,0
+/login?category=tech329,0,23,0,0
+/login?user=urmit177,0,20,0,0
+/api/users?sort=asc343,0,22,0,0
+/index.html,0,11,0,0
+/products/item?user=urmit485,0,28,0,0
+/index.html,0,11,0,0
+/checkout?page=2782,0,19,0,0
+/about?sort=asc788,0,18,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/dashboard?search='; EXEC xp_cmdshell('dir');--,1,47,7,1
+/products/item?page=2445,0,24,0,0
+/products/item?category=tech199,0,31,0,0
+/checkout,0,9,0,0
+/dashboard?user=urmit172,0,24,0,0
+/index.html?category=tech915,0,28,0,0
+/about?sort=asc978,0,18,0,0
+/contact?category=tech827,0,25,0,0
+/login?user=urmit394,0,20,0,0
+/login,0,6,0,0
+/index.html,0,11,0,0
+/contact?id=1233,0,16,0,0
+/contact,0,8,0,0
+/login?id=1855,0,14,0,0
+/products/item?page=2470,0,24,0,0
+/onload=prompt(1),1,17,2,0
+/login?sort=asc318,0,18,0,0
+/api/users?id=122,0,17,0,0
+/about?page=2766,0,16,0,0
+/onload=prompt(1),1,17,2,0
+/api/users?id=1944,0,18,0,0
+/checkout?id=1679,0,17,0,0
+/index.html?user=urmit858,0,25,0,0
+/contact?category=tech775,0,25,0,0
+/checkout?search=<script>alert(document.cookie)</script>,1,56,6,3
+/products/item,0,14,0,0
+/about?search=admin' --,1,23,1,0
+/products/item?id=1456,0,22,0,0
+/contact?id=1501,0,16,0,0
+/checkout,0,9,0,0
+/index.html,0,11,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/index.html?category=tech431,0,28,0,0
+/contact?id=1370,0,16,0,0
+/login?page=2421,0,16,0,0
+/dashboard?page=2707,0,20,0,0
+/about?user=urmit324,0,20,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/contact,0,8,0,0
+/about,0,6,0,0
+/dashboard?user=urmit947,0,24,0,0
+/login?page=2319,0,16,0,0
+/dashboard?sort=asc803,0,22,0,0
+/login?sort=asc999,0,18,0,0
+/checkout?page=2341,0,19,0,0
+/checkout,0,9,0,0
+/products/item?sort=asc499,0,26,0,0
+/dashboard?id=1892,0,18,0,0
+/contact,0,8,0,0
+/index.html?category=tech575,0,28,0,0
+/contact,0,8,0,0
+/dashboard?user=urmit143,0,24,0,0
+/contact?page=2892,0,18,0,0
+/checkout?page=2144,0,19,0,0
+/api/users?page=2270,0,20,0,0
+/checkout?search=javascript:eval('var a=1'),1,43,4,1
+/about?user=urmit237,0,20,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/login?sort=asc59,0,17,0,0
+/%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,40,9,3
+/about?user=urmit571,0,20,0,0
+/products/item?sort=asc119,0,26,0,0
+/login?category=tech617,0,23,0,0
+/contact?page=2198,0,18,0,0
+/contact?page=263,0,17,0,0
+/dashboard?sort=asc596,0,22,0,0
+/contact?category=tech581,0,25,0,0
+/products/item,0,14,0,0
+/index.html,0,11,0,0
+/about?category=tech116,0,23,0,0
+/api/users?id=1372,0,18,0,0
+/checkout?id=1889,0,17,0,0
+/about?id=1699,0,14,0,0
+/contact?page=2203,0,18,0,0
+/index.html?user=urmit274,0,25,0,0
+/products/item?page=2910,0,24,0,0
+/about?id=1562,0,14,0,0
+/contact?page=2492,0,18,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/contact?category=tech753,0,25,0,0
+/checkout,0,9,0,0
+/about?search=' OR '1'='1,1,25,4,0
+/contact?user=urmit681,0,22,0,0
+/login?search=' OR '1'='1,1,25,4,0
+/index.html,0,11,0,0
+/dashboard?search=onload=prompt(1),1,34,2,0
+/dashboard?category=tech433,0,27,0,0
+/api/users?sort=asc723,0,22,0,0
+/index.html?user=urmit66,0,24,0,0
+/about?category=tech828,0,23,0,0
+/<script>alert(document.cookie)</script>,1,40,6,3
+/login?id=1307,0,14,0,0
+/admin' --,1,10,1,0
+/index.html?id=1623,0,19,0,0
+/products/item?user=urmit24,0,27,0,0
+/contact?user=urmit341,0,22,0,0
+/about?category=tech196,0,23,0,0
+/about?id=1604,0,14,0,0
+/contact?category=tech286,0,25,0,0
+/dashboard?user=urmit63,0,23,0,0
+/dashboard?sort=asc39,0,21,0,0
+/contact?search=../../../windows/system32/cmd.exe,1,49,0,0
+/dashboard,0,10,0,0
+/contact,0,8,0,0
+/dashboard?page=2807,0,20,0,0
+/dashboard?page=2778,0,20,0,0
+/products/item?category=tech908,0,31,0,0
+/dashboard?category=tech540,0,27,0,0
+/about?category=tech986,0,23,0,0
+/checkout?user=urmit934,0,23,0,0
+/dashboard?id=1477,0,18,0,0
+/dashboard?search=<script>alert(document.cookie)</script>,1,57,6,3
+/index.html?page=2297,0,21,0,0
+/checkout?user=urmit460,0,23,0,0
+/login,0,6,0,0
+/index.html?user=urmit318,0,25,0,0
+/index.html?search=../../../windows/system32/cmd.exe,1,52,0,0
+/products/item?search=<script>alert(document.cookie)</script>,1,61,6,3
+/dashboard?page=2162,0,20,0,0
+/index.html?sort=asc835,0,23,0,0
+/javascript:eval('var a=1'),1,27,4,1
+/index.html?id=1676,0,19,0,0
+/about,0,6,0,0
+/dashboard?user=urmit521,0,24,0,0
+/about?id=1383,0,14,0,0
+/api/users?id=1675,0,18,0,0
+/contact?id=1273,0,16,0,0
+/?id=1; DROP TABLE users,1,24,1,1
+/products/item?id=1353,0,22,0,0
+/dashboard,0,10,0,0
+/api/users?sort=asc282,0,22,0,0
+/contact,0,8,0,0
+/about?page=2623,0,16,0,0
+/login?category=tech187,0,23,0,0
+/index.html?page=217,0,20,0,0
+/about?user=urmit80,0,19,0,0
+/about?page=2703,0,16,0,0
+/checkout,0,9,0,0
+/login?category=tech477,0,23,0,0
+/api/users?id=151,0,17,0,0
+/about?user=urmit772,0,20,0,0
+/index.html?page=2442,0,21,0,0
+/login?sort=asc286,0,18,0,0
+/login,0,6,0,0
+/about?category=tech5,0,21,0,0
+/login?search=../../../../etc/passwd,1,36,0,0
+/api/users?category=tech685,0,27,0,0
+/about?search=%3Cscript%3Ealert('XSS')%3C%2Fscript%3E,1,53,9,3
+/contact?category=tech555,0,25,0,0
+/checkout?sort=asc264,0,21,0,0
+/api/users?user=urmit508,0,24,0,0
+/login?category=tech399,0,23,0,0
+/products/item,0,14,0,0
+/checkout?id=1232,0,17,0,0
+/contact?page=2819,0,18,0,0
+/login?user=urmit912,0,20,0,0
+/checkout?category=tech660,0,26,0,0
+/products/item,0,14,0,0
+/contact?search='; EXEC xp_cmdshell('dir');--,1,45,7,1
+/about?search=../../../../etc/passwd,1,36,0,0
+/contact?id=1676,0,16,0,0
+/login?category=tech150,0,23,0,0
+/index.html?page=2339,0,21,0,0
+/api/users?user=urmit561,0,24,0,0
+/dashboard?id=1282,0,18,0,0
+/products/item?page=2157,0,24,0,0
+/login?id=1476,0,14,0,0
+/dashboard?id=1971,0,18,0,0
+/products/item?page=2419,0,24,0,0
+/api/users,0,10,0,0
+/products/item?id=132,0,21,0,0
+/about?page=2462,0,16,0,0
+"/"" OR 1=1 --",1,12,1,0
+/api/users?sort=asc178,0,22,0,0
+/dashboard?category=tech194,0,27,0,0
+/index.html,0,11,0,0
+/contact?page=2279,0,18,0,0
+/dashboard?id=1933,0,18,0,0
+/contact,0,8,0,0
+/contact?search=admin' --,1,25,1,0
+/login?category=tech480,0,23,0,0
+/'; EXEC xp_cmdshell('dir');--,1,30,7,1
+/products/item?sort=asc371,0,26,0,0
+/contact?user=urmit778,0,22,0,0
+/login?user=urmit711,0,20,0,0
+/checkout,0,9,0,0
+/checkout,0,9,0,0
+/index.html?sort=asc164,0,23,0,0
+/index.html?category=tech505,0,28,0,0
+/products/item?id=1169,0,22,0,0
+/contact?page=2478,0,18,0,0
+/contact?user=urmit349,0,22,0,0
+/index.html?user=urmit34,0,24,0,0
+/contact?sort=asc301,0,20,0,0
+/dashboard?sort=asc121,0,22,0,0
+/api/users,0,10,0,0
+/api/users,0,10,0,0
+/about?id=1908,0,14,0,0
+/contact?id=1841,0,16,0,0
+/index.html,0,11,0,0
+/api/users?user=urmit613,0,24,0,0
+/checkout?user=urmit116,0,23,0,0
+/<script>alert(document.cookie)</script>,1,40,6,3
+/products/item?user=urmit674,0,28,0,0
+/about?id=1594,0,14,0,0
+/checkout?id=1855,0,17,0,0
+/login?sort=asc713,0,18,0,0
+/login?search='; EXEC xp_cmdshell('dir');--,1,43,7,1
+/dashboard?sort=asc497,0,22,0,0
+/index.html,0,11,0,0
+/checkout?search=../../../windows/system32/cmd.exe,1,50,0,0
+/dashboard?user=urmit802,0,24,0,0
+/api/users?search=' OR '1'='1,1,29,4,0
+/checkout?sort=asc672,0,21,0,0
+/login?id=1486,0,14,0,0
+/contact?search='; EXEC xp_cmdshell('dir');--,1,45,7,1
+/about?id=1494,0,14,0,0
+/' OR '1'='1,1,12,4,0
+/dashboard,0,10,0,0
+/products/item?user=urmit54,0,27,0,0
+/checkout?id=1716,0,17,0,0
+/products/item?sort=asc222,0,26,0,0
+/products/item?sort=asc495,0,26,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/checkout?sort=asc257,0,21,0,0
+/products/item?id=1508,0,22,0,0
+/products/item?page=2510,0,24,0,0
+/checkout?sort=asc779,0,21,0,0
+/index.html?user=urmit991,0,25,0,0
+/?id=1; DROP TABLE users,1,24,1,1
+/checkout?id=1555,0,17,0,0
+"/api/users?search=UNION SELECT username, password FROM users",1,60,0,2
+/index.html?page=284,0,20,0,0
+/products/item?category=tech840,0,31,0,0
+/about,0,6,0,0
+/contact?category=tech341,0,25,0,0
+/dashboard?page=2989,0,20,0,0
+/api/users,0,10,0,0
+/api/users?id=123,0,17,0,0
+/login?id=1664,0,14,0,0
+/about?id=1351,0,14,0,0
+"/about?search=UNION SELECT username, password FROM users",1,56,0,2
+/api/users?page=2979,0,20,0,0
+/products/item,0,14,0,0
+/dashboard?page=2539,0,20,0,0
+/login?page=2593,0,16,0,0
+/about?user=urmit616,0,20,0,0
+/checkout?sort=asc451,0,21,0,0
+/../../../windows/system32/cmd.exe,1,34,0,0
+/login,0,6,0,0
+/login?id=198,0,13,0,0
+/login?id=1647,0,14,0,0
+/onload=prompt(1),1,17,2,0
+/about?id=1667,0,14,0,0
+/api/users?page=2199,0,20,0,0
+/api/users?search=onload=prompt(1),1,34,2,0
+/products/item,0,14,0,0
+/login?category=tech103,0,23,0,0
+/<script>alert(document.cookie)</script>,1,40,6,3
+/about?page=2604,0,16,0,0

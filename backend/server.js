@@ -4,13 +4,14 @@ const express = require('express');
 const cors = require('cors');
 const http = require('http');
 const { Server } = require('socket.io');
-const wafMiddleware = require('./middleware/waf');
 const mongoose = require('mongoose');
 const AttackLog = require('./models/AttackLog');
 const rateLimit = require('express-rate-limit');
+const wafMiddleware = require('./middleware/waf'); 
+const mirrorTrafficToML = require('./middleware/mirrorTraffic');
 
 const app = express();
-const server = http.createServer(app);
+const server = http.createServer(app);  
 
 // Connect to MongoDB Atlas
 mongoose.connect(process.env.MONGO_URI)
@@ -24,6 +25,10 @@ const io = new Server(server, {
     methods: ["GET", "POST"]
   }
 });
+
+// Step 1: Parse the data first!
+app.use(cors());
+app.use(express.json());
 
 // --- 🛡️ DoS PROTECTION (Rate Limiter with Live Alert) ---
 
@@ -71,13 +76,13 @@ const limiter = rateLimit({
 
 app.use(limiter);
 
-// Middleware
-app.use(cors());
-app.use(express.json()); // To parse JSON bodies
-
 // --- 🛡️ ACTIVATE SENTINEL WAF ---
-// We pass 'io' so the WAF can send alerts to the frontend
+// Layer 1 Defense - Regex Sentinel WAF
 app.use(wafMiddleware(io));
+
+// Layer 2 Defense - Asynchronous ML Mirroring
+// (Only safe traffic reaches this point, then gets mirrored to Python)
+app.use(mirrorTrafficToML(io));
 
 app.use((req, res, next) => {
     // console.log(`[Incoming Request]: ${req.method} ${req.url} from ${req.ip}`);
@@ -85,7 +90,7 @@ app.use((req, res, next) => {
     // Simulating a simple security check
     if (req.headers['x-malicious-header']) {
         console.log('⛔ BLOCKED: Malicious header detected');
-        // Notify frontend via socket (we'll implement the listener later)
+        // Notify frontend via socket
         io.emit('attack-alert', { 
             type: 'Malicious Header', 
             ip: req.ip,
@@ -94,7 +99,7 @@ app.use((req, res, next) => {
         return res.status(403).json({ error: 'Request Blocked by Sentinel WAF' });
     }
     
-    next(); // If safe, pass to the "target" application
+    next(); // If safe
 });
 
 
