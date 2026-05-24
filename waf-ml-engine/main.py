@@ -1,3 +1,5 @@
+from urllib import request
+
 from fastapi import FastAPI
 from pydantic import BaseModel
 import joblib
@@ -23,24 +25,33 @@ class RequestData(BaseModel):
 # 4. The exact same Feature Extractor from our training script
 def extract_features(payload_string):
     payload_string = str(payload_string).lower()
-    
+    # We remove quotes that immediately surround keys or values
+    clean_payload = re.sub(r'[{}\":, \n]', '', payload_string)
     length = len(payload_string)
-    special_chars = len(re.findall(r'[<>\'\"%;()&+]', payload_string))
-    keywords = len(re.findall(r'(select|union|insert|update|delete|script|alert|drop)', payload_string))
-    
-    # Machine Learning expects a 2D table, even for one row, so we format it as a DataFrame
-    return pd.DataFrame([[length, special_chars, keywords]], columns=['length', 'special_chars', 'keywords'])
+    special_chars = len(re.findall(r'[<>\'%;()&+]', clean_payload))
+    keywords = len(re.findall(r'(select|union|insert|update|delete|script|alert|drop)', clean_payload))
+
+    # Return the raw numbers instead of the dataframe immediately
+    return length, special_chars, keywords
 
 # 5. Create the Endpoint that Node.js will hit
 @app.post("/analyze")
 async def analyze_traffic(data: RequestData):
-    # Step A: Convert the raw text into numbers
-    features = extract_features(data.payload)
+    payload_string = data.payload
     
-    # Step B: Ask the AI to make a prediction
-    prediction = model.predict(features)[0] # Returns 0 (Normal) or 1 (Hacker)
+    # Get our extracted numbers
+    length, special_chars, keywords = extract_features(payload_string)
     
-    # Step C: Send the answer back
+    # THE DEFENSE GUARDRAIL
+    # If the payload has no hacker characters and no bad words, it is safe.
+    # This prevents the AI from flagging benign logins just because they are long.
+    if special_chars == 0 and keywords == 0:
+        prediction = 0
+    else:
+        # If it DOES have special characters, ask the AI model to evaluate it
+        features = pd.DataFrame([[length, special_chars, keywords]], columns=['length', 'special_chars', 'keywords'])
+        prediction = model.predict(features)[0] 
+        
     if prediction == 1:
         return {"status": "anomaly", "message": "Zero-Day Threat Detected!", "confidence": "High"}
     else:
